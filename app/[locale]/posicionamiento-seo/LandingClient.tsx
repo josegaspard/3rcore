@@ -1,5 +1,6 @@
 "use client"
 import LandingContact from "@/components/layout/landingContact";
+import ReviewsSection from "@/components/layout/ReviewsSection";
 import FirstLandingSection from "@/components/sections/landing/firstLandingSection";
 import FiveLandingSection from "@/components/sections/landing/fiveLandingSection";
 import FourthLandingSection from "@/components/sections/landing/fourthLandingSection";
@@ -33,6 +34,7 @@ export default function Landing() {
       <SecondLandingSection/>
       <ThirdLandingSection/>
       <FourthLandingSection/>
+      <ReviewsSection/>
       <div  id="contacto">
         <LandingContact/>
       </div>

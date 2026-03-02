@@ -96,12 +96,11 @@ export default function FirstLandingSection() {
     return () => ctx.revert();
   }, []);
 
-  // Función para renderizar "Google" con colores oficiales
   const renderGoogleText = (text: string) => {
     const googleColors = {
-      'G': '#4285F4', // Azul
-      'o': '#EA4335', // Rojo (primera o)
-      'o2': '#FBBC04', // Amarillo (segunda o)
+      'G': '#4285F4', 
+      'o': '#EA4335', 
+      'o2': '#FBBC04', 
       'g': '#4285F4', 
       'l': '#34A853', 
       'e': '#EA4335'  
@@ -153,7 +152,7 @@ export default function FirstLandingSection() {
 
         <p 
           ref={descriptionRef}
-          className="text-white text-xs lg:text-sm 2xl:text-base max-w-4xl mb-16 leading-relaxed"
+          className="text-white text-xs lg:text-sm 2xl:text-base max-w-4xl xl:mb-16 leading-relaxed"
         >
           {renderGoogleText(t('description'))}
         </p>
@@ -183,7 +182,7 @@ export default function FirstLandingSection() {
             }}>
           </div>
 
-          <div className="relative index-3 text-center px-1 md:px-16 py-8">
+          <div className="relative index-3 text-center px-1 md:px-16 py-1 xl:py-8">
             <p className="text-white/90 text-xl md:text-2xl 2xl:text-3xl italic mb-1 font-light">
               {t('quote.line1')}
             </p>

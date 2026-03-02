@@ -70,7 +70,7 @@ export default function SecondLandingSection() {
   
   return (
     <section ref={sectionRef} className="relative min-h-screen w-full  py-5 overflow-hidden ">
-      <div className="relative max-w-7xl mx-auto  mb-16 ">
+      <div className="relative max-w-7xl mx-auto  xl:mb-16 px-10">
         <div className="mb-8">
           <h3 className="header-anim text-[#A21F8A] text-4xl lg:text-5xl xl:text-6xl font-bold italic tracking-tight">{t('number')}</h3>
           <div className="line-grow w-30 h-[2px] bg-white mt-2"></div>
@@ -120,7 +120,7 @@ export default function SecondLandingSection() {
 
         <div className='card-wrapper rounded-3xl overflow-hidden'>
           <div className='grid md:grid-cols-2 items-center'>
-            <div className='text-container p-10 md:p-8 md:p-16 lg:p-24 flex items-center justify-center'>
+            <div className='text-container pb-5 px-10 xl:p-10 md:p-8 md:p-16 lg:p-24 flex items-center justify-center'>
               <div className='max-w-md w-full'>
                 <h3 className='text-white text-lg xl:text-2xl font-bold uppercase mb-6'>{t('cards.interlinks.title')}</h3>
                 <ul className='text-white/90 space-y-3 text-sm xl:text-base'>
@@ -158,7 +158,7 @@ export default function SecondLandingSection() {
               />
             </div>
 
-            <div className='text-container p-10 md:p-8 md:p-16 lg:p-24 flex items-center justify-center order-1 md:order-2'>
+            <div className='text-container pb-5 px-10 xl:p-10 md:p-8 md:p-16 lg:p-24 flex items-center justify-center order-1 md:order-2'>
               <div className='max-w-md w-full'> 
                 <h3 className='text-white text-lg xl:text-2xl font-bold uppercase mb-6 text-left'>
                   {t('cards.scaling.title')}

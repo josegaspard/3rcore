@@ -136,7 +136,7 @@ export default function FirstLandingSection() {
 
         <p 
           ref={descriptionRef}
-          className="text-white text-xs lg:text-sm 2xl:text-base max-w-4xl mb-16 leading-relaxed"
+          className="text-white text-xs lg:text-sm 2xl:text-base max-w-4xl xl:mb-16 leading-relaxed"
         >
           {t('description')}
         </p>
@@ -166,7 +166,7 @@ export default function FirstLandingSection() {
             }}>
           </div>
 
-          <div className="text-center px-1 md:px-16 py-8">
+          <div className="text-center px-1 md:px-16 py-1 xl:py-8">
             <p 
               ref={quoteText1Ref}
               className="text-white/90 text-xl md:text-2xl lg:text-3xl italic mb-1 font-light"

@@ -241,7 +241,7 @@ export default function FourthLandingSection() {
 
           <div 
             ref={quoteRef}
-            className="relative max-w-5xl mx-auto my-24"
+            className="relative max-w-5xl mx-auto x:my-24"
           >
             <div className="text-center px-1 md:px-16">
               <p 
@@ -267,7 +267,7 @@ export default function FourthLandingSection() {
       <SeoClients/>
       <div 
           ref={quoteRef1}
-          className="relative max-w-5xl mx-auto my-15"
+          className="relative max-w-5xl mx-auto my-5 xl:my-15"
         >
           <div className="absolute -left-8 md:-left-16 top-0 w-24 h-24 md:w-32 md:h-32 bg-[#24032D] scale-x-[-1]"
             style={{

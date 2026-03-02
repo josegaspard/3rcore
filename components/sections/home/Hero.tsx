@@ -480,7 +480,7 @@ export default function HeroHome() {
             </div>
             
             <span className="text-white/70 text-xs font-light tracking-widest uppercase transition-colors group-hover:text-white">
-              Scroll
+              Navegar
             </span>
           </div>
 
