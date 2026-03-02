@@ -34,6 +34,7 @@ const members = [
 
   { id: 20, name: "Luis", role: "Web & IT Supervisor", image: "/images/Equipo/Luis.webp", area:"Web development & IT"},
   { id: 21, name: "Aymar", role: "Software Engineer", image: "/images/Equipo/Aymar.webp", area:"Web development & IT" },
+  { id: 22, name: "Jose", role: "Seo Manager", image: "/images/Equipo/jose.webp", area:"Web development & IT" },
 
 ];
 
