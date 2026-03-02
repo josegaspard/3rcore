@@ -500,27 +500,25 @@ export default function HeroHome() {
         </div>
       </div>
 
-      <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 lg:top-auto lg:translate-y-0 lg:bottom-5 2xl:bottom-20 lg:left-10 lg:translate-x-0 2xl:left-20 z-20 text-white pointer-events-none text-center lg:text-left">
+      <div className="absolute top-25 left-5 lg:top-auto lg:bottom-5 2xl:bottom-20 lg:left-10 2xl:left-20 z-20 text-white pointer-events-none text-left lg:text-left">
 
-        <h1 className="text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl bg-gradient-to-r from-[#9C27B0] to-[#E91E63] 
-              bg-clip-text text-transparent font-semibold tracking-tighter leading-tight hidden md:block"
+        <h1 className="text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl bg-gradient-to-r from-[#9C27B0] to-[#E91E63] 
+              bg-clip-text text-transparent font-semibold tracking-tighter leading-tight"
             style={{
-              WebkitTextStroke: '0.3px black',
               paintOrder: 'stroke fill'
             }}>
               
             3R CORE
         </h1>
         
-        <h2 className="text-3xl hidden md:block md:text-4xl xl:text-5xl font-light">
+        <h2 className="text-xl md:text-4xl xl:text-5xl font-light">
             {t('agency2')}  <span className="italic font-serif">{t('d')}</span>
         </h2>
         
         <div className="relative">
-          <h1 className="text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl bg-gradient-to-r from-[#9C27B0] to-[#E91E63] 
-                bg-clip-text text-transparent font-semibold tracking-tighter leading-tight hidden md:block"
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl bg-gradient-to-r from-[#9C27B0] to-[#E91E63] 
+                bg-clip-text text-transparent font-semibold tracking-tighter leading-tight "
               style={{
-                WebkitTextStroke: '0.3px black',  
                 paintOrder: 'stroke fill'
               }}>
               {t('marketing')}
