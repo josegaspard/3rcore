@@ -189,7 +189,7 @@ const Navbar = () => {
               >
                 <div className="relative h-15 w-28 cursor-pointer">
                   <Image
-                    src="/icons/LogoLetrasBlanco.webp"
+                    src="/icons/LogoFull.webp"
                     alt="3RCORE Logo"
                     fill
                     className="object-contain object-left"
