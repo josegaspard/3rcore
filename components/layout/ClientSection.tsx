@@ -24,7 +24,7 @@ const clients: Client[] = [
   { name: 'Vita Logo', logo: '/images/Logos/vitaLogo.webp', className: "lg:-translate-y-2" },
   { name: 'Venus Logo', logo: '/images/Logos/venusLogo.webp', className: "lg:translate-y-5" },
   { name: 'Ventura Logo', logo: '/images/Logos/venturaLogo.webp', className: "lg:-translate-y-1" },
-  { name: 'Rancho Ventura', logo: '/images/Logos/ranchoVentura.webp', className: "lg:translate-y-6 lg:scale-90" },
+  { name: 'Warner Bros', logo: '/images/Logos/warnerbros.png', className: "lg:translate-y-6 lg:scale-90" },
   { name: 'Pretties', logo: '/images/Logos/pretties.webp', className: "lg:-translate-y-4" },
   { name: 'PDK', logo: '/images/Logos/pdk.webp', className: "xl:translate-x-15 lg:translate-y-10 2xl:translate-x-30" },
   { name: 'Domus Logo', logo: '/images/Logos/domusLogo.webp', className: "lg:-translate-x-5 xl:-translate-y-6 xl:-translate-x-40" },
@@ -36,7 +36,7 @@ const clients: Client[] = [
   { name: 'Nexxum', logo: '/images/Logos/Nexxum.webp', className: "lg:scale-90" },
   { name: 'Oros', logo: '/images/Logos/Oros.webp', className: "lg:translate-y-10 lg:translate-x-10 xl:translate-y-25 xl:transalte-x-25 2xl:translate-y-30 2xl:translate-x-30" },
   { name: 'Plinius', logo: '/images/Logos/Plinius.webp', className: "lg:translate-y-4 lg:translate-x-30" },
-  { name: '2K Logo', logo: '/images/Logos/2kLogo.webp', className: "lg:translate-x-40 xl:translate-y-25 xl:translate-x-25 2xl:translate-y-30" }
+  { name: 'Paypal', logo: '/images/Logos/paypal.png', className: "lg:translate-x-40 xl:translate-y-25 xl:translate-x-25 2xl:translate-y-30" }
 ];
 
 export default function ClientsSection() {
