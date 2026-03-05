@@ -16,6 +16,10 @@ const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [servicesOpen, setServicesOpen] = useState(false);
 
+  // Mobile services dropdown state
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [mobileServicesTapped, setMobileServicesTapped] = useState(false);
+
   // GSAP refs for services dropdown
   const dropdownRef = useRef<HTMLDivElement>(null);
   const dropdownItemsRef = useRef<HTMLAnchorElement[]>([]);
@@ -120,6 +124,14 @@ const Navbar = () => {
     });
   };
 
+  // Reset mobile services state when menu closes
+  useEffect(() => {
+    if (!isOpen) {
+      setMobileServicesOpen(false);
+      setMobileServicesTapped(false);
+    }
+  }, [isOpen]);
+
   // Scroll hide/show
   useEffect(() => {
     const controlNavbar = () => {
@@ -147,12 +159,13 @@ const Navbar = () => {
     { href: "/servicios/socialmedia", label: "Social Media" },
     { href: "/servicios/seo-sem", label: "Google SEO / SEM" },
     { href: "/servicios/web-deveploment", label: "Web Development" },
+    { href: "/posicionamiento-seo", label: "Servicio SEO" },
   ];
 
   const links = [
     { name: t("nav.home"), href: "/" },
     { name: t("nav.about us"), href: "/nosotros" },
-    { name: t("nav.services"), href: "/servicios#servicios" },
+    { name: t("nav.services"), href: "/servicios#servicios", isServices: true },
     { name: t("nav.blogs"), href: "https://3rcore-server.com.pe/" },
     { name: t("nav.contact"), href: "#contacto", isContact: true },
   ];
@@ -371,25 +384,118 @@ const Navbar = () => {
             <ul className="flex flex-col space-y-0">
               {links.map((link, index) => (
                 <li key={link.name} className="group overflow-hidden">
-                  <Link
-                    href={link.href}
-                    onClick={(e) => {
-                      if (link.isContact) {
-                        scrollToContact(e);
-                      } else {
-                        setIsOpen(false);
-                        handleScrollTop("/");
-                      }
-                    }}
-                    className={`block text-3xl sm:text-3xl font-bold tracking-tight text-white py-4 sm:py-6 border-b border-white/20 relative transition-all duration-500 transform
-                      ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"}
-                      hover:text-white hover:pl-4
-                    `}
-                    style={{ transitionDelay: `${150 + index * 100}ms` }}
-                  >
-                    <span className="absolute top-0 left-0 w-0 h-full z-[-1] transition-all duration-500 group-hover:w-full bg-gradient-to-r from-[rgba(156,39,176,0.25)] to-[rgba(233,30,99,0.25)]" />
-                    {link.name}
-                  </Link>
+                  {link.isServices ? (
+                    // Mobile: first tap opens dropdown, second tap navigates
+                    <div>
+                      <div
+                        className={`flex items-center justify-between text-3xl sm:text-3xl font-bold tracking-tight text-white py-4 sm:py-6 border-b border-white/20 relative transition-all duration-500 transform cursor-pointer
+                          ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"}
+                          hover:text-white hover:pl-4
+                        `}
+                        style={{ transitionDelay: `${150 + index * 100}ms` }}
+                        onClick={() => {
+                          if (!mobileServicesTapped) {
+                            // First tap: open dropdown
+                            setMobileServicesOpen(true);
+                            setMobileServicesTapped(true);
+                          }
+                          // Second tap: handled by the Link below, this div won't catch it
+                        }}
+                      >
+                        <span className="absolute top-0 left-0 w-0 h-full z-[-1] transition-all duration-500 group-hover:w-full bg-gradient-to-r from-[rgba(156,39,176,0.25)] to-[rgba(233,30,99,0.25)]" />
+                        {mobileServicesTapped ? (
+                          // Second tap navigates to services page
+                          <Link
+                            href={link.href}
+                            onClick={() => {
+                              setIsOpen(false);
+                              handleScrollTop("/");
+                            }}
+                            className="flex-1"
+                          >
+                            {link.name}
+                          </Link>
+                        ) : (
+                          <span className="flex-1">{link.name}</span>
+                        )}
+                        {/* Chevron indicator */}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="mr-2 flex-shrink-0 transition-transform duration-300"
+                          style={{
+                            transform: mobileServicesOpen ? "rotate(180deg)" : "rotate(0deg)",
+                          }}
+                        >
+                          <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                      </div>
+
+                      {/* Mobile services dropdown */}
+                      <div
+                        className={`overflow-hidden transition-all duration-400 ease-in-out ${
+                          mobileServicesOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                        }`}
+                        style={{ transitionDuration: "350ms" }}
+                      >
+                        <div className="pl-4 py-2 flex flex-col gap-1 border-b border-white/10">
+                          {/* Gradient accent bar */}
+                          <div
+                            className="h-[1px] w-3/4 rounded-full mb-2"
+                            style={{
+                              backgroundImage: "linear-gradient(to right, #9C27B0, #FF1A55)",
+                            }}
+                          />
+                          {services.map((service) => (
+                            <Link
+                              key={service.href}
+                              href={service.href}
+                              onClick={() => {
+                                setIsOpen(false);
+                                handleScrollTop(service.href);
+                              }}
+                              className="flex items-center gap-2.5 py-2.5 text-base font-medium text-white/60 hover:text-white transition-colors duration-200"
+                            >
+                              <span
+                                className="w-1.5 h-1.5 rounded-full flex-shrink-0"
+                                style={{
+                                  background: "linear-gradient(to right, #9C27B0, #FF1A55)",
+                                }}
+                              />
+                              {service.label}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      onClick={(e) => {
+                        if (link.isContact) {
+                          scrollToContact(e);
+                        } else {
+                          setIsOpen(false);
+                          handleScrollTop("/");
+                        }
+                      }}
+                      className={`block text-3xl sm:text-3xl font-bold tracking-tight text-white py-4 sm:py-6 border-b border-white/20 relative transition-all duration-500 transform
+                        ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"}
+                        hover:text-white hover:pl-4
+                      `}
+                      style={{ transitionDelay: `${150 + index * 100}ms` }}
+                    >
+                      <span className="absolute top-0 left-0 w-0 h-full z-[-1] transition-all duration-500 group-hover:w-full bg-gradient-to-r from-[rgba(156,39,176,0.25)] to-[rgba(233,30,99,0.25)]" />
+                      {link.name}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
