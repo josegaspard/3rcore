@@ -97,6 +97,22 @@ export default async function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17933910865"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-17933910865');
+              gtag('event', 'conversion', {
+                'send_to': 'AW-17933910865/SXdiCM3alIMcENGGx-dC',
+                'value': 1.0,
+                'currency': 'PEN'
+              });
+            `
+          }}
+        />
       </head>
       <ReactLenis root options={lenisOptions}>
         <body className={`${poppins.className} text-white`} suppressHydrationWarning={true}>
@@ -113,6 +129,7 @@ export default async function RootLayout({
           </NextIntlClientProvider>
         </body>
       </ReactLenis>
+      
     </html>
   );
 }
