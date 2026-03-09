@@ -269,26 +269,6 @@ export default function FourthLandingSection() {
           ref={quoteRef1}
           className="relative max-w-5xl mx-auto my-5 xl:my-15"
         >
-          <div className="absolute -left-8 md:-left-16 top-0 w-24 h-24 md:w-32 md:h-32 bg-[#24032D] scale-x-[-1]"
-            style={{
-              maskImage: 'url("/images/landing/comillas.svg")',
-              maskRepeat: 'no-repeat',
-              maskSize: 'contain',
-              WebkitMaskImage: 'url("/images/landing/comillas.svg")',
-              WebkitMaskRepeat: 'no-repeat',
-              WebkitMaskSize: 'contain'
-            }}>
-          </div>
-          <div className="absolute -right-8 md:-right-16 bottom-0 w-24 h-24 md:w-32 md:h-32 bg-[#24032D]"
-            style={{
-              maskImage: 'url("/images/landing/comillas.svg")',
-              maskRepeat: 'no-repeat',
-              maskSize: 'contain',
-              WebkitMaskImage: 'url("/images/landing/comillas.svg")',
-              WebkitMaskRepeat: 'no-repeat',
-              WebkitMaskSize: 'contain'
-            }}>
-          </div>
 
           <div className="relative index-3 text-center px-1 md:px-16 py-8">
             <p className="text-white/90 text-xl md:text-2xl 2xl:text-3xl italic mb-1 font-light">

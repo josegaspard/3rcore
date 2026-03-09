@@ -45,7 +45,7 @@ const LandingContact = () => {
 
   return (
     <section 
-      className={`${montserrat.className} relative w-full lg:py-10 2xl:py-15 flex flex-col justify-center items-center overflow-hidden `}
+      className={`${montserrat.className} relative w-full py-5 lg:py-10 2xl:py-15 flex flex-col justify-center items-center overflow-hidden `}
       style={{
         backgroundImage: "url('/images/Formulario/wmremove-transformed-8-1-1.webp')",
         backgroundSize: 'cover',
