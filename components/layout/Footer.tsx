@@ -128,13 +128,6 @@ const Footer = () => {
               <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#A21F8A] group-hover:w-full transition-all duration-300"></span>
             </Link>
             
-            <Link 
-              href="/reclamaciones" 
-              className="hover:text-pink-500 transition-colors duration-300 relative group"
-            >
-              { t('Recla')}
-              <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#A21F8A] group-hover:w-full transition-all duration-300"></span>
-            </Link>
           </div>
           
           <div className="text-[10px] uppercase tracking-widest text-white">

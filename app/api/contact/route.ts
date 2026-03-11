@@ -142,7 +142,7 @@ export async function POST(request: Request) {
                       <p style="margin: 0; color: #374151; font-weight: 500; line-height: 1.6; font-size: 15px; font-style: italic;" class="dark-mode-text">
                         "Estamos convencidos de que podemos aportar valor a tu proyecto. Hablamos muy pronto."
                       </p>
-                      <p style="margin: 10px 0 0 0; color: #E91E63; font-weight: 600; font-size: 14px;">— Bruno, 3RCORE</p>
+                      <p style="margin: 10px 0 0 0; color: #E91E63; font-weight: 600; font-size: 14px;">— Piero Roque, 3RCORE</p>
                     </div>
 
                     <!-- Info Box -->
@@ -155,7 +155,7 @@ export async function POST(request: Request) {
 
                     <p style="font-size: 15px; color: #6b7280; margin-top: 35px; line-height: 1.6;">
                       Un saludo,<br/>
-                      <strong style="color: #111827;" class="dark-mode-text">Bruno de 3RCORE</strong>
+                      <strong style="color: #111827;" class="dark-mode-text">Piero de 3RCORE</strong>
                     </p>
                   </div>
                   
