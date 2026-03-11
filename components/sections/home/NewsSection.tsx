@@ -56,7 +56,7 @@ interface WPPost {
           const postsArray = Array.isArray(data) ? data : (data.posts ?? []);
           console.log(`Loaded ${postsArray.length} posts`);
           setPosts(postsArray);
-          
+
           
         } catch (error) {
           console.error("Error al obtener posts:", error);
@@ -187,8 +187,7 @@ interface WPPost {
 
       <div className="mt-10 flex justify-center">
         <a
-          href="https://3rcore-server.com.pe/"
-          target="_blank"
+          href="/blogs"
           rel="noopener noreferrer"
           className="group relative inline-flex items-center justify-center px-8 py-3.5 overflow-hidden font-bold uppercase tracking-[0.2em] text-[10px] transition-all duration-500 border border-white/20 rounded-[15px] cursor-pointer text-white isolation-auto"
         >
