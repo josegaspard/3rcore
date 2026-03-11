@@ -54,12 +54,6 @@ export function DraggableCardDemo() {
       className: "absolute top-24 left-[45%] rotate-[-7deg]",
     },
     {
-      title: "Equipo Websy",
-      image:
-        "/images/Actividades/websy-2-alta-scaled-e1767107427647.webp",
-      className: "absolute top-8 left-[30%] rotate-[4deg]",
-    },
-    {
       title: "Tengo HAMBRE!!!!!!",
       image:
         "/images/Actividades/2d945cc9-ab13-4ac5-9271-74eef5d9345f-e1755293820185.webp",
