@@ -52,8 +52,11 @@ interface WPPost {
           }
 
           const data = await res.json();
-          console.log(`Loaded ${data.length} posts`);
-          setPosts(data);
+          // Soporta tanto array directo como el nuevo formato { posts, totalPages }
+          const postsArray = Array.isArray(data) ? data : (data.posts ?? []);
+          console.log(`Loaded ${postsArray.length} posts`);
+          setPosts(postsArray);
+          
           
         } catch (error) {
           console.error("Error al obtener posts:", error);

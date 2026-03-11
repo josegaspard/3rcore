@@ -124,7 +124,6 @@ const Navbar = () => {
     });
   };
 
-  // Reset mobile services state when menu closes
   useEffect(() => {
     if (!isOpen) {
       setMobileServicesOpen(false);
@@ -132,7 +131,6 @@ const Navbar = () => {
     }
   }, [isOpen]);
 
-  // Scroll hide/show
   useEffect(() => {
     const controlNavbar = () => {
       if (typeof window !== "undefined") {
@@ -166,7 +164,7 @@ const Navbar = () => {
     { name: t("nav.home"), href: "/" },
     { name: t("nav.about us"), href: "/nosotros" },
     { name: t("nav.services"), href: "/servicios#servicios", isServices: true },
-    { name: t("nav.blogs"), href: "https://3rcore-server.com.pe/" },
+    { name: t("nav.blogs"), href: "/blogs" },
     { name: t("nav.contact"), href: "#contacto", isContact: true },
   ];
 
