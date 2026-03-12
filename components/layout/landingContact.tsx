@@ -14,6 +14,21 @@ const LandingContact = () => {
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState<{ type: 'success' | 'error' | ''; message: string }>({ type: '', message: '' });
 
+  const gtag_report_conversion = (url?: string) => {
+  if (typeof window === "undefined" || !(window as any).gtag) return;
+
+  const callback = () => {
+    if (url) window.location.href = url;
+  };
+
+  (window as any).gtag("event", "conversion", {
+    send_to: "AW-17933910865/7xctCMzL5YYcENGGx-dC",
+    value: 1.0,
+    currency: "PEN",
+    event_callback: callback,
+  });
+};
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -31,6 +46,7 @@ const LandingContact = () => {
 
       if (response.ok) {
         setStatus({ type: "success", message: "¡Mensaje enviado con éxito!" });
+
         gtag_report_conversion();
 
         e.currentTarget.reset();
@@ -44,22 +60,7 @@ const LandingContact = () => {
     }
 
   };
-  const gtag_report_conversion = (url?: string) => {
-    if (typeof window === "undefined" || !window.gtag) return;
 
-    const callback = () => {
-      if (url) {
-        window.location.href = url;
-      }
-    };
-
-    window.gtag("event", "conversion", {
-      send_to: "AW-17933910865/7xctCMzL5YYcENGGx-dC",
-      value: 1.0,
-      currency: "PEN",
-      event_callback: callback,
-    });
-  };
   return (
     <section 
       className={`${montserrat.className} relative w-full py-5 lg:py-10 2xl:py-15 flex flex-col justify-center items-center overflow-hidden `}
@@ -116,15 +117,13 @@ const LandingContact = () => {
               
 
               <div className="md:col-span-2 flex flex-col gap-4 mt-6">
-                <button
-                  disabled={loading}
-                  type="submit"
+                <button 
+                  disabled={loading} 
+                  type="submit" 
                   className="relative inline-flex items-center justify-center px-12 py-3 overflow-hidden font-bold uppercase tracking-[0.3em] text-[10px] transition-all duration-500 border border-white/20 rounded-[15px] group/btn hover:border-transparent cursor-pointer text-white disabled:opacity-50"
                 >
                   <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-[#E91E63] to-[#9C27B0] transition-transform duration-300 ease-out -translate-x-[101%] group-hover/btn:translate-x-0"></span>
-                  <span className="relative z-10">
-                    {loading ? t("buttonSending") : t("buttonSend")}
-                  </span>
+                  <span className="relative z-10">{loading ? t('buttonSending') : t('buttonSend')}</span>
                 </button>
               </div>
             </form>
