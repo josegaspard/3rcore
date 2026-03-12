@@ -19,7 +19,7 @@ const WhatsAppBtnLanding = () => {
   const buttonContentRef = useRef(null);
   const formContentRef = useRef(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
-  const phoneNumber = "969791251";
+  const phoneNumber = "51969791251";
 
   const codigosPais = [
     { codigo: '+1', pais: 'Estados Unidos', iso: 'us' },
