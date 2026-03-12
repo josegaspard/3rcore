@@ -155,7 +155,7 @@ const Navbar = () => {
   const services = [
     { href: "/servicios/branding", label: "Branding" },
     { href: "/servicios/socialmedia", label: "Social Media" },
-    { href: "/servicios/seo-sem", label: "Google SEO / SEM" },
+    { href: "/servicios/google-ads", label: "Google Ads" },
     { href: "/servicios/web-deveploment", label: "Web Development" },
     { href: "/posicionamiento-seo", label: "Servicio SEO" },
   ];

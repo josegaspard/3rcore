@@ -1,11 +1,11 @@
 'use client';
 import ContactForm from "@/components/layout/ContactForm";
-import HeroSeo from "@/components/sections/servicios/seo-sem/heroSeo";
-import SeoSemSection from "@/components/sections/servicios/seo-sem/seoSemSection";
-import SeoSemCall from "@/components/sections/servicios/seo-sem/seoSemCall";
-import { SeoClients } from "@/components/sections/servicios/seo-sem/seoClients";
-import WorkMethodology from "@/components/sections/servicios/seo-sem/workMetodology";
-import ToolsCarousel from "@/components/sections/servicios/seo-sem/toolsCarru";
+import HeroSeo from "@/components/sections/servicios/google-ads/heroSeo";
+import SeoSemSection from "@/components/sections/servicios/google-ads/seoSemSection";
+import SeoSemCall from "@/components/sections/servicios/google-ads/seoSemCall";
+import { SeoClients } from "@/components/sections/servicios/google-ads/seoClients";
+import WorkMethodology from "@/components/sections/servicios/google-ads/workMetodology";
+import ToolsCarousel from "@/components/sections/servicios/google-ads/toolsCarru";
 import { useScrollToSection } from '@/components/ui/useScrollToSection';
 
 import {useIndividualPageLoader} from '@/components/layout/useIndividualPageLoader'
@@ -16,7 +16,7 @@ import PageLoader from '@/components/layout/PageLoader';
 import WhatsAppBtn from '@/components/ui/WhatsAppBtn';
 import ScrollContactBtn from '@/components/ui/ScrollContactBtn'
 import ReviewsSection from "@/components/layout/ReviewsSection";
-export default function Seosem(){
+export default function GoogleAds(){
   
   useScrollToSection(); 
   const isLoading = useIndividualPageLoader({ 

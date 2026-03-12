@@ -19,7 +19,7 @@ const WhatsAppBtnLanding = () => {
   const buttonContentRef = useRef(null);
   const formContentRef = useRef(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
-  const phoneNumber = "51914757406";
+  const phoneNumber = "969791251";
 
   const codigosPais = [
     { codigo: '+1', pais: 'Estados Unidos', iso: 'us' },
@@ -125,7 +125,20 @@ const WhatsAppBtnLanding = () => {
     }));
     setShowCountryDropdown(false);
   };
+  const gtag_report_conversion = (url?: string) => {
+    if (typeof window === "undefined" || !(window as any).gtag) return;
 
+    const callback = () => {
+      if (url) window.location.href = url;
+    };
+
+    (window as any).gtag("event", "conversion", {
+      send_to: "AW-17933910865/AcOyCNuLq4ccENGGx-dC",
+      value: 1.0,
+      currency: "PEN",
+      event_callback: callback,
+    });
+  };
   const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault();
   
@@ -144,7 +157,7 @@ const WhatsAppBtnLanding = () => {
       const encodedMessage = encodeURIComponent(message);
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
       
-      window.open(whatsappUrl, '_blank');
+      gtag_report_conversion(whatsappUrl);
       
       setFormData({
         nombre: '',
@@ -291,11 +304,12 @@ const WhatsAppBtnLanding = () => {
 
           <div>
             <input
-              type="url"
+              type="text"
               name="paginaWeb"
               value={formData.paginaWeb}
               onChange={handleInputChange}
               placeholder="Página web"
+              required
               className="w-full px-3 py-2.5 bg-gray-50 border border-[#25d366] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#25d366] focus:bg-white text-sm text-gray-800 placeholder-gray-500 transition-all"
             />
           </div>

@@ -164,50 +164,7 @@ const SeoSemSection = () => {
           </div>
         </div>
 
-        <div ref={seoRef} className="mb-10">
-          <div className="grid md:grid-cols-[40%_60%] gap-0">
-            <div className="flex items-center md:justify-center min-h-[200px] md:min-h-[400px]">
-              <div className="space-y-2 2xl:max-w-[40%]">
-                <h3 className="text-5xl md:text-6xl lg:text-7xl font-serif italic text-[#E91E63]">
-                 {t('seo.title')}
-                </h3>
-                <p className="text-sm md:text-base font-light">
-                  {t('seo.subtitle')}
-                </p>
-              </div>
-            </div>
-
-            <div className="pl-8 md:pl-12 flex items-center relative">
-              <div 
-                ref={seoLineRef}
-                className="absolute left-0 top-0 bottom-0 w-[1px] bg-white origin-top"
-              />
-              <div className="space-y-6 py-8">
-                <p className="text-xs lg:text-sm 2xl:text-xl leading-relaxed seo-item">
-                  {t.rich('seo.description', {
-                    strong: (chunks) => <strong className="font-bold">{chunks}</strong>
-                  })}
-                </p>
-                
-                <ul className="space-y-3 text-xs lg:text-sm 2xl:text-xl">
-                  {t.raw('seo.items').map((item: string, index: number) => (
-                    <li key={index} className="seo-item">
-                      - {t.rich(`seo.items.${index}`, {
-                          strong: (chunks) => <strong className="font-bold">{chunks}</strong>
-                        })}
-                    </li>
-                  ))}
-                </ul>
-
-                <p className="text-xs lg:text-sm 2xl:text-xl italic font-light pt-4 seo-item">
-                  {t.rich('seo.footer', {
-                    strong: (chunks) => <strong className="font-bold">{chunks}</strong>
-                  })}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <div ref={semRef}>
           <div className="grid md:grid-cols-[40%_60%] gap-0">

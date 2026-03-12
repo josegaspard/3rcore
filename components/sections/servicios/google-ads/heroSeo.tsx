@@ -145,7 +145,7 @@ export default function HeroSeo() {
                 ref={brTextRef}
                 className="text-white text-left text-6xl lg:text-7xl xl:text-8xl font-black tracking-[0.1em] leading-none"
               >
-                SEO
+                GOOGLE
               </h2>
             </div>
 
@@ -157,7 +157,7 @@ export default function HeroSeo() {
                 ref={andTextRef}
                 className="text-white text-left text-6xl lg:text-7xl xl:text-8xl font-black tracking-[0.1em] leading-none"
               >
-                SEM
+                ADS
               </h2>
             </div>
           </div>

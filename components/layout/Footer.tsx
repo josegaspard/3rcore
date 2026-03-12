@@ -74,10 +74,10 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/servicios/seo-sem" 
-                    onClick={() => handleScrollTop("/servicios/seo-sem")}
+                    onClick={() => handleScrollTop("/servicios/google-ads")}
                     className="hover:text-pink-500 transition-colors duration-300"
                   >
-                    Google SEO / SEM
+                    Google Ads
                   </Link>
                 </li>
                 <li>

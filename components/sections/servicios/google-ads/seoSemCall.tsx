@@ -89,7 +89,6 @@ export default function SeoSemCall() {
                 </span>
                 {t('title.part1').split('GOOGLE')[1]}
               </span>
-              <span className="text-pink-600 font-normal block">{t('title.part3')}</span>
             </h2>
 
             <div className="space-y-4 text-xs lg:text-sm 2xl:text-lg">

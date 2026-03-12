@@ -5,7 +5,7 @@ import Image from 'next/image';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useTranslations } from 'next-intl';
-import { SeoClients } from '../servicios/seo-sem/seoClients';
+import { SeoClients } from '../servicios/google-ads/seoClients';
 
 gsap.registerPlugin(ScrollTrigger);
 
