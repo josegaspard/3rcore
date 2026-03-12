@@ -3,11 +3,12 @@
 import { Montserrat } from "next/font/google";
 import { useState } from "react"; 
 import { useTranslations } from "next-intl"
+import { useRouter } from "next/navigation";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 const LandingContact = () => {
-
+  const router = useRouter();
   const t = useTranslations('LandingContactSection');
   
 
@@ -15,19 +16,19 @@ const LandingContact = () => {
   const [status, setStatus] = useState<{ type: 'success' | 'error' | ''; message: string }>({ type: '', message: '' });
 
   const gtag_report_conversion = (url?: string) => {
-  if (typeof window === "undefined" || !(window as any).gtag) return;
+    if (typeof window === "undefined" || !(window as any).gtag) return;
 
-  const callback = () => {
-    if (url) window.location.href = url;
+    const callback = () => {
+      if (url) window.location.href = url;
+    };
+
+    (window as any).gtag("event", "conversion", {
+      send_to: "AW-17933910865/7xctCMzL5YYcENGGx-dC",
+      value: 1.0,
+      currency: "PEN",
+      event_callback: callback,
+    });
   };
-
-  (window as any).gtag("event", "conversion", {
-    send_to: "AW-17933910865/7xctCMzL5YYcENGGx-dC",
-    value: 1.0,
-    currency: "PEN",
-    event_callback: callback,
-  });
-};
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -48,7 +49,8 @@ const LandingContact = () => {
         setStatus({ type: "success", message: "¡Mensaje enviado con éxito!" });
 
         gtag_report_conversion();
-
+        router.push("/gracias");
+        
         e.currentTarget.reset();
       } else {
         throw new Error();
