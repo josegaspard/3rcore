@@ -19,7 +19,7 @@ const WhatsAppBtnLanding = () => {
   const buttonContentRef = useRef(null);
   const formContentRef = useRef(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
-  const phoneNumber = "51969791251";
+  const phoneNumber = "969791251";
 
   const codigosPais = [
     { codigo: '+1', pais: 'Estados Unidos', iso: 'us' },
@@ -158,6 +158,8 @@ const WhatsAppBtnLanding = () => {
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
       
       gtag_report_conversion(whatsappUrl);
+      window.open(whatsappUrl, '_blank');
+      
       
       setFormData({
         nombre: '',
@@ -304,12 +306,11 @@ const WhatsAppBtnLanding = () => {
 
           <div>
             <input
-              type="text"
+              type="url"
               name="paginaWeb"
               value={formData.paginaWeb}
               onChange={handleInputChange}
               placeholder="Página web"
-              required
               className="w-full px-3 py-2.5 bg-gray-50 border border-[#25d366] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#25d366] focus:bg-white text-sm text-gray-800 placeholder-gray-500 transition-all"
             />
           </div>
