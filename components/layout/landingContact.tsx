@@ -38,14 +38,15 @@ const LandingContact = () => {
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData);
     e.currentTarget.reset();
+    gtag_report_conversion();
+    router.push("/gracias");
     try {
       const response = await fetch('/api/landing', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: { 'Content-Type': 'application/json' },
       });
-      gtag_report_conversion();
-        router.push("/gracias");
+      
         
         e.currentTarget.reset();
 
