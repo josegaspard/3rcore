@@ -44,14 +44,15 @@ const LandingContact = () => {
         body: JSON.stringify(data),
         headers: { 'Content-Type': 'application/json' },
       });
+      gtag_report_conversion();
+        router.push("/gracias");
+        
+        e.currentTarget.reset();
 
       if (response.ok) {
         setStatus({ type: "success", message: "¡Mensaje enviado con éxito!" });
 
-        gtag_report_conversion();
-        router.push("/gracias");
         
-        e.currentTarget.reset();
       } else {
         throw new Error();
       }
