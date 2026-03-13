@@ -35,7 +35,7 @@ export default function Landing() {
       <ThirdLandingSection/>
       <FourthLandingSection/>
       <ReviewsSection/>
-      <div>
+      <div  id="contacto">
         <LandingContact/>
       </div>
       <WhatsAppBtnLanding/>
