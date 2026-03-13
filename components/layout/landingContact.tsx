@@ -83,7 +83,7 @@ const LandingContact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-stretch">
           <div className="flex items-center justify-center">
-            <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 w-full">
+            <form id="contactoseo" onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 w-full">
               
               <div className="flex flex-col gap-2 relative group/field">
                 <label className="text-white text-[10px] uppercase tracking-widest">{t('fieldName')}</label>
