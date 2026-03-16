@@ -306,11 +306,11 @@ const WhatsAppBtnLanding = () => {
 
           <div>
             <input
-              type="text"
+              type="url"
               name="paginaWeb"
               value={formData.paginaWeb}
               onChange={handleInputChange}
-              placeholder="Página web"
+              placeholder="https://example.com"
               required
               className="w-full px-3 py-2.5 bg-gray-50 border border-[#25d366] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#25d366] focus:bg-white text-sm text-gray-800 placeholder-gray-500 transition-all"
             />
