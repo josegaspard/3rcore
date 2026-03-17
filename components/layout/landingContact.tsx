@@ -93,7 +93,19 @@ const LandingContact = () => {
 
               <div className="flex flex-col gap-2 relative group/field">
                 <label className="text-white text-[10px] uppercase tracking-widest">{t('fieldPhone')}</label>
-                <input name="telefono" required type="tel" className="bg-transparent border-b border-white/30 py-2 text-white focus:outline-none transition-colors peer" />
+                <input 
+                  name="number" 
+                  required 
+                  type="tel" 
+                  inputMode="numeric"
+                  pattern="[0-9]+"
+                  onKeyDown={(e) => {
+                    if (!/[0-9]/.test(e.key) && !['Backspace','Delete','Tab','ArrowLeft','ArrowRight'].includes(e.key)) {
+                      e.preventDefault();
+                    }
+                  }}
+                  className="bg-transparent border-b border-white/30 py-2 text-white focus:outline-none transition-colors peer" 
+                />
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-gradient-to-r from-[#E91E63] to-[#9C27B0] transition-all duration-500 peer-focus:w-full"></span>
               </div>
 
@@ -104,12 +116,12 @@ const LandingContact = () => {
               </div>
               <div className="flex flex-col gap-2 md:col-span-2 relative group/field">
                 <label className="text-white text-[10px] uppercase tracking-widest">{t('web')}</label>
-                <textarea 
+                <input 
                   name="website" 
                   required 
-                  rows={1} 
+                  type="url"
                   placeholder="https://example.com"
-                  className="bg-transparent border-b border-white/30 py-2 text-white focus:outline-none transition-colors resize-none peer placeholder:text-white/20" 
+                  className="bg-transparent border-b border-white/30 py-2 text-white focus:outline-none transition-colors peer placeholder:text-white/20" 
                 />
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-gradient-to-r from-[#E91E63] to-[#9C27B0] transition-all duration-500 peer-focus:w-full"></span>
               </div>

@@ -294,7 +294,7 @@ const WhatsAppBtnLanding = () => {
             </div>
 
             <input
-              type="tel"
+              type="number"
               name="numero"
               value={formData.numero}
               onChange={handleInputChange}
