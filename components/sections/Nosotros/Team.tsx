@@ -11,7 +11,7 @@ const members = [
   { id: 2, name: "Diana", role:"Commercial Supervisor", image:"/images/Equipo/Diana.webp", area:"commercial"},
   { id: 3, name: "Gimena", role: "Commercial", image: "/images/Equipo/Gimena.webp", area:"commercial"},
   { id: 4, name: "Mariajose", role: "Commercial", image: "/images/Equipo/new.webp", area:"commercial"},
-  
+  { id: 5, name: "Angella", role: "Project Manager", image: "/images/Equipo/Angella.webp", area:"commercial"},
 
   { id: 5, name: "Elizabeth", role: "Creative Design Supervisor", image: "/images/Equipo/Elizabeth.webp", area:"branding"},
   { id: 6, name: "Nadia", role: "Brand Manager", image: "/images/Equipo/Nadia.webp", area:"branding" },
@@ -30,7 +30,6 @@ const members = [
   { id: 17, name: "Stefany", role: "Film Maker &Designer", image: "/images/Equipo/Stefany.webp", area:"design multimedia"},
   { id: 18, name: "Karol", role: "Film Maker & Designer", image: "/images/Equipo/Karol.webp", area:"design multimedia"},
   { id: 19, name: "Franco", role: "Designer", image: "/images/Equipo/Franco.webp", area:"design multimedia" },
-   
 
   { id: 20, name: "Aymar", role: "Software Engineer", image: "/images/Equipo/Aymar.webp", area:"Web development & IT" },
   { id: 21, name: "Jose", role: "Seo Manager", image: "/images/Equipo/jose.webp", area:"Web development & IT" },
