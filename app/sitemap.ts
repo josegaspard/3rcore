@@ -1,35 +1,65 @@
 import type { MetadataRoute } from 'next'
+import { createServerClient } from '@/lib/supabase/server'
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://3rcore.vercel.app'
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const baseUrl = 'https://3rcore.com'
 
-  return[
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 1,
-      alternates: {
-        languages: {
-          es: `${baseUrl}/es`,
-          en: `${baseUrl}/en`,
-        },
-      },
-    },
-    // Plantilla para cuando agregues más páginas (descomenta y ajusta las URLs):
-    /*
-    {
-      url: `${baseUrl}/nosotros`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-      alternates: {
-        languages: {
-          es: `${baseUrl}/es/nosotros`,
-          en: `${baseUrl}/en/about`,
-        },
-      },
-    },
-    */
+  const staticPages = [
+    { path: '', priority: 1, changeFrequency: 'weekly' as const },
+    { path: '/nosotros', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/servicios', priority: 0.9, changeFrequency: 'monthly' as const },
+    { path: '/servicios/branding', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/servicios/socialmedia', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/servicios/google-ads', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/servicios/web-deveploment', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/posicionamiento-seo', priority: 0.9, changeFrequency: 'monthly' as const },
+    { path: '/blogs', priority: 0.7, changeFrequency: 'daily' as const },
+    { path: '/preguntas', priority: 0.6, changeFrequency: 'monthly' as const },
+    { path: '/politicas', priority: 0.3, changeFrequency: 'yearly' as const },
+    { path: '/terminos', priority: 0.3, changeFrequency: 'yearly' as const },
+    { path: '/reclamaciones', priority: 0.3, changeFrequency: 'yearly' as const },
   ]
+
+  const staticEntries: MetadataRoute.Sitemap = staticPages.map((page) => ({
+    url: `${baseUrl}${page.path}`,
+    lastModified: new Date(),
+    changeFrequency: page.changeFrequency,
+    priority: page.priority,
+    alternates: {
+      languages: {
+        es: `${baseUrl}/es${page.path}`,
+        en: `${baseUrl}/en${page.path}`,
+      },
+    },
+  }))
+
+  // Fetch blog posts from Supabase
+  let blogEntries: MetadataRoute.Sitemap = []
+  try {
+    const supabase = createServerClient()
+    const { data: posts } = await supabase
+      .from('blog_posts')
+      .select('slug, updated_at, locale')
+      .eq('status', 'published')
+      .order('published_at', { ascending: false })
+
+    if (posts) {
+      blogEntries = posts.map((post) => ({
+        url: `${baseUrl}/${post.locale}/blogs/${post.slug}`,
+        lastModified: new Date(post.updated_at),
+        changeFrequency: 'weekly' as const,
+        priority: 0.6,
+        alternates: {
+          languages: {
+            es: `${baseUrl}/es/blogs/${post.slug}`,
+            en: `${baseUrl}/en/blogs/${post.slug}`,
+          },
+        },
+      }))
+    }
+  } catch {
+    // Silently fail
+  }
+
+  return [...staticEntries, ...blogEntries]
 }

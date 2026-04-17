@@ -1,0 +1,22 @@
+# 3R Core
+> Digital marketing agency in Lima, Peru specializing in branding, social media management, web development, Google Ads, and SEO.
+
+## About
+3R Core is a full-service digital marketing agency based in La Molina, Lima, Peru. The agency combines three generations of experience, strategic vision, and technology to create personalized digital marketing strategies. Founded with the mission to help businesses grow their digital presence across Peru and the United States.
+
+## Services
+- [Branding](https://3rcore.com/es/servicios/branding): Visual identity design, brand manuals, logos, and brand applications
+- [Social Media Management](https://3rcore.com/es/servicios/socialmedia): Content strategy, post design, editorial grids, and social media management
+- [Web Development](https://3rcore.com/es/servicios/web-deveploment): Websites, e-commerce (Shopify/WooCommerce), landing pages, e-learning platforms
+- [Google Ads / SEM](https://3rcore.com/es/servicios/google-ads): Google Ads campaigns, search intent segmentation, budget optimization
+- [SEO Positioning](https://3rcore.com/es/posicionamiento-seo): Organic SEO, keyword strategy, content optimization, monthly reporting
+
+## Blog
+- [Latest Articles](https://3rcore.com/es/blogs)
+
+## Contact
+- Address: Calle Las Caobas 170, Ofic. 400, Urb El Remanso, La Molina, Lima, Peru
+- Phone: +51 986 889 147
+- Email: info@3rcore.com
+- Website: https://3rcore.com
+- Languages: Spanish, English
