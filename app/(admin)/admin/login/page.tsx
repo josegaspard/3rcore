@@ -1,5 +1,4 @@
 'use client'
-
 import { useState } from 'react'
 import { createBrowserClient } from '@/lib/supabase/client'
 import { useRouter } from 'next/navigation'
@@ -11,89 +10,39 @@ export default function AdminLogin() {
   const [loading, setLoading] = useState(false)
   const router = useRouter()
 
-  const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setLoading(true)
-    setError('')
-
-    const supabase = createBrowserClient()
-    const { error } = await supabase.auth.signInWithPassword({ email, password })
-
-    if (error) {
-      setError('Credenciales incorrectas')
-      setLoading(false)
-      return
-    }
-
+  const handle = async (e: React.FormEvent) => {
+    e.preventDefault(); setLoading(true); setError('')
+    const { error } = await createBrowserClient().auth.signInWithPassword({ email, password })
+    if (error) { setError('Email o contraseña incorrectos'); setLoading(false); return }
     router.push('/admin/blog')
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4">
-      <div className="fixed inset-0 pointer-events-none">
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-purple-500/5 rounded-full blur-[150px]" />
-      </div>
-
-      <div className="w-full max-w-sm relative z-10 animate-in">
-        <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 mb-3">
-            <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg" />
-            <span className="text-xl font-bold tracking-tight">3R Core</span>
+    <div style={{ minHeight:'100vh', display:'flex', alignItems:'center', justifyContent:'center', padding:20 }}>
+      <div className="fade-up" style={{ width:'100%', maxWidth:380 }}>
+        <div style={{ textAlign:'center', marginBottom:40 }}>
+          <div style={{ display:'inline-flex', alignItems:'center', gap:10, marginBottom:8 }}>
+            <div style={{ width:36, height:36, background:'linear-gradient(135deg,#7c3aed,#ec4899)', borderRadius:10, display:'flex', alignItems:'center', justifyContent:'center', fontSize:12, fontWeight:800, color:'white' }}>3R</div>
+            <span style={{ fontSize:20, fontWeight:700 }}>Core CMS</span>
           </div>
-          <p className="text-zinc-500 text-sm">Blog Content Management System</p>
+          <p style={{ color:'#555', fontSize:13 }}>Panel de administración del blog</p>
         </div>
-
-        <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 backdrop-blur-sm">
-          <h1 className="text-lg font-semibold mb-6">Iniciar sesión</h1>
-
-          <form onSubmit={handleLogin} className="space-y-5">
-            <div>
-              <label className="text-zinc-400 text-xs font-medium block mb-2">Email</label>
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                autoFocus
-                className="w-full bg-zinc-800/50 border border-zinc-700/50 rounded-xl px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:outline-none focus:border-purple-500/50 focus:ring-1 focus:ring-purple-500/20 transition-all"
-                placeholder="tu@email.com"
-              />
+        <div className="card" style={{ padding:32 }}>
+          <form onSubmit={handle}>
+            <div style={{ marginBottom:20 }}>
+              <label className="label" style={{ display:'block', fontSize:12, fontWeight:500, color:'#888', marginBottom:6 }}>Email</label>
+              <input className="input" type="email" value={email} onChange={e=>setEmail(e.target.value)} required autoFocus placeholder="pieroque@3rcore.com" />
             </div>
-
-            <div>
-              <label className="text-zinc-400 text-xs font-medium block mb-2">Contraseña</label>
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-                className="w-full bg-zinc-800/50 border border-zinc-700/50 rounded-xl px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:outline-none focus:border-purple-500/50 focus:ring-1 focus:ring-purple-500/20 transition-all"
-                placeholder="••••••••"
-              />
+            <div style={{ marginBottom:24 }}>
+              <label className="label" style={{ display:'block', fontSize:12, fontWeight:500, color:'#888', marginBottom:6 }}>Contraseña</label>
+              <input className="input" type="password" value={password} onChange={e=>setPassword(e.target.value)} required placeholder="••••••••" />
             </div>
-
-            {error && (
-              <div className="bg-red-500/10 border border-red-500/20 rounded-xl px-4 py-3 text-red-400 text-sm">
-                {error}
-              </div>
-            )}
-
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-semibold text-sm hover:from-purple-500 hover:to-pink-500 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {loading ? (
-                <span className="inline-flex items-center gap-2">
-                  <svg className="animate-spin w-4 h-4" viewBox="0 0 24 24" fill="none"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" /><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" /></svg>
-                  Ingresando...
-                </span>
-              ) : 'Ingresar'}
+            {error && <div style={{ background:'rgba(239,68,68,.08)', border:'1px solid rgba(239,68,68,.2)', borderRadius:10, padding:'10px 14px', color:'#ef4444', fontSize:13, marginBottom:16 }}>{error}</div>}
+            <button type="submit" className="btn btn-primary" disabled={loading} style={{ width:'100%', padding:'12px 0', fontSize:14 }}>
+              {loading ? 'Ingresando...' : 'Iniciar sesión'}
             </button>
           </form>
         </div>
-
-        <p className="text-center text-zinc-600 text-xs mt-6">3R Core Marketing Agency</p>
       </div>
     </div>
   )
