@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { createServerClient } from '@/lib/supabase/server'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://3rcore.com'
@@ -32,25 +33,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   }))
 
-  // Fetch blog posts dynamically
+  // Fetch blog posts from Supabase
   let blogEntries: MetadataRoute.Sitemap = []
   try {
-    const [resEs, resEn] = await Promise.all([
-      fetch('https://3rcore-server.com.pe/wp-json/wp/v2/posts?_fields=slug,date&per_page=100', {
-        headers: { 'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json' },
-        next: { revalidate: 86400 },
-      }),
-      fetch('https://3rcore-server.com.pe/en/wp-json/wp/v2/posts?_fields=slug,date&per_page=100', {
-        headers: { 'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json' },
-        next: { revalidate: 86400 },
-      }),
-    ])
+    const supabase = createServerClient()
+    const { data: posts } = await supabase
+      .from('blog_posts')
+      .select('slug, updated_at, locale')
+      .eq('status', 'published')
+      .order('published_at', { ascending: false })
 
-    if (resEs.ok) {
-      const posts = await resEs.json()
-      blogEntries = posts.map((post: { slug: string; date: string }) => ({
-        url: `${baseUrl}/es/blogs/${post.slug}`,
-        lastModified: new Date(post.date),
+    if (posts) {
+      blogEntries = posts.map((post) => ({
+        url: `${baseUrl}/${post.locale}/blogs/${post.slug}`,
+        lastModified: new Date(post.updated_at),
         changeFrequency: 'weekly' as const,
         priority: 0.6,
         alternates: {
@@ -62,7 +58,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       }))
     }
   } catch {
-    // Silently fail — blog posts won't be in sitemap but static pages will
+    // Silently fail
   }
 
   return [...staticEntries, ...blogEntries]
