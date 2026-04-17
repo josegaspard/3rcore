@@ -1,6 +1,6 @@
-"use client"; 
+"use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icons/fa";
 import { usePathname } from "next/navigation";
@@ -9,7 +9,7 @@ import { useTranslations } from "next-intl";
 const Footer = () => {
 
   const t = useTranslations('Footer');
-  
+
   const pathname = usePathname();
 
   const handleScrollTop = (href: string) => {
@@ -20,17 +20,16 @@ const Footer = () => {
   return (
     <footer className="text-white pt-16 pb-8 px-10 font-sans">
       <div className="max-w-7xl mx-auto">
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          
+
           <div className="flex justify-start items-start">
-            <div className="relative w-60 h-30"> 
-              <Image 
-                src="/icons/LogoLetrasBlanco.webp" 
-                alt="3R Core Logo" 
-                fill 
+            <div className="relative w-60 h-30">
+              <Image
+                src="/icons/LogoLetrasBlanco.webp"
+                alt="3R Core Logo"
+                fill
                 className="object-contain object-left"
-                priority
               />
             </div>
           </div>
@@ -54,8 +53,8 @@ const Footer = () => {
               <h3 className="text-white font-bold lg:text-sm 2xl:text-base uppercase tracking-widest mb-6">{ t('services')}</h3>
               <ul className="space-y-3 text-sm lg:text-xs xl:text-sm text-gray-200">
                 <li>
-                  <Link 
-                    href="/servicios/branding" 
+                  <Link
+                    href="/servicios/branding"
                     onClick={() => handleScrollTop("/servicios/branding")}
                     className="hover:text-pink-500 transition-colors duration-300"
                   >
@@ -63,8 +62,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link 
-                    href="/servicios/socialmedia" 
+                  <Link
+                    href="/servicios/socialmedia"
                     onClick={() => handleScrollTop("/servicios/socialmedia")}
                     className="hover:text-pink-500 transition-colors duration-300"
                   >
@@ -72,8 +71,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link 
-                    href="/servicios/seo-sem" 
+                  <Link
+                    href="/servicios/google-ads"
                     onClick={() => handleScrollTop("/servicios/google-ads")}
                     className="hover:text-pink-500 transition-colors duration-300"
                   >
@@ -81,8 +80,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link 
-                    href="/servicios/web-deveploment" 
+                  <Link
+                    href="/servicios/web-deveploment"
                     onClick={() => handleScrollTop("/servicios/web-deveploment")}
                     className="hover:text-pink-500 transition-colors duration-300"
                   >
@@ -106,30 +105,30 @@ const Footer = () => {
       </div>
       <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex gap-8 text-[10px] tracking-widest text-gray-200">
-            <Link 
-              href="/politicas" 
+            <Link
+              href="/politicas"
               className="hover:text-pink-500 transition-colors duration-300 relative group"
             >
               { t('privacyPolicy')}
               <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#A21F8A] group-hover:w-full transition-all duration-300"></span>
             </Link>
-            <Link 
-              href="/terminos" 
+            <Link
+              href="/terminos"
               className="hover:text-pink-500 transition-colors duration-300 relative group"
             >
               { t('termsConditions')}
               <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#A21F8A] group-hover:w-full transition-all duration-300"></span>
             </Link>
-            <Link 
-              href="/preguntas" 
+            <Link
+              href="/preguntas"
               className="hover:text-pink-500 transition-colors duration-300 relative group"
             >
               { t('pregunta')}
               <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#A21F8A] group-hover:w-full transition-all duration-300"></span>
             </Link>
-            
+
           </div>
-          
+
           <div className="text-[10px] uppercase tracking-widest text-white">
             { t('copyright')}
           </div>
@@ -140,8 +139,8 @@ const Footer = () => {
 
 const SocialIcon = ({ href, icon }: { href: string; icon: React.ReactNode }) => {
   return (
-    <a 
-      href={href} 
+    <a
+      href={href}
       target="_blank"
       rel="noopener noreferrer"
       className="group relative text-white text-lg p-2 rounded-md border border-white/20 transition-all duration-500 ease-out hover:border-[#A21F8A] hover:-translate-y-0.5 flex items-center justify-center overflow-hidden"

@@ -14,7 +14,12 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
       ? "Boost your business on Google and attract customers who are actively looking for what you offer."
       : "Impulsa tu negocio en Google y atrae clientes que sí buscan lo que ofreces.",
     alternates: {
-      canonical: `https://www.3rcore.com/${locale}/landing`,
+      canonical: `https://3rcore.com/${locale}/posicionamiento-seo`,
+      languages: {
+        'es': 'https://3rcore.com/es/posicionamiento-seo',
+        'en': 'https://3rcore.com/en/posicionamiento-seo',
+        'x-default': 'https://3rcore.com/es/posicionamiento-seo',
+      },
     }
   }
 }
@@ -31,7 +36,7 @@ export default async function Posicionamientoseo({ params }: { params: any }) {
     "provider": {
       "@type": "Organization",
       "name": "3R Core Marketing Agency",
-      "url": "https://www.3rcore.com"
+      "url": "https://3rcore.com"
     },
     "description": m.SEOSEM.description.paragraph1,
     "offers": {

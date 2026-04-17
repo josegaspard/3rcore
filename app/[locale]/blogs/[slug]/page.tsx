@@ -79,7 +79,14 @@ export async function generateMetadata({
   return {
     title: yoast?.title || post.title.rendered,
     description: yoast?.description || yoast?.og_description || "",
-    alternates: { canonical: yoast?.canonical || post.link },
+    alternates: {
+      canonical: `https://3rcore.com/${locale}/blogs/${slug}`,
+      languages: {
+        'es': `https://3rcore.com/es/blogs/${slug}`,
+        'en': `https://3rcore.com/en/blogs/${slug}`,
+        'x-default': `https://3rcore.com/es/blogs/${slug}`,
+      },
+    },
     robots: yoast?.robots ? {
       index: yoast.robots.index !== "noindex",
       follow: yoast.robots.follow !== "nofollow",
@@ -116,5 +123,51 @@ export default async function BlogPostPage({
 
   if (!post) notFound();
 
-  return <BlogPostClient post={post!} />;
+  const blogPostSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title.rendered.replace(/<[^>]*>/g, ''),
+    "datePublished": post.date,
+    "dateModified": post.date,
+    "author": {
+      "@type": "Organization",
+      "@id": "https://3rcore.com/#organization",
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://3rcore.com/#organization",
+      "name": "3R Core",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://3rcore.com/icons/LogoFull.webp",
+      },
+    },
+    "image": post.yoast_head_json?.og_image?.[0]?.url || "",
+    "description": post.yoast_head_json?.og_description || "",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://3rcore.com/${locale}/blogs/${slug}`,
+    },
+    "inLanguage": locale === 'en' ? 'en' : 'es',
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": `https://3rcore.com/${locale}` },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `https://3rcore.com/${locale}/blogs` },
+      { "@type": "ListItem", "position": 3, "name": post.title.rendered.replace(/<[^>]*>/g, ''), "item": `https://3rcore.com/${locale}/blogs/${slug}` },
+    ],
+  }
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([blogPostSchema, breadcrumbSchema]) }}
+      />
+      <BlogPostClient post={post!} />
+    </>
+  );
 }

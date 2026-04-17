@@ -47,6 +47,20 @@
     "readMore": "Leer más",
     "viewAllBlogs": "Leer más blogs",
     "t":""
+  },
+  "BlogsPage": {
+    "subtitle": "3RCore Server",
+    "titleLine1": "ÚLTIMAS",
+    "titleLine2": "NOTICIAS",
+    "description": "Mantente al día con las últimas novedades, actualizaciones y artículos del mundo de los servidores y tecnología.",
+    "readMore": "Leer más",
+    "loadMore": "Cargar más",
+    "loading": "Cargando..."
+  },
+  "GraciasPage": {
+    "title": "¡Gracias por contactarnos!",
+    "description": "Un asesor se comunicará contigo en breve.",
+    "backHome": "Volver al inicio"
   }
   ,
   "ContactSection": {

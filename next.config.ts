@@ -24,17 +24,26 @@ const nextConfig: NextConfig = {
     ],
   },
   experimental: {
-    optimizeCss: true, 
+    optimizeCss: true,
   },
   compiler: {
-    removeConsole: process.env.NODE_ENV === 'production', 
+    removeConsole: process.env.NODE_ENV === 'production',
   },
   async headers() {
     return [
       {
+        source: '/(.*)',
+        headers: [
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'X-Frame-Options', value: 'DENY' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+        ],
+      },
+      {
         source: '/api/:path*',
         headers: [
-          { key: 'Access-Control-Allow-Origin', value: '*' },
+          { key: 'Access-Control-Allow-Origin', value: 'https://3rcore.com' },
           { key: 'Access-Control-Allow-Methods', value: 'GET,POST,OPTIONS' },
         ],
       },

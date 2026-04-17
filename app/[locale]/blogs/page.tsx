@@ -25,6 +25,7 @@ interface WPPost {
 
 export default function BlogsPage() {
   const t = useTranslations("NewsSection");
+  const b = useTranslations("BlogsPage");
   const [posts, setPosts] = useState<WPPost[]>([]);
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
@@ -126,10 +127,10 @@ export default function BlogsPage() {
       >
         <div className="max-w-3xl">
           <p className="hero-subtitle text-[11px] tracking-[0.4em] uppercase text-[#E91E63] mb-4 font-medium">
-            3RCore Server
+            {b('subtitle')}
           </p>
           <h1 className="hero-title text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.9] tracking-tight mb-8">
-            <span className="block text-white">ÚLTIMAS</span>
+            <span className="block text-white">{b('titleLine1')}</span>
             <span
               className="block"
               style={{
@@ -139,7 +140,7 @@ export default function BlogsPage() {
                 backgroundClip: "text",
               }}
             >
-              NOTICIAS
+              {b('titleLine2')}
             </span>
           </h1>
           <div
@@ -149,8 +150,7 @@ export default function BlogsPage() {
             }}
           />
           <p className="hero-subtitle text-white/50 text-sm md:text-base leading-relaxed max-w-lg">
-            Mantente al día con las últimas novedades, actualizaciones y artículos
-            del mundo de los servidores y tecnología.
+            {b('description')}
           </p>
         </div>
       </div>
@@ -225,7 +225,7 @@ export default function BlogsPage() {
                       )}
                       <div className="mt-auto pt-4 border-t border-white/5">
                         <span className="inline-flex items-center gap-2 text-[#E91E63] text-[10px] font-bold tracking-[0.2em] uppercase group-hover:gap-3 transition-all duration-300">
-                          Leer más
+                          {b('readMore')}
                           <svg
                             width="14"
                             height="14"
@@ -282,11 +282,11 @@ export default function BlogsPage() {
                         d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
                       />
                     </svg>
-                    Cargando...
+                    {b('loading')}
                   </>
                 ) : (
                   <>
-                    Cargar más
+                    {b('loadMore')}
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path
                         d="M8 1v14M1 8h14"
