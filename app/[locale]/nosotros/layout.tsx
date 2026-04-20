@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { generatePageMetadata, generateBreadcrumbSchema } from "@/lib/metadata"
+import { generatePageMetadata, generateBreadcrumbSchema, BASE_URL } from "@/lib/metadata"
 
 export async function generateMetadata({ params }: { params: any }): Promise<Metadata> {
   const { locale } = await params
@@ -13,19 +13,36 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
   })
 }
 
-export default function NosotrosLayout({ children, params }: { children: React.ReactNode; params: any }) {
+export default async function NosotrosLayout({ children, params }: { children: React.ReactNode; params: any }) {
+  const { locale } = await params
+  const isEn = locale === 'en'
+
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": `${BASE_URL}/${locale}/nosotros#aboutpage`,
+    "url": `${BASE_URL}/${locale}/nosotros`,
+    "name": isEn ? "About 3R Core" : "Sobre 3R Core",
+    "description": isEn
+      ? "3R Core is a digital marketing agency in Lima, Peru combining Experience, Vision and Technology across branding, social media, SEO, Google Ads and web development."
+      : "3R Core es una agencia de marketing digital en Lima, Perú que combina Experiencia, Visión y Tecnología en branding, social media, SEO, Google Ads y desarrollo web.",
+    "mainEntity": { "@id": `${BASE_URL}/#organization` },
+    "inLanguage": isEn ? 'en' : 'es',
+  }
+
+  const breadcrumbSchema = generateBreadcrumbSchema(
+    [
+      { name: isEn ? 'Home' : 'Inicio', path: '' },
+      { name: isEn ? 'About Us' : 'Nosotros', path: '/nosotros' },
+    ],
+    locale
+  )
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            generateBreadcrumbSchema(
-              [{ name: 'Inicio', path: '' }, { name: 'Nosotros', path: '/nosotros' }],
-              'es'
-            )
-          ),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([aboutSchema, breadcrumbSchema]) }}
       />
       {children}
     </>

@@ -13,19 +13,21 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
   })
 }
 
-export default function ServiciosLayout({ children }: { children: React.ReactNode }) {
+export default async function ServiciosLayout({ children, params }: { children: React.ReactNode; params: any }) {
+  const { locale } = await params
+  const isEn = locale === 'en'
+  const breadcrumbSchema = generateBreadcrumbSchema(
+    [
+      { name: isEn ? 'Home' : 'Inicio', path: '' },
+      { name: isEn ? 'Services' : 'Servicios', path: '/servicios' },
+    ],
+    locale
+  )
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            generateBreadcrumbSchema(
-              [{ name: 'Inicio', path: '' }, { name: 'Servicios', path: '/servicios' }],
-              'es'
-            )
-          ),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {children}
     </>

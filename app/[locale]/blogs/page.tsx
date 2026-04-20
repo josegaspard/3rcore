@@ -3,10 +3,11 @@ import { Link } from "@/i18n/routing"
 import { Montserrat } from "next/font/google"
 import { createServerClient } from "@/lib/supabase/server"
 import type { BlogPost } from "@/lib/supabase/types"
+import { BASE_URL } from "@/lib/metadata"
 
 const montserrat = Montserrat({ subsets: ["latin"] })
 
-export const dynamic = 'force-dynamic'
+export const revalidate = 600
 
 export default async function BlogsPage({ params }: { params: any }) {
   const { locale } = await params
@@ -22,8 +23,45 @@ export default async function BlogsPage({ params }: { params: any }) {
   const allPosts: BlogPost[] = posts || []
   const isEn = locale === 'en'
 
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": `${BASE_URL}/${locale}/blogs#blog`,
+    "url": `${BASE_URL}/${locale}/blogs`,
+    "name": isEn ? "3R Core Blog - Digital Marketing Insights" : "Blog 3R Core - Marketing Digital",
+    "description": isEn
+      ? "Latest news, articles and updates about digital marketing, SEO, branding, social media and web development."
+      : "Últimas noticias, artículos y actualizaciones sobre marketing digital, SEO, branding, redes sociales y desarrollo web.",
+    "publisher": { "@id": `${BASE_URL}/#organization` },
+    "inLanguage": isEn ? 'en' : 'es',
+    "blogPost": allPosts.slice(0, 20).map((p) => ({
+      "@type": "BlogPosting",
+      "headline": p.title,
+      "url": `${BASE_URL}/${locale}/blogs/${p.slug}`,
+      "datePublished": p.published_at || p.created_at,
+      "dateModified": p.updated_at,
+      "author": { "@type": "Person", "name": p.author_name },
+      "image": p.featured_image || p.og_image || undefined,
+    })),
+  }
+
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": allPosts.slice(0, 20).map((p, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "url": `${BASE_URL}/${locale}/blogs/${p.slug}`,
+      "name": p.title,
+    })),
+  }
+
   return (
     <main className={`${montserrat.className} min-h-screen bg-[#0D0010] text-white overflow-x-hidden`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([blogSchema, itemListSchema]) }}
+      />
       {/* Ambient background */}
       <div className="fixed inset-0 pointer-events-none z-0">
         <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-[#A21F8A]/10 rounded-full blur-[120px]" />
