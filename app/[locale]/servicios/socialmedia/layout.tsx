@@ -10,6 +10,12 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
     titleEn: 'Social Media Management | 3R Core',
     descriptionEs: 'Estrategia de contenido, diseño de posts, grilla editorial y gestión de redes sociales para potenciar tu marca. Agencia en Lima, Perú.',
     descriptionEn: 'Content strategy, post design, editorial grid and social media management to boost your brand. Agency in Lima, Peru.',
+    ogImage: {
+      url: 'https://3rcore.com/og/socialmedia.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Gestión de Redes Sociales - 3R Core',
+    },
   })
 }
 

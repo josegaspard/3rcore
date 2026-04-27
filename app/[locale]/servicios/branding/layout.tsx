@@ -10,6 +10,12 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
     titleEn: 'Corporate Branding Service | 3R Core',
     descriptionEs: 'Diseño de identidad visual, manual de marca, logotipos y aplicaciones de marca. Creamos la esencia de tu marca con un equipo profesional en Lima, Perú.',
     descriptionEn: 'Visual identity design, brand manual, logos and brand applications. We create the essence of your brand with a professional team in Lima, Peru.',
+    ogImage: {
+      url: 'https://3rcore.com/og/branding.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Servicio de Branding Corporativo - 3R Core',
+    },
   })
 }
 

@@ -9,6 +9,12 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
     titleEs: 'Desarrollo Web y E-commerce | 3R Core',
     titleEn: 'Web Development & E-commerce | 3R Core',
     descriptionEs: 'Desarrollo de sitios web, tiendas online con Shopify y WooCommerce, landing pages y plataformas e-learning. Equipo profesional en Lima, Perú.',
+    ogImage: {
+      url: 'https://3rcore.com/og/web-development.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Desarrollo Web y E-commerce - 3R Core',
+    },
     descriptionEn: 'Website development, online stores with Shopify and WooCommerce, landing pages and e-learning platforms. Professional team in Lima, Peru.',
   })
 }

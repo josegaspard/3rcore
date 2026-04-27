@@ -6,13 +6,17 @@ import LandingClient from "./LandingClient"
 export async function generateMetadata({ params }: { params: any }): Promise<Metadata> {
   const { locale } = await params
   
+  const title = locale === 'en'
+    ? "SEO Positioning on Google | 3R Core"
+    : "Posicionamiento SEO en Google | 3R Core"
+  const description = locale === 'en'
+    ? "Boost your business on Google and attract customers who are actively looking for what you offer."
+    : "Impulsa tu negocio en Google y atrae clientes que sí buscan lo que ofreces."
+  const ogImageUrl = "https://3rcore.com/og/posicionamiento-seo.jpg"
+
   return {
-    title: locale === 'en' 
-      ? "SEO Positioning on Google | 3R Core" 
-      : "Posicionamiento SEO en Google | 3R Core",
-    description: locale === 'en'
-      ? "Boost your business on Google and attract customers who are actively looking for what you offer."
-      : "Impulsa tu negocio en Google y atrae clientes que sí buscan lo que ofreces.",
+    title,
+    description,
     alternates: {
       canonical: `https://3rcore.com/${locale}/posicionamiento-seo`,
       languages: {
@@ -20,7 +24,27 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
         'en': 'https://3rcore.com/en/posicionamiento-seo',
         'x-default': 'https://3rcore.com/es/posicionamiento-seo',
       },
-    }
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://3rcore.com/${locale}/posicionamiento-seo`,
+      siteName: '3R Core',
+      locale: locale === 'en' ? 'en_US' : 'es_PE',
+      type: 'website',
+      images: [{
+        url: ogImageUrl,
+        width: 1200,
+        height: 630,
+        alt: locale === 'en' ? 'SEO Positioning Service - 3R Core' : 'Servicio de Posicionamiento SEO - 3R Core',
+      }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImageUrl],
+    },
   }
 }
 

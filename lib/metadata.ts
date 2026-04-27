@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 export const BASE_URL = 'https://3rcore.com'
 
 export const DEFAULT_OG_IMAGE = {
-  url: `${BASE_URL}/og/default.webp`,
+  url: `${BASE_URL}/og/default.jpg`,
   width: 1200,
   height: 630,
   alt: '3R Core - Agencia de Marketing Digital',

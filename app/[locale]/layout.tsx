@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
       type: 'website',
       images: [
         {
-          url: `${BASE_URL}/og/default.webp`,
+          url: `${BASE_URL}/og/default.jpg`,
           width: 1200,
           height: 630,
           alt: locale === 'en'
@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
       description: locale === 'en'
         ? "We combine Experience, Vision, and Technology into digital marketing strategies."
         : "Combinamos Experiencia, Visión y Tecnología en estrategias de marketing digital.",
-      images: [`${BASE_URL}/og/default.webp`],
+      images: [`${BASE_URL}/og/default.jpg`],
     },
     metadataBase: new URL(BASE_URL),
   }
@@ -154,14 +154,104 @@ export default async function RootLayout({
       { "@type": "Country", "name": "United States" }
     ],
     "priceRange": "$$",
+    "slogan": locale === 'en'
+      ? "Experience, Vision & Technology"
+      : "Experiencia, Visión y Tecnología",
+    // TODO: confirm exact founding year and uncomment
+    // "foundingDate": "YYYY",
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "value": 21
+    },
+    "knowsAbout": [
+      "Branding",
+      "Visual Identity",
+      "Social Media Marketing",
+      "Search Engine Optimization",
+      "Google Ads",
+      "Search Engine Marketing",
+      "Web Development",
+      "E-commerce",
+      "Shopify",
+      "WooCommerce",
+      "Content Strategy",
+      "Digital Marketing"
+    ],
+    "founder": [
+      {
+        "@type": "Person",
+        "name": "Alejandro Roque",
+        "jobTitle": locale === 'en' ? "CEO" : "CEO / Director General",
+        "worksFor": { "@id": `${BASE_URL}/#organization` }
+      },
+      {
+        "@type": "Person",
+        "name": "Bruno Roque",
+        "jobTitle": locale === 'en' ? "Marketing Director" : "Director de Marketing",
+        "worksFor": { "@id": `${BASE_URL}/#organization` }
+      },
+      {
+        "@type": "Person",
+        "name": "Piero Roque",
+        "jobTitle": locale === 'en' ? "SEO / Ads Director" : "Director SEO / Ads",
+        "worksFor": { "@id": `${BASE_URL}/#organization` }
+      }
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": locale === 'en' ? "Digital Marketing Services" : "Servicios de Marketing Digital",
       "itemListElement": [
-        { "@type": "OfferCatalog", "name": "Branding", "url": `${BASE_URL}/${locale}/servicios/branding` },
-        { "@type": "OfferCatalog", "name": "Social Media", "url": `${BASE_URL}/${locale}/servicios/socialmedia` },
-        { "@type": "OfferCatalog", "name": "Google Ads / SEO", "url": `${BASE_URL}/${locale}/servicios/google-ads` },
-        { "@type": "OfferCatalog", "name": locale === 'en' ? "Web Development" : "Desarrollo Web", "url": `${BASE_URL}/${locale}/servicios/web-development` }
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": locale === 'en' ? "Corporate Branding" : "Branding Corporativo",
+            "url": `${BASE_URL}/${locale}/servicios/branding`,
+            "serviceType": "Branding / Visual Identity"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": locale === 'en' ? "Social Media Management" : "Gestión de Redes Sociales",
+            "url": `${BASE_URL}/${locale}/servicios/socialmedia`,
+            "serviceType": "Social Media Management"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": locale === 'en' ? "Google Ads / SEM" : "Google Ads / SEM",
+            "url": `${BASE_URL}/${locale}/servicios/google-ads`,
+            "serviceType": "Google Ads / SEM"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": locale === 'en' ? "Web Development & E-commerce" : "Desarrollo Web y E-commerce",
+            "url": `${BASE_URL}/${locale}/servicios/web-development`,
+            "serviceType": "Web Development / E-commerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": locale === 'en' ? "SEO Positioning" : "Posicionamiento SEO",
+            "url": `${BASE_URL}/${locale}/posicionamiento-seo`,
+            "serviceType": "SEO / Search Engine Optimization"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": locale === 'en' ? 450 : 1500,
+            "priceCurrency": locale === 'en' ? "USD" : "PEN",
+            "valueAddedTaxIncluded": false
+          }
+        }
       ]
     }
   }

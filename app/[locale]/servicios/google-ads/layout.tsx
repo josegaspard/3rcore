@@ -10,6 +10,12 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
     titleEn: 'SEO & Google Ads - Google Positioning | 3R Core',
     descriptionEs: 'Posicionamiento SEO orgánico y campañas de Google Ads para más visibilidad, tráfico de calidad y conversiones. Agencia en Lima, Perú.',
     descriptionEn: 'Organic SEO positioning and Google Ads campaigns for more visibility, quality traffic and conversions. Agency in Lima, Peru.',
+    ogImage: {
+      url: 'https://3rcore.com/og/google-ads.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Campañas Google Ads y SEM - 3R Core',
+    },
   })
 }
 
