@@ -1,14 +1,14 @@
 'use client';
 import ContactForm from "@/components/layout/ContactForm";
 import ClientSection from "@/components/layout/ClientSection";
-import HeroWeb from "@/components/sections/servicios/web-deveploment/heroWeb";
-import ProcessWebSection from "@/components/sections/servicios/web-deveploment/processWebSection";
-import WebInfoSection from "@/components/sections/servicios/web-deveploment/webInfoSection";
-import ImgWebSection from "@/components/sections/servicios/web-deveploment/imgWebSection";
-import WebTypesSection from "@/components/sections/servicios/web-deveploment/webTypesSection";
-import WebApplications from "@/components/sections/servicios/web-deveploment/aplicationWebSection";
-import WebFaq from "@/components/sections/servicios/web-deveploment/webFaq";
-import WebImgSection from "@/components/sections/servicios/web-deveploment/webimgSection";
+import HeroWeb from "@/components/sections/servicios/web-development/heroWeb";
+import ProcessWebSection from "@/components/sections/servicios/web-development/processWebSection";
+import WebInfoSection from "@/components/sections/servicios/web-development/webInfoSection";
+import ImgWebSection from "@/components/sections/servicios/web-development/imgWebSection";
+import WebTypesSection from "@/components/sections/servicios/web-development/webTypesSection";
+import WebApplications from "@/components/sections/servicios/web-development/aplicationWebSection";
+import WebFaq from "@/components/sections/servicios/web-development/webFaq";
+import WebImgSection from "@/components/sections/servicios/web-development/webimgSection";
 import { useScrollToSection } from '@/components/ui/useScrollToSection';
 
 import {useIndividualPageLoader} from '@/components/layout/useIndividualPageLoader'

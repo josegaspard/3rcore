@@ -85,7 +85,7 @@ export default function ProjectsSection() {
     },
     {
       id: 'webdesign',
-      href: '/servicios/web-deveploment',
+      href: '/servicios/web-development',
       bg: "/images/tituloCarru/webCarrubg.webp",
       title:  "/images/tituloCarru/webDevelopmentV.svg",
       titleMobile: "/images/tituloCarru/webDevelopment.svg",

@@ -1,22 +1,45 @@
 # 3R Core
-> Digital marketing agency in Lima, Peru specializing in branding, social media management, web development, Google Ads, and SEO.
+> Digital marketing agency in Lima, Peru specializing in branding, social media management, web development, Google Ads, and SEO. Operating in Peru and the United States.
 
 ## About
 3R Core is a full-service digital marketing agency based in La Molina, Lima, Peru. The agency combines three generations of experience, strategic vision, and technology to create personalized digital marketing strategies. Founded with the mission to help businesses grow their digital presence across Peru and the United States.
 
+## Key Facts
+- Headquarters: La Molina, Lima, Peru
+- Markets served: Peru, United States
+- Languages: Spanish (primary), English
+- Areas of expertise: branding, social media, SEO, Google Ads / SEM, web development, e-commerce
+- Tech stack offered: Shopify, WooCommerce, custom Next.js, e-learning platforms
+- Tax ID (RUC): 2060900821
+
 ## Services
 - [Branding](https://3rcore.com/es/servicios/branding): Visual identity design, brand manuals, logos, and brand applications
 - [Social Media Management](https://3rcore.com/es/servicios/socialmedia): Content strategy, post design, editorial grids, and social media management
-- [Web Development](https://3rcore.com/es/servicios/web-deveploment): Websites, e-commerce (Shopify/WooCommerce), landing pages, e-learning platforms
+- [Web Development](https://3rcore.com/es/servicios/web-development): Websites, e-commerce (Shopify/WooCommerce), landing pages, e-learning platforms
 - [Google Ads / SEM](https://3rcore.com/es/servicios/google-ads): Google Ads campaigns, search intent segmentation, budget optimization
-- [SEO Positioning](https://3rcore.com/es/posicionamiento-seo): Organic SEO, keyword strategy, content optimization, monthly reporting
+- [SEO Positioning](https://3rcore.com/es/posicionamiento-seo): Organic SEO, keyword strategy, content optimization, monthly reporting (from S/. 1500/month)
 
-## Blog
-- [Latest Articles](https://3rcore.com/es/blogs)
+## Pages
+- [Home](https://3rcore.com/es): Agency overview and value proposition
+- [About](https://3rcore.com/es/nosotros): Team, founders, and methodology
+- [Services Overview](https://3rcore.com/es/servicios): Full catalog of digital marketing services
+- [FAQ](https://3rcore.com/es/preguntas): Frequently asked questions about services, timelines, and pricing
+- [Blog](https://3rcore.com/es/blogs): Articles on marketing, SEO, branding, and web development
 
 ## Contact
-- Address: Calle Las Caobas 170, Ofic. 400, Urb El Remanso, La Molina, Lima, Peru
-- Phone: +51 986 889 147
+- Address: Calle Las Caobas 170, Ofic. 400, Urb El Remanso, La Molina, Lima 15024, Peru
+- Phone / WhatsApp: +51 986 889 147
 - Email: info@3rcore.com
 - Website: https://3rcore.com
-- Languages: Spanish, English
+- Hours: Monday-Friday, 09:00-18:00 (PET / UTC-5)
+
+## Social
+- Facebook: https://www.facebook.com/3Rcore/
+- Instagram: https://www.instagram.com/3rcore_/
+- LinkedIn: https://www.linkedin.com/company/3r-core/
+- TikTok: https://www.tiktok.com/@3rcore
+
+## Optional
+- [Privacy Policy](https://3rcore.com/es/politicas)
+- [Terms and Conditions](https://3rcore.com/es/terminos)
+- [Complaints Book (Peru Law N° 29571)](https://3rcore.com/es/reclamaciones)

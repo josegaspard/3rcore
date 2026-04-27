@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import { generatePageMetadata, generateBreadcrumbSchema, BASE_URL } from "@/lib/metadata"
 import { getMessages } from "next-intl/server"
 
+export const revalidate = 3600
+
 export async function generateMetadata({ params }: { params: any }): Promise<Metadata> {
   const { locale } = await params
   return generatePageMetadata({

@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { generatePageMetadata, generateBreadcrumbSchema } from "@/lib/metadata"
 
+export const revalidate = 86400
+
 export async function generateMetadata({ params }: { params: any }): Promise<Metadata> {
   const { locale } = await params
   return generatePageMetadata({

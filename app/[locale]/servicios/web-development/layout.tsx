@@ -5,7 +5,7 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
   const { locale } = await params
   return generatePageMetadata({
     locale,
-    path: '/servicios/web-deveploment',
+    path: '/servicios/web-development',
     titleEs: 'Desarrollo Web y E-commerce | 3R Core',
     titleEn: 'Web Development & E-commerce | 3R Core',
     descriptionEs: 'Desarrollo de sitios web, tiendas online con Shopify y WooCommerce, landing pages y plataformas e-learning. Equipo profesional en Lima, Perú.',
@@ -26,11 +26,11 @@ export default async function WebDevLayout({ children, params }: { children: Rea
     "provider": { "@id": `${BASE_URL}/#organization` },
     "serviceType": "Web Development / E-commerce",
     "areaServed": ["PE", "US"],
-    "url": `${BASE_URL}/${locale}/servicios/web-deveploment`,
+    "url": `${BASE_URL}/${locale}/servicios/web-development`,
   }
 
   const breadcrumbSchema = generateBreadcrumbSchema(
-    [{ name: 'Inicio', path: '' }, { name: 'Servicios', path: '/servicios' }, { name: locale === 'en' ? 'Web Development' : 'Desarrollo Web', path: '/servicios/web-deveploment' }],
+    [{ name: 'Inicio', path: '' }, { name: 'Servicios', path: '/servicios' }, { name: locale === 'en' ? 'Web Development' : 'Desarrollo Web', path: '/servicios/web-development' }],
     locale
   )
 

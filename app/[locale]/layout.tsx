@@ -49,13 +49,36 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
       }
     },
     openGraph: {
+      title: locale === 'en'
+        ? "3R Core - Digital Marketing Agency"
+        : "3R Core - Agencia de Marketing Digital",
+      description: locale === 'en'
+        ? "We combine Experience, Vision, and Technology into digital marketing strategies. Branding, Social Media, SEO, Google Ads & Web Development in Lima, Peru."
+        : "Combinamos Experiencia, Visión y Tecnología en estrategias de marketing digital. Branding, Social Media, SEO, Google Ads y Desarrollo Web en Lima, Perú.",
       url: `${BASE_URL}/${locale}`,
       siteName: "3R Core",
       locale: locale === 'en' ? 'en_US' : 'es_PE',
       type: 'website',
+      images: [
+        {
+          url: `${BASE_URL}/og/default.webp`,
+          width: 1200,
+          height: 630,
+          alt: locale === 'en'
+            ? '3R Core - Digital Marketing Agency'
+            : '3R Core - Agencia de Marketing Digital',
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
+      title: locale === 'en'
+        ? "3R Core - Digital Marketing Agency"
+        : "3R Core - Agencia de Marketing Digital",
+      description: locale === 'en'
+        ? "We combine Experience, Vision, and Technology into digital marketing strategies."
+        : "Combinamos Experiencia, Visión y Tecnología en estrategias de marketing digital.",
+      images: [`${BASE_URL}/og/default.webp`],
     },
     metadataBase: new URL(BASE_URL),
   }
@@ -138,7 +161,7 @@ export default async function RootLayout({
         { "@type": "OfferCatalog", "name": "Branding", "url": `${BASE_URL}/${locale}/servicios/branding` },
         { "@type": "OfferCatalog", "name": "Social Media", "url": `${BASE_URL}/${locale}/servicios/socialmedia` },
         { "@type": "OfferCatalog", "name": "Google Ads / SEO", "url": `${BASE_URL}/${locale}/servicios/google-ads` },
-        { "@type": "OfferCatalog", "name": locale === 'en' ? "Web Development" : "Desarrollo Web", "url": `${BASE_URL}/${locale}/servicios/web-deveploment` }
+        { "@type": "OfferCatalog", "name": locale === 'en' ? "Web Development" : "Desarrollo Web", "url": `${BASE_URL}/${locale}/servicios/web-development` }
       ]
     }
   }

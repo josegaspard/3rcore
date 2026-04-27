@@ -3,7 +3,7 @@ import { notFound } from "next/navigation"
 import { createServerClient } from "@/lib/supabase/server"
 import type { BlogPost } from "@/lib/supabase/types"
 import BlogPostView from "./BlogPostView"
-import { BASE_URL } from "@/lib/metadata"
+import { BASE_URL, DEFAULT_OG_IMAGE } from "@/lib/metadata"
 
 export const revalidate = 3600
 
@@ -86,7 +86,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: post.og_description || post.meta_description || post.excerpt || '',
       url: canonical,
       siteName: '3R Core',
-      images: image ? [{ url: image, width: 1200, height: 630 }] : [],
+      images: image
+        ? [{ url: image, width: 1200, height: 630 }]
+        : [{ url: DEFAULT_OG_IMAGE.url, width: DEFAULT_OG_IMAGE.width, height: DEFAULT_OG_IMAGE.height, alt: DEFAULT_OG_IMAGE.alt }],
       type: 'article',
       locale: locale === 'en' ? 'en_US' : 'es_PE',
       publishedTime: post.published_at || undefined,
@@ -97,7 +99,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       card: 'summary_large_image',
       title: post.og_title || post.title,
       description: post.og_description || post.meta_description || post.excerpt || '',
-      images: image ? [image] : [],
+      images: image ? [image] : [DEFAULT_OG_IMAGE.url],
     },
   }
 }

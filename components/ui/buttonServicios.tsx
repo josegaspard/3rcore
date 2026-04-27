@@ -20,7 +20,7 @@ export default function ButtonServicios() {
     { href: "/servicios/branding", label: "Branding" },
     { href: "/servicios/socialmedia", label: "Social Media" },
     { href: "/servicios/seo-sem", label: "Google SEO / SEM" },
-    { href: "/servicios/web-deveploment", label: "Web Development" },
+    { href: "/servicios/web-development", label: "Web Development" },
   ];
 
   const handleScrollTop = (href: string) => {

@@ -5,6 +5,8 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   images: {
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 31536000,
     remotePatterns: [
       {
         protocol: 'https',
@@ -22,6 +24,50 @@ const nextConfig: NextConfig = {
         pathname: '**',
       }
     ],
+  },
+  async redirects() {
+    return [
+      {
+        source: '/:locale(es|en)/servicios/web-deveploment',
+        destination: '/:locale/servicios/web-development',
+        permanent: true,
+      },
+      {
+        source: '/servicios/web-deveploment',
+        destination: '/es/servicios/web-development',
+        permanent: true,
+      },
+      {
+        source: '/:locale(es|en)/blog',
+        destination: '/:locale/blogs',
+        permanent: true,
+      },
+      {
+        source: '/:locale(es|en)/blog/:slug*',
+        destination: '/:locale/blogs/:slug*',
+        permanent: true,
+      },
+      {
+        source: '/blog',
+        destination: '/es/blogs',
+        permanent: true,
+      },
+      {
+        source: '/blog/:slug*',
+        destination: '/es/blogs/:slug*',
+        permanent: true,
+      },
+      {
+        source: '/:locale(es|en)/contacto',
+        destination: '/:locale#contacto',
+        permanent: true,
+      },
+      {
+        source: '/contacto',
+        destination: '/es#contacto',
+        permanent: true,
+      },
+    ];
   },
   experimental: {
     optimizeCss: true,

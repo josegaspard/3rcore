@@ -11,7 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: '/servicios/branding', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/servicios/socialmedia', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/servicios/google-ads', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/servicios/web-deveploment', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/servicios/web-development', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/posicionamiento-seo', priority: 0.9, changeFrequency: 'monthly' as const },
     { path: '/blogs', priority: 0.7, changeFrequency: 'daily' as const },
     { path: '/preguntas', priority: 0.6, changeFrequency: 'monthly' as const },
@@ -21,7 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]
 
   const staticEntries: MetadataRoute.Sitemap = staticPages.map((page) => ({
-    url: `${baseUrl}${page.path}`,
+    url: `${baseUrl}/es${page.path}`,
     lastModified: new Date(),
     changeFrequency: page.changeFrequency,
     priority: page.priority,
@@ -29,12 +29,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       languages: {
         es: `${baseUrl}/es${page.path}`,
         en: `${baseUrl}/en${page.path}`,
+        'x-default': `${baseUrl}/es${page.path}`,
       },
     },
   }))
 
-  // Fetch blog posts from Supabase
   let blogEntries: MetadataRoute.Sitemap = []
+  let hasEnglishPosts = false
   try {
     const supabase = createServerClient()
     const { data: posts } = await supabase
@@ -44,6 +45,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       .order('published_at', { ascending: false })
 
     if (posts) {
+      hasEnglishPosts = posts.some((p) => p.locale === 'en')
       blogEntries = posts.map((post) => ({
         url: `${baseUrl}/${post.locale}/blogs/${post.slug}`,
         lastModified: new Date(post.updated_at),
@@ -52,7 +54,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: {
           languages: {
             es: `${baseUrl}/es/blogs/${post.slug}`,
-            en: `${baseUrl}/en/blogs/${post.slug}`,
+            ...(hasEnglishPosts && { en: `${baseUrl}/en/blogs/${post.slug}` }),
+            'x-default': `${baseUrl}/es/blogs/${post.slug}`,
           },
         },
       }))
