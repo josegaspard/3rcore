@@ -643,4 +643,212 @@
   "servicesButton":{
     "servicios":"Services"
   }
+  ,
+  "HiddenH1": {
+    "home": "Digital marketing agency, web design and social media management in Lima, Peru",
+    "branding": "Corporate branding agency and brand identity design in Lima, Peru",
+    "webdev": "Web design and development agency in Lima, Peru: online stores, landing pages and corporate websites",
+    "googleads": "Certified Google Ads agency and SEM campaign management in Lima, Peru",
+    "socialmedia": "Social media management and community manager agency in Lima, Peru"
+  }
+  ,
+  "HomeFAQ": {
+    "badge": "Frequently Asked Questions",
+    "title": "Most asked questions about 3R Core",
+    "faqs": {
+      "q1": {
+        "question": "What does a digital marketing agency like 3R Core actually do?",
+        "answer": "We design websites, manage your social media, run Google Ads campaigns, position your brand on Google through SEO and develop your visual identity (branding). We work as your external marketing team: strategy + execution + monthly data-driven reports."
+      },
+      "q2": {
+        "question": "Do you serve clients outside Lima or only in Peru?",
+        "answer": "We serve clients across Peru and the United States. We work remotely with video meetings and online reports. If your brand is outside Lima, no problem: 60% of our projects run 100% remotely."
+      },
+      "q3": {
+        "question": "How much does it cost to hire a digital marketing agency in Lima?",
+        "answer": "It depends on the service and scope. As reference: our SEO plan starts at $450/month; Google Ads campaigns from $360 + ad spend; social media management depending on frequency and platforms. In our first meeting we deliver a tailored quote."
+      },
+      "q4": {
+        "question": "How long does it take to see real results?",
+        "answer": "Google Ads and paid campaigns deliver results from month one. SEO and branding consolidate within 3 to 6 months. Social media management shows engagement impact from week 4. We give you clear KPIs from day one."
+      },
+      "q5": {
+        "question": "Why choose 3R Core over another agency?",
+        "answer": "We are a 3-generation family agency (3R = the three Roque brothers) combining traditional experience with technology and digital-native vision. Every client works directly with a director, not a junior account. Transparent monthly reports and no forced long-term contracts."
+      },
+      "q6": {
+        "question": "Do I need to have my brand ready or can you help me build it?",
+        "answer": "Both. If you already have branding, we respect it and build on top. If you start from scratch, our Branding team creates your logo, visual identity, brand book and every piece needed for your business to compete strongly online."
+      }
+    }
+  }
+  ,
+  "HomeSEO": {
+    "seoTitle": "Digital marketing agency in Lima with 360° vision",
+    "p1": "3R Core is a digital marketing agency based in Lima, Peru, specialized in giving your brand everything it needs to grow online: a well-designed website, social media that communicates, profitable Google Ads campaigns and SEO positioning that makes you appear when your customers search for what you offer.",
+    "p2": "Unlike traditional agencies, we work with a multidisciplinary team where every client has direct contact with the directors. This means faster decisions, sharper strategies and clear monthly reports with real metrics: clicks, conversions, cost per lead, ROI and Google rankings.",
+    "p3": "Our services cover the full digital marketing value chain in Peru: professional web design and development (corporate sites, landing pages, e-commerce on Shopify and WooCommerce), social media management with editorial grid and post design, Google Ads SEM campaigns and organic SEO positioning so your brand dominates search results.",
+    "p4": "If you are looking for a digital agency in Lima that understands both Peruvian business tradition and the new rules of digital marketing, let's talk. We invite you to a free initial meeting where we listen to your business, review your goals and craft a tailored proposal.",
+    "relatedTitle": "Explore our services"
+  }
+  ,
+  "BrandingFAQ": {
+    "badge": "Frequently Asked Questions",
+    "title": "Everything about our Branding service",
+    "faqs": {
+      "q1": {
+        "question": "What is included in 3R Core's professional branding service?",
+        "answer": "Brand research, naming (if applicable), responsive logo design, corporate color palette, official typography, brand manual PDF, social media templates, corporate stationery (business cards, letterhead, envelopes), and brand applications on real mockups."
+      },
+      "q2": {
+        "question": "How long does a complete branding project take?",
+        "answer": "A full branding project takes 4 to 8 weeks, depending on detail and revisions. We send you a clear timeline with milestones: discovery, proposals, refinement and final delivery with all editable files."
+      },
+      "q3": {
+        "question": "How much does designing my brand identity in Lima cost?",
+        "answer": "Branding projects at 3R Core start at $1,000 USD for startups and scale according to corporate scope. We deliver a formal quote with detailed deliverables after an initial discovery session."
+      },
+      "q4": {
+        "question": "If I only want a logo, can you do that?",
+        "answer": "Yes, we offer individual logo packages. However, we always recommend full branding: an isolated logo, without a visual system or manual, tends to lose strength and ends up being applied poorly across social media, web and ads."
+      },
+      "q5": {
+        "question": "Will I receive the editable logo and brand manual files?",
+        "answer": "Yes, with no locks or restrictions. You receive vector files (.AI, .EPS, .SVG), .PDF for print, .PNG/.JPG for web, and the complete brand manual. The identity is 100% yours after delivery."
+      },
+      "q6": {
+        "question": "Do you work with companies that already have a brand but want to redesign it?",
+        "answer": "Yes, we do rebranding and brand refresh. We audit the current identity, preserve valuable assets and modernize what no longer works. It's a more careful intervention because we must protect existing brand recognition."
+      }
+    }
+  }
+  ,
+  "BrandingSEO": {
+    "seoTitle": "Branding Agency in Lima: visual identity with purpose",
+    "p1": "Corporate branding is much more than designing a beautiful logo: it is building the visual and narrative system that turns your brand into something memorable, recognizable and different from the competition. At 3R Core we design complete brand identities for companies and startups in Lima, Peru and the United States.",
+    "p2": "Our branding process starts with a deep discovery session where we listen to your story, value proposition and ideal customer. From there we build the strategic foundation and design every visual piece: logo, color palette, typography, iconography, stationery and digital applications.",
+    "p3": "Well-executed branding directly impacts your digital marketing: it makes social media content creation easier, improves your website's visual coherence, makes your Google Ads campaigns more effective and projects professionalism at every customer touchpoint.",
+    "p4": "If your brand is already in market and needs a refresh, we also do rebranding while preserving accumulated brand equity. Let's talk: the first meeting is free and from it we build the brief to quote your project.",
+    "relatedTitle": "Services that complement branding"
+  }
+  ,
+  "WebDevFAQ": {
+    "badge": "Frequently Asked Questions",
+    "title": "Web design & development in Lima — What you should know",
+    "faqs": {
+      "q1": {
+        "question": "How much does a professional website cost in Peru?",
+        "answer": "A professional landing page starts at $750 USD. A corporate site with 5–8 sections from $1,300. An e-commerce on Shopify or WooCommerce from $2,000 depending on catalog, payment gateways and integrations. Every quote is tailored after an initial meeting."
+      },
+      "q2": {
+        "question": "What technologies and platforms do you work with?",
+        "answer": "For sites and landings: Next.js, React, WordPress and modern stacks optimized for speed and SEO. For e-commerce: Shopify (best for selling online without complications) and WooCommerce (when maximum customization is needed). We advise you on the best fit for your business."
+      },
+      "q3": {
+        "question": "Will my website be SEO-optimized from day one?",
+        "answer": "Yes. Every site we deliver comes with technical SEO baseline: semantic structure, schema markup, sitemap, meta tags, image optimization, page speed, mobile-first and accessibility. To accelerate ranking, we complement with our monthly SEO service."
+      },
+      "q4": {
+        "question": "How long does it take to develop a website?",
+        "answer": "A simple landing takes 2–3 weeks. A corporate site between 4 and 6 weeks. A full e-commerce between 6 and 10 weeks depending on complexity. We deliver a milestone-based timeline so you have real visibility on progress."
+      },
+      "q5": {
+        "question": "Do you provide hosting, domain and post-launch support?",
+        "answer": "We advise you on domain purchase and configure the recommended hosting based on your project. After launch we offer monthly maintenance plans for updates, backups, security and continuous improvement."
+      },
+      "q6": {
+        "question": "Can I manage the website myself afterwards?",
+        "answer": "Yes. We deliver a recorded training and clear documentation so you can update texts, images, products or publish blog content without depending on us. If you prefer to delegate, we also offer maintenance plans."
+      }
+    }
+  }
+  ,
+  "WebDevSEO": {
+    "seoTitle": "Web Design in Lima: pages that sell, not just look good",
+    "p1": "A professional website is the most profitable tool of your digital marketing: it works 24/7, doesn't take vacations and converts visits into customers while you sleep. At 3R Core we design tailor-made websites in Lima, Peru, focused on conversion, speed and SEO from day one.",
+    "p2": "We build corporate websites for companies that need authority projection, specialized landing pages for Google Ads campaigns, and online stores (e-commerce) on Shopify and WooCommerce ready to process payments in soles, dollars and ship internationally.",
+    "p3": "Every web development project includes custom UX/UI design, mobile optimization (Google ranks mobile version first), technical SEO, integration with Google Analytics and Google Tag Manager, and forms connected to your email or WhatsApp so leads arrive instantly.",
+    "p4": "If you already have a site but it's slow, has no SEO or doesn't convert, we run audits and redesigns. The first consultation is free: we review your current site, tell you what to fix and build a concrete proposal for your digital investment to start paying off.",
+    "relatedTitle": "Combine your website with our other services"
+  }
+  ,
+  "GoogleAdsFAQ": {
+    "badge": "Frequently Asked Questions",
+    "title": "Google Ads campaigns that actually sell",
+    "faqs": {
+      "q1": {
+        "question": "How much should I invest in Google Ads to start?",
+        "answer": "We recommend a minimum ad spend of $450/month for actionable data, plus the management fee starting at $360/month. In highly competitive sectors (legal, real estate, healthcare) we suggest starting with $900+ in ad spend to stay in the auctions."
+      },
+      "q2": {
+        "question": "What types of Google Ads campaigns do you manage?",
+        "answer": "All of them: Search, Display, Performance Max, YouTube (Video Ads), Discovery, Shopping (e-commerce) and Remarketing. We recommend the optimal mix based on your industry, budget and commercial goals."
+      },
+      "q3": {
+        "question": "When will I see the first results?",
+        "answer": "Google Ads campaigns deliver traffic from day one. First conversions usually arrive within the first week. Fine optimization (lowering cost per lead, scaling converting keywords) takes 30 to 60 days."
+      },
+      "q4": {
+        "question": "Do I get access to the Google Ads account or do you keep it under your name?",
+        "answer": "The account is yours, always. We create it under your name and we manage it with management permissions. This means you can see your metrics anytime, revoke access whenever you want and keep the entire campaign history if you decide to switch agencies."
+      },
+      "q5": {
+        "question": "Monthly reports? Which metrics do you deliver?",
+        "answer": "Monthly PDF report + review session via video call. Key metrics: impressions, clicks, CTR, cost per click, conversions, cost per conversion (CPL), ROAS for e-commerce, and month-over-month comparison. If a campaign underperforms, we tell you before you notice."
+      },
+      "q6": {
+        "question": "Do you combine Google Ads with SEO or are they separate services?",
+        "answer": "We recommend combining them. Google Ads brings you customers from day one (short term) and SEO builds sustainable visibility (long term). When worked together, cost per lead drops over time because SEO starts bringing organic traffic you no longer pay for."
+      }
+    }
+  }
+  ,
+  "GoogleAdsSEO": {
+    "seoTitle": "Google Ads Agency in Lima: SEM campaigns with measurable ROI",
+    "p1": "Google Ads (formerly Google AdWords) is the fastest way to appear on Google when a customer searches for exactly what you sell. At 3R Core we design, launch and optimize SEM campaigns in Lima, Peru for companies that need to generate leads or sales in a predictable, measurable way.",
+    "p2": "We work with accounts of all sizes: from startups with $450 monthly budget to mid-sized companies with five-figure investments. What we never compromise on is rigor: keyword research, ad copy, geo-targeting, exclusions, aligned landing pages and properly installed conversion tracking.",
+    "p3": "We manage the full Google Ads ecosystem: Search Ads (best for capturing active demand), Performance Max (Google's AI-powered bet), YouTube Video Ads, Display, Shopping for e-commerce and Remarketing to recover visitors who left without buying.",
+    "p4": "Each client receives a monthly dashboard with clicks, cost per lead, conversions and ROAS. If your current campaign spends without converting, we run a free audit: we tell you exactly where your investment is leaking and prepare the proposal to take control.",
+    "relatedTitle": "Services that boost your Google Ads campaigns"
+  }
+  ,
+  "SocialMediaFAQ": {
+    "badge": "Frequently Asked Questions",
+    "title": "Social media management that moves the needle",
+    "faqs": {
+      "q1": {
+        "question": "How much does an agency charge for social media management in Lima?",
+        "answer": "Social media management plans at 3R Core start at $540/month for startups (Instagram + Facebook with 8–12 pieces) and scale according to frequency, platforms and audiovisual production. We deliver a detailed proposal in our first meeting."
+      },
+      "q2": {
+        "question": "Which social media platforms do you manage?",
+        "answer": "Instagram, Facebook, TikTok, LinkedIn (B2B), YouTube and X (formerly Twitter). We advise you on which make sense for your business: a fashion brand (Instagram + TikTok) is not the same as a B2B company (LinkedIn) or a restaurant (Instagram + Google Business Profile)."
+      },
+      "q3": {
+        "question": "Does it include content creation or just scheduling?",
+        "answer": "Full creation: strategy, copy, graphic design, Reels and TikTok editing, copywriting, hashtags, scheduling with editorial calendar and replying to comments and DMs. You approve the monthly grid before publishing."
+      },
+      "q4": {
+        "question": "Do you record the content or do I send it to you?",
+        "answer": "We work both ways. In-house production: we schedule a monthly photo and video session at your venue or studio. Hybrid mode: you send us raw material and we edit and publish. Each modality has its own plan."
+      },
+      "q5": {
+        "question": "Will I get monthly social media reports?",
+        "answer": "Yes. Each month you receive a PDF with: reach, impressions, follower growth, top post of the month, engagement by format (Reel vs post vs carousel), month-over-month comparison and recommendations for the next period."
+      },
+      "q6": {
+        "question": "Do you run social media ads (Meta Ads, TikTok Ads)?",
+        "answer": "Yes, we manage Meta Ads (Instagram + Facebook), TikTok Ads and LinkedIn Ads as a complement or as a standalone service. We recommend combining strong organic content with targeted ads to scale results without saturating your audience."
+      }
+    }
+  }
+  ,
+  "SocialMediaSEO": {
+    "seoTitle": "Social Media Management in Lima: community, content and conversion",
+    "p1": "Social media is not optional: it's the first place where your potential customer researches you before contacting you. At 3R Core we provide professional social media management in Lima, Peru, with strategy, design, copy and monthly reports so your brand doesn't just post, but grows.",
+    "p2": "Our community management service covers Instagram, Facebook, TikTok, LinkedIn, YouTube and X. We design the monthly editorial grid, produce posts (graphics, Reels, carousels), write the copy with brand tone, schedule publications and reply to direct messages and comments.",
+    "p3": "Unlike a freelancer, we work with a team: strategist, graphic designer, video editor, copywriter and community manager. Each client has a content plan adapted to their industry: a gastronomy brand doesn't communicate the same way as a dental clinic or a construction company.",
+    "p4": "If your brand already has social media but growth has stagnated, we run a free audit: we review your metrics, identify what kind of content works, what's missing and build a clear plan to grow engagement, reach and conversions. Request it by reaching out.",
+    "relatedTitle": "Services that boost your social media"
+  }
 }

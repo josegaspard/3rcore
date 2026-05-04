@@ -660,5 +660,213 @@
   "servicesButton":{
     "servicios":"Servicios"
   }
+  ,
+  "HiddenH1": {
+    "home": "Agencia de marketing digital, diseño web y manejo de redes sociales en Lima, Perú",
+    "branding": "Agencia de branding corporativo y diseño de identidad de marca en Lima, Perú",
+    "webdev": "Agencia de diseño y desarrollo web en Lima, Perú: tiendas online, landing pages y sitios corporativos",
+    "googleads": "Agencia certificada en Google Ads y campañas SEM en Lima, Perú",
+    "socialmedia": "Agencia de manejo de redes sociales y community manager en Lima, Perú"
+  }
+  ,
+  "HomeFAQ": {
+    "badge": "Preguntas Frecuentes",
+    "title": "Lo que más nos preguntan sobre 3R Core",
+    "faqs": {
+      "q1": {
+        "question": "¿Qué hace exactamente una agencia de marketing digital como 3R Core?",
+        "answer": "Diseñamos páginas web, gestionamos tus redes sociales, hacemos campañas en Google Ads, posicionamos tu marca en Google con SEO y desarrollamos tu identidad visual (branding). Trabajamos como tu equipo de marketing externo: estrategia + ejecución + reporte mensual con datos."
+      },
+      "q2": {
+        "question": "¿Atienden empresas fuera de Lima o solo en Perú?",
+        "answer": "Atendemos clientes en todo Perú y en Estados Unidos. Trabajamos de forma remota con reuniones por videollamada y reportes online. Si tu marca está fuera de Lima, no es problema: el 60% de nuestros proyectos son 100% remotos."
+      },
+      "q3": {
+        "question": "¿Cuánto cuesta contratar una agencia de marketing digital en Lima?",
+        "answer": "Depende del servicio y del alcance. Como referencia: nuestro plan SEO arranca en S/1,500 al mes; las campañas de Google Ads desde S/1,200 + presupuesto de pauta; el manejo de redes sociales según frecuencia y plataformas. En la primera reunión te damos una propuesta económica a la medida de tu negocio."
+      },
+      "q4": {
+        "question": "¿En cuánto tiempo se ven resultados reales?",
+        "answer": "Google Ads y campañas pagadas dan resultados desde el primer mes. SEO y branding se consolidan entre 3 y 6 meses. El manejo de redes sociales muestra impacto en interacción desde la 4ta semana. Te entregamos KPIs claros desde el día 1 para que midas el avance."
+      },
+      "q5": {
+        "question": "¿Por qué elegir 3R Core y no a otra agencia?",
+        "answer": "Somos una agencia familiar de tres generaciones (3R = los tres hermanos Roque) que combina experiencia tradicional con tecnología y mirada digital nativa. Cada cliente trabaja directo con un director, no con un account junior. Reportes mensuales transparentes y sin contratos forzados a largo plazo."
+      },
+      "q6": {
+        "question": "¿Necesito tener mi marca lista o ustedes me ayudan a crearla?",
+        "answer": "Las dos cosas. Si ya tienes branding, lo respetamos y construimos sobre él. Si arrancas desde cero, nuestro equipo de Branding crea tu logo, identidad visual, manual de marca y todas las piezas necesarias para que tu negocio salga a competir bien parado en digital."
+      }
+    }
+  }
+  ,
+  "HomeSEO": {
+    "seoTitle": "Agencia de marketing digital en Lima con visión 360°",
+    "p1": "3R Core es una agencia de marketing digital ubicada en Lima, Perú, especializada en darle a tu marca todo lo que necesita para crecer en internet: una página web bien diseñada, redes sociales que comuniquen, campañas de Google Ads rentables y un posicionamiento SEO que te haga aparecer cuando tus clientes buscan lo que ofreces.",
+    "p2": "A diferencia de las agencias tradicionales, trabajamos con un equipo multidisciplinario donde cada cliente tiene contacto directo con los directores. Esto se traduce en decisiones rápidas, estrategias afinadas y reportes mensuales claros con métricas reales: clics, conversiones, costo por lead, retorno de inversión y rankings en Google.",
+    "p3": "Nuestros servicios cubren toda la cadena de valor del marketing digital en Perú: diseño y desarrollo web profesional (sitios corporativos, landing pages, e-commerce en Shopify y WooCommerce), gestión de redes sociales con grilla editorial y diseño de posts, campañas SEM en Google Ads y posicionamiento SEO orgánico para que tu marca domine los resultados de búsqueda.",
+    "p4": "Si buscas una agencia digital en Lima que entienda tanto la tradición empresarial peruana como las nuevas reglas del marketing digital, conversemos. Te invitamos a una reunión inicial gratuita donde escuchamos tu negocio, revisamos tus objetivos y armamos una propuesta a la medida.",
+    "relatedTitle": "Explora nuestros servicios"
+  }
+  ,
+  "BrandingFAQ": {
+    "badge": "Preguntas Frecuentes",
+    "title": "Todo sobre nuestro servicio de Branding",
+    "faqs": {
+      "q1": {
+        "question": "¿Qué incluye un servicio de branding profesional en 3R Core?",
+        "answer": "Investigación de marca, naming (si aplica), diseño de logotipo en versiones responsive, paleta de colores corporativa, tipografía oficial, manual de marca PDF, plantillas para redes sociales, papelería corporativa (tarjetas, hoja membretada, sobres), y aplicaciones de marca en mockups reales."
+      },
+      "q2": {
+        "question": "¿En cuánto tiempo entregan un proyecto de branding completo?",
+        "answer": "Un proyecto de branding integral toma entre 4 y 8 semanas, dependiendo del nivel de detalle y revisiones. Te enviamos un cronograma claro con hitos: descubrimiento, propuestas, refinamiento y entrega final con todos los archivos editables."
+      },
+      "q3": {
+        "question": "¿Cuánto cuesta diseñar la identidad de mi marca en Lima?",
+        "answer": "Los proyectos de branding en 3R Core arrancan desde S/3,500 para emprendimientos y pueden escalar según el alcance corporativo. Te entregamos cotización formal con detalle de entregables después de una sesión inicial de descubrimiento."
+      },
+      "q4": {
+        "question": "¿Si solo quiero un logo, también lo hacen?",
+        "answer": "Sí, ofrecemos paquetes de logo individuales. Sin embargo, recomendamos siempre el branding completo: un logo aislado, sin sistema visual ni manual, suele perder fuerza y termina aplicándose mal en redes, web y publicidad."
+      },
+      "q5": {
+        "question": "¿Me entregan los archivos editables del logo y manual?",
+        "answer": "Sí, sin candados ni restricciones. Recibes tus archivos en formato vectorial (.AI, .EPS, .SVG), .PDF para imprenta, .PNG/.JPG para web, y el manual de marca completo. La identidad es 100% tuya tras la entrega."
+      },
+      "q6": {
+        "question": "¿Trabajan con empresas que ya tienen marca pero quieren rediseñarla?",
+        "answer": "Sí, hacemos rebranding y refresh de marca. Auditamos la identidad actual, conservamos los activos valiosos y modernizamos lo que ya no funciona. Es una intervención más cuidadosa porque hay que proteger el reconocimiento ya ganado."
+      }
+    }
+  }
+  ,
+  "BrandingSEO": {
+    "seoTitle": "Agencia de Branding en Lima: identidad visual con propósito",
+    "p1": "El branding corporativo es mucho más que diseñar un logo bonito: es construir el sistema visual y narrativo que convierte tu marca en algo memorable, reconocible y diferente de la competencia. En 3R Core diseñamos identidades de marca completas para empresas y emprendimientos en Lima, Perú y EE.UU.",
+    "p2": "Nuestro proceso de branding empieza con una sesión profunda de descubrimiento donde escuchamos tu historia, tu propuesta de valor y tu cliente ideal. A partir de ahí construimos la base estratégica y diseñamos cada pieza visual: logotipo, paleta cromática, tipografías, iconografía, papelería y aplicaciones digitales.",
+    "p3": "Un branding bien hecho impacta directamente en tu marketing digital: facilita la creación de contenido para redes sociales, mejora la coherencia visual de tu página web, hace más efectivas tus campañas de Google Ads y proyecta profesionalismo en cada punto de contacto con el cliente.",
+    "p4": "Si tu marca ya está en el mercado y necesita un refresh, también hacemos rebranding cuidando la equidad de marca acumulada. Conversemos: la primera reunión es gratuita y de ahí sale el brief con el que cotizamos tu proyecto.",
+    "relatedTitle": "Servicios complementarios al branding"
+  }
+  ,
+  "WebDevFAQ": {
+    "badge": "Preguntas Frecuentes",
+    "title": "Diseño y desarrollo web en Lima — Lo que debes saber",
+    "faqs": {
+      "q1": {
+        "question": "¿Cuánto cuesta diseñar una página web profesional en Perú?",
+        "answer": "Una landing page profesional arranca en S/2,500. Una web corporativa con 5–8 secciones desde S/4,500. Un e-commerce con Shopify o WooCommerce desde S/6,500 según catálogo, pasarelas de pago e integraciones. Cada propuesta es a la medida y la cotizamos tras una reunión inicial."
+      },
+      "q2": {
+        "question": "¿Con qué tecnologías y plataformas trabajan?",
+        "answer": "Para sitios y landings: Next.js, React, WordPress y stacks modernos optimizados para velocidad y SEO. Para e-commerce: Shopify (la mejor para vender online sin complicaciones) y WooCommerce (cuando hay que personalizar al máximo). Te asesoramos cuál te conviene según tu negocio."
+      },
+      "q3": {
+        "question": "¿Mi web va a estar optimizada para SEO desde el inicio?",
+        "answer": "Sí. Cada sitio que entregamos viene con SEO técnico de base: estructura semántica, schema markup, sitemap, meta tags, optimización de imágenes, velocidad de carga, mobile-first y accesibilidad. Si quieres acelerar el posicionamiento, complementamos con nuestro servicio SEO mensual."
+      },
+      "q4": {
+        "question": "¿Cuánto tiempo toma desarrollar una página web?",
+        "answer": "Una landing simple toma 2–3 semanas. Una web corporativa entre 4 y 6 semanas. Un e-commerce completo entre 6 y 10 semanas según complejidad. Te entregamos cronograma con hitos y aprobaciones por fase para que tengas visibilidad real del avance."
+      },
+      "q5": {
+        "question": "¿Me dan hosting, dominio y soporte después del lanzamiento?",
+        "answer": "Te asesoramos en la compra del dominio y configuramos el hosting recomendado según tu proyecto. Después del lanzamiento ofrecemos planes de mantenimiento mensual para actualizaciones, backups, seguridad y mejoras continuas."
+      },
+      "q6": {
+        "question": "¿La web la puedo administrar yo después?",
+        "answer": "Sí. Entregamos una capacitación grabada y documentación clara para que puedas actualizar textos, imágenes, productos o publicar en el blog sin depender de nosotros. Si prefieres delegarlo, también ofrecemos planes de mantenimiento."
+      }
+    }
+  }
+  ,
+  "WebDevSEO": {
+    "seoTitle": "Diseño Web en Lima: páginas que venden, no solo se ven bien",
+    "p1": "Una página web profesional es la herramienta más rentable de tu marketing digital: trabaja 24/7, no toma vacaciones y convierte visitas en clientes mientras duermes. En 3R Core diseñamos sitios web a medida en Lima, Perú, enfocados en conversión, velocidad y SEO desde el primer día.",
+    "p2": "Hacemos páginas web corporativas para empresas que necesitan proyectar autoridad, landing pages especializadas para campañas de Google Ads, y tiendas online (e-commerce) en Shopify y WooCommerce que están listas para procesar pagos en soles, dólares y exportar al extranjero.",
+    "p3": "Cada proyecto de desarrollo web incluye diseño UX/UI personalizado, optimización para móviles (Google rankea primero la versión móvil), SEO técnico, integración con Google Analytics y Google Tag Manager, y formularios conectados a tu correo o WhatsApp para que los leads lleguen instantáneamente.",
+    "p4": "Si ya tienes una web pero está lenta, sin SEO o no convierte, hacemos auditorías y rediseños. La primera consultoría es gratuita: revisamos tu sitio actual, te decimos qué arreglar y armamos una propuesta concreta para que tu inversión digital empiece a rendir.",
+    "relatedTitle": "Combina tu web con nuestros otros servicios"
+  }
+  ,
+  "GoogleAdsFAQ": {
+    "badge": "Preguntas Frecuentes",
+    "title": "Campañas Google Ads que sí venden",
+    "faqs": {
+      "q1": {
+        "question": "¿Cuánto debo invertir en Google Ads para empezar?",
+        "answer": "Recomendamos un presupuesto mínimo de pauta de S/1,500 al mes para tener data accionable, sumado al fee de gestión que arranca en S/1,200 mensuales. En sectores muy competidos (legal, inmobiliario, salud) sugerimos arrancar con S/3,000+ de pauta para no quedarte fuera de las subastas."
+      },
+      "q2": {
+        "question": "¿Qué tipo de campañas Google Ads manejan?",
+        "answer": "Manejamos todas: Search (búsqueda), Display (banners), Performance Max, YouTube (Video Ads), Discovery, Shopping (e-commerce) y Remarketing. Te recomendamos la mezcla óptima según tu industria, presupuesto y objetivos comerciales."
+      },
+      "q3": {
+        "question": "¿Cuándo veo los primeros resultados?",
+        "answer": "Las campañas Google Ads dan tráfico desde el primer día. Las primeras conversiones suelen llegar en la primera semana. La optimización fina (bajar costo por lead, escalar las palabras clave que sí convierten) toma entre 30 y 60 días."
+      },
+      "q4": {
+        "question": "¿Me dan acceso a la cuenta de Google Ads o ustedes manejan todo a su nombre?",
+        "answer": "La cuenta es tuya, siempre. La creamos a tu nombre y nosotros la administramos con permisos de gestión. Esto significa que puedes ver tus métricas en cualquier momento, retirar el acceso cuando quieras y conservar todo el historial de campañas si decides cambiar de agencia."
+      },
+      "q5": {
+        "question": "¿Reportes mensuales? ¿Qué métricas me entregan?",
+        "answer": "Reporte mensual en PDF + sesión de revisión por videollamada. Métricas clave: impresiones, clics, CTR, costo por clic, conversiones, costo por conversión (CPL), ROAS si hay e-commerce, y comparativa mes a mes. Si una campaña no rinde, te lo decimos antes que tú lo notes."
+      },
+      "q6": {
+        "question": "¿Combinan Google Ads con SEO o son servicios separados?",
+        "answer": "Recomendamos combinarlos. Google Ads te trae clientes desde el primer día (corto plazo) y SEO construye visibilidad sostenible (largo plazo). Cuando se trabajan juntos, el costo por lead baja con el tiempo porque el SEO empieza a traer tráfico orgánico que ya no pagas."
+      }
+    }
+  }
+  ,
+  "GoogleAdsSEO": {
+    "seoTitle": "Agencia Google Ads en Lima: campañas SEM con ROI medible",
+    "p1": "Google Ads (antes Google AdWords) es la forma más rápida de aparecer en Google cuando un cliente busca exactamente lo que vendes. En 3R Core diseñamos, lanzamos y optimizamos campañas SEM en Lima, Perú para empresas que necesitan generar leads o ventas de manera predecible y medible.",
+    "p2": "Trabajamos con cuentas de todos los tamaños: desde emprendimientos con S/1,500 de presupuesto mensual hasta empresas medianas con inversiones de cinco cifras. Lo que no negociamos es el rigor: investigación de palabras clave, redacción de anuncios, segmentación geográfica, exclusiones, landing pages alineadas y medición de conversiones bien instaladas.",
+    "p3": "Manejamos el ecosistema completo de Google Ads: Search Ads (la mejor para captar demanda activa), Performance Max (la apuesta de Google con IA), YouTube Video Ads, Display, Shopping para e-commerce y Remarketing para recuperar a quienes visitaron tu web sin comprar.",
+    "p4": "Cada cliente recibe un dashboard mensual con clics, costo por lead, conversiones y ROAS. Si tu campaña actual gasta y no convierte, hacemos auditoría gratuita: te decimos exactamente dónde se está fugando tu inversión y armamos la propuesta para tomar el control.",
+    "relatedTitle": "Servicios que potencian tus campañas Google Ads"
+  }
+  ,
+  "SocialMediaFAQ": {
+    "badge": "Preguntas Frecuentes",
+    "title": "Manejo de redes sociales que sí mueve la aguja",
+    "faqs": {
+      "q1": {
+        "question": "¿Cuánto cobra una agencia por manejo de redes sociales en Lima?",
+        "answer": "Los planes de manejo de redes sociales en 3R Core arrancan en S/1,800 mensuales para emprendimientos (Instagram + Facebook con 8–12 piezas) y escalan a partir de ahí según frecuencia, plataformas y producción audiovisual. Te entregamos propuesta detallada en la primera reunión."
+      },
+      "q2": {
+        "question": "¿Qué redes sociales manejan?",
+        "answer": "Instagram, Facebook, TikTok, LinkedIn (B2B), YouTube y X (antes Twitter). Te asesoramos cuáles tienen sentido para tu negocio: no es lo mismo una marca de moda (Instagram + TikTok) que una empresa B2B (LinkedIn) o un restaurante (Instagram + Google Business Profile)."
+      },
+      "q3": {
+        "question": "¿Incluye creación de contenido o solo programación?",
+        "answer": "Creación completa: estrategia, copy, diseño gráfico, edición de Reels y TikToks, redacción de copy, hashtags, programación con cronograma editorial y respuesta a comentarios y mensajes directos. Tú apruebas la grilla mensual antes de publicar."
+      },
+      "q4": {
+        "question": "¿Ustedes graban el contenido o yo se los paso?",
+        "answer": "Trabajamos las dos modalidades. Producción in-house: agendamos sesión mensual de fotos y video en tu local o estudio. Modalidad híbrida: tú nos pasas el material en bruto y nosotros lo editamos y publicamos. Cada modalidad tiene un plan distinto."
+      },
+      "q5": {
+        "question": "¿Me dan reportes de redes sociales mensuales?",
+        "answer": "Sí. Cada mes recibes un PDF con: alcance, impresiones, crecimiento de seguidores, mejor publicación del mes, engagement por formato (Reel vs post vs carrusel), comparativa mes a mes y recomendaciones para el siguiente período."
+      },
+      "q6": {
+        "question": "¿Hacen pauta en redes sociales (Meta Ads, TikTok Ads)?",
+        "answer": "Sí, manejamos Meta Ads (Instagram + Facebook), TikTok Ads y LinkedIn Ads como complemento o como servicio independiente. Recomendamos combinar contenido orgánico fuerte con pauta dirigida para escalar resultados sin saturar a tu audiencia."
+      }
+    }
+  }
+  ,
+  "SocialMediaSEO": {
+    "seoTitle": "Manejo de Redes Sociales en Lima: comunidad, contenido y conversión",
+    "p1": "Las redes sociales no son un canal opcional: son el primer lugar donde tu cliente potencial te investiga antes de contactarte. En 3R Core hacemos manejo profesional de redes sociales en Lima, Perú, con estrategia, diseño, copy y reportes mensuales para que tu marca no solo publique, sino que crezca.",
+    "p2": "Nuestro servicio de community management cubre Instagram, Facebook, TikTok, LinkedIn, YouTube y X. Diseñamos la grilla editorial mensual, producimos los posts (gráficos, Reels, carruseles), redactamos el copy con tono de marca, programamos las publicaciones y respondemos los mensajes directos y comentarios.",
+    "p3": "A diferencia de un freelance, trabajamos con un equipo: estratega, diseñador gráfico, editor de video, copywriter y community manager. Cada cliente tiene un plan de contenidos adaptado a su industria: una marca de gastronomía no se comunica igual que una clínica dental o que una constructora.",
+    "p4": "Si tu marca ya tiene redes pero el crecimiento se estancó, hacemos auditoría gratuita: revisamos tus métricas, identificamos qué tipo de contenido funciona, qué falta y armamos un plan claro para subir interacción, alcance y conversiones. Pídela conversando con nosotros.",
+    "relatedTitle": "Servicios que potencian tus redes sociales"
+  }
 
 } 

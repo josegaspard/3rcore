@@ -35,11 +35,11 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
 
   return {
     title: locale === 'en'
-      ? "3R Core - Digital Marketing Agency"
-      : "3R Core - Agencia de Marketing Digital",
+      ? "3R Core | Digital Marketing Agency in Lima — Web Design, Social Media, SEO & Google Ads"
+      : "3R Core | Agencia de Marketing Digital en Lima — Diseño Web, Redes Sociales, SEO y Google Ads",
     description: locale === 'en'
-      ? "We combine Experience, Vision, and Technology into digital marketing strategies. Branding, Social Media, SEO, Google Ads & Web Development in Lima, Peru."
-      : "Combinamos Experiencia, Visión y Tecnología en estrategias de marketing digital. Branding, Social Media, SEO, Google Ads y Desarrollo Web en Lima, Perú.",
+      ? "Digital marketing agency in Lima, Peru. We design websites, manage social media, run Google Ads campaigns, position your brand on Google (SEO) and develop your corporate branding. Real ROI, monthly reports."
+      : "Agencia de marketing digital en Lima, Perú. Hacemos diseño web profesional, manejo de redes sociales, campañas Google Ads, posicionamiento SEO en Google y branding corporativo. ROI medible y reportes mensuales.",
     alternates: {
       canonical: `${BASE_URL}/${locale}`,
       languages: {
@@ -50,11 +50,11 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
     },
     openGraph: {
       title: locale === 'en'
-        ? "3R Core - Digital Marketing Agency"
-        : "3R Core - Agencia de Marketing Digital",
+        ? "3R Core | Digital Marketing Agency in Lima"
+        : "3R Core | Agencia de Marketing Digital en Lima",
       description: locale === 'en'
-        ? "We combine Experience, Vision, and Technology into digital marketing strategies. Branding, Social Media, SEO, Google Ads & Web Development in Lima, Peru."
-        : "Combinamos Experiencia, Visión y Tecnología en estrategias de marketing digital. Branding, Social Media, SEO, Google Ads y Desarrollo Web en Lima, Perú.",
+        ? "Digital marketing agency in Lima, Peru. Web design, social media management, Google Ads, SEO and branding with measurable ROI."
+        : "Agencia de marketing digital en Lima, Perú. Diseño web, manejo de redes sociales, Google Ads, posicionamiento SEO y branding con ROI medible.",
       url: `${BASE_URL}/${locale}`,
       siteName: "3R Core",
       locale: locale === 'en' ? 'en_US' : 'es_PE',
@@ -261,17 +261,59 @@ export default async function RootLayout({
     "@type": "WebSite",
     "@id": `${BASE_URL}/#website`,
     "name": "3R Core",
+    "alternateName": "3R Core - Agencia de Marketing Digital",
     "url": BASE_URL,
     "publisher": { "@id": `${BASE_URL}/#organization` },
     "inLanguage": ["es", "en"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${BASE_URL}/${locale}/blogs?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
+
+  const navItems = locale === 'en'
+    ? [
+        { name: "Home", url: `${BASE_URL}/en` },
+        { name: "About Us", url: `${BASE_URL}/en/nosotros` },
+        { name: "Services", url: `${BASE_URL}/en/servicios` },
+        { name: "Web Design & Development", url: `${BASE_URL}/en/servicios/web-development` },
+        { name: "Social Media Management", url: `${BASE_URL}/en/servicios/socialmedia` },
+        { name: "Corporate Branding", url: `${BASE_URL}/en/servicios/branding` },
+        { name: "Google Ads", url: `${BASE_URL}/en/servicios/google-ads` },
+        { name: "SEO Positioning", url: `${BASE_URL}/en/posicionamiento-seo` },
+        { name: "Blog", url: `${BASE_URL}/en/blogs` },
+        { name: "FAQ", url: `${BASE_URL}/en/preguntas` },
+      ]
+    : [
+        { name: "Inicio", url: `${BASE_URL}/es` },
+        { name: "Nosotros", url: `${BASE_URL}/es/nosotros` },
+        { name: "Servicios", url: `${BASE_URL}/es/servicios` },
+        { name: "Diseño y Desarrollo Web", url: `${BASE_URL}/es/servicios/web-development` },
+        { name: "Manejo de Redes Sociales", url: `${BASE_URL}/es/servicios/socialmedia` },
+        { name: "Branding Corporativo", url: `${BASE_URL}/es/servicios/branding` },
+        { name: "Google Ads", url: `${BASE_URL}/es/servicios/google-ads` },
+        { name: "Posicionamiento SEO", url: `${BASE_URL}/es/posicionamiento-seo` },
+        { name: "Blog", url: `${BASE_URL}/es/blogs` },
+        { name: "Preguntas Frecuentes", url: `${BASE_URL}/es/preguntas` },
+      ]
+
+  const siteNavigationSchema = navItems.map((item) => ({
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    "name": item.name,
+    "url": item.url,
+  }))
 
   return (
     <html lang={locale}>
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify([organizationSchema, websiteSchema]) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify([organizationSchema, websiteSchema, ...siteNavigationSchema]) }}
         />
       </head>
       <ReactLenis root options={lenisOptions}>
@@ -304,6 +346,21 @@ export default async function RootLayout({
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
               })(window,document,'script','dataLayer','GTM-54VJ6F97');`
+            }}
+          />
+          <Script
+            id="ga4-loader"
+            strategy="afterInteractive"
+            src="https://www.googletagmanager.com/gtag/js?id=G-SQBPMGH3BM"
+          />
+          <Script
+            id="ga4-init"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SQBPMGH3BM');`
             }}
           />
         </body>
