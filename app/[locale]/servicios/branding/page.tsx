@@ -49,7 +49,7 @@ export default function Branding() {
       <Portfolio />
       <ClientSection />
       <ReviewsSection/>
-      <ServiceFAQ namespace="BrandingFAQ" count={6} />
+      <ServiceFAQ namespace="BrandingFAQ" count={10} />
       <SEOContentBlock
         namespace="BrandingSEO"
         paragraphs={4}

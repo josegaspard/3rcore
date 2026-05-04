@@ -46,7 +46,7 @@ export default function GoogleAds(){
         <ReviewsSection/>
         <WorkMethodology/>
         <ToolsCarousel/>
-        <ServiceFAQ namespace="GoogleAdsFAQ" count={6} />
+        <ServiceFAQ namespace="GoogleAdsFAQ" count={10} />
         <SEOContentBlock
           namespace="GoogleAdsSEO"
           paragraphs={4}

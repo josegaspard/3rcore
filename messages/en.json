@@ -679,6 +679,22 @@
       "q6": {
         "question": "Do I need to have my brand ready or can you help me build it?",
         "answer": "Both. If you already have branding, we respect it and build on top. If you start from scratch, our Branding team creates your logo, visual identity, brand book and every piece needed for your business to compete strongly online."
+      },
+      "q7": {
+        "question": "How do I choose the best digital marketing agency in Lima?",
+        "answer": "Five filters that actually matter: 1) verifiable portfolio of projects similar to yours, 2) monthly reports with real metrics (not vanity metrics), 3) signed NDA and account ownership (your Google Ads, GA4 and social accounts stay yours), 4) a director joins the conversation, not just a junior account manager, and 5) real Google reviews and published case studies. At 3R Core we tick all 5."
+      },
+      "q8": {
+        "question": "Should I hire an agency or several freelancers?",
+        "answer": "For small, very specific projects a freelancer can work. For a full strategy (brand + web + social + ads + SEO) an agency gives you coordination, a multidisciplinary team, continuity if someone leaves and a real process. Quick math: hiring 4 freelancers (designer, dev, community, ads specialist) usually costs the same or more than an agency, with zero coordination between them."
+      },
+      "q9": {
+        "question": "How much should I invest monthly in digital marketing in Peru?",
+        "answer": "As a 2026 Lima reference: startups $750–1,400/month (covers social + basic ads), SMBs $1,500–3,600 (integrated strategy with social, ads, SEO and web improvements), mid-size companies $3,600–9,000 (full marketing with content production and CRO). What matters is not the budget itself but that ROI is positive by month 3."
+      },
+      "q10": {
+        "question": "What happens to my Google Ads, Meta Ads and Analytics accounts if I leave the agency?",
+        "answer": "They are 100% yours, always. At 3R Core we create accounts under your name and we manage them with management permissions. If you decide to switch agencies or move in-house, you keep the entire history, creatives, saved audiences and full configuration. Zero locks."
       }
     }
   }
@@ -719,6 +735,22 @@
       "q6": {
         "question": "Do you work with companies that already have a brand but want to redesign it?",
         "answer": "Yes, we do rebranding and brand refresh. We audit the current identity, preserve valuable assets and modernize what no longer works. It's a more careful intervention because we must protect existing brand recognition."
+      },
+      "q7": {
+        "question": "How do I choose a branding agency in Lima?",
+        "answer": "Always ask for 3 things before signing: 1) portfolio of projects in industries similar to yours, 2) written deliverables list (how many files, what formats, brand book length), and 3) timeline with clear milestones. A serious agency proposes a discovery session BEFORE quoting; a sloppy one throws a price without asking anything about your business."
+      },
+      "q8": {
+        "question": "What's the difference between logo design, visual identity and branding?",
+        "answer": "Logo is just the icon/symbol. Visual identity is the full system (logo + colors + typography + iconography). Branding is the brand strategy (positioning, value proposition, tone of voice, architecture) plus that visual identity applied at every touchpoint. Asking for 'just a logo' is usually false economy: it ends up costing more when the entire visual system needs to be redone."
+      },
+      "q9": {
+        "question": "What if I don't like any of the logo proposals?",
+        "answer": "We work with 2 included revision rounds: in the first we present 3 distinct concepts in black and white; we refine the chosen one in color and applications. If after the first round no concept convinces, we adjust the brief and iterate again at no additional cost. It's very rare: prior discovery gives us 80% of the work well-oriented."
+      },
+      "q10": {
+        "question": "Does my brand need rebranding or just a refresh?",
+        "answer": "Refresh: if your logo looks dated but the brand is still recognized (modernize typography, simplify, adjust colors). Rebranding: if your value proposition changed, if the target audience is different, if you merged with another company, or if the brand has negative associations. We do a free initial audit and tell you which one applies."
       }
     }
   }
@@ -799,6 +831,22 @@
       "q6": {
         "question": "Do you combine Google Ads with SEO or are they separate services?",
         "answer": "We recommend combining them. Google Ads brings you customers from day one (short term) and SEO builds sustainable visibility (long term). When worked together, cost per lead drops over time because SEO starts bringing organic traffic you no longer pay for."
+      },
+      "q7": {
+        "question": "How do I know if my Google Ads agency is doing a good job?",
+        "answer": "Watch three metrics that don't lie: 1) cost per conversion (must drop month over month, not rise), 2) average Quality Score across keywords (>=7 is good), and 3) ROAS for online sales (>=3x is healthy, >=5x excellent). If your agency shows you only impressions and clicks without discussing cost per conversion, they're selling smoke."
+      },
+      "q8": {
+        "question": "Google Ads or Meta Ads (Facebook/Instagram): which delivers better ROI?",
+        "answer": "Depends on the buying stage. Google Ads captures active demand (someone is ALREADY searching what you sell) → fast conversion, high ROI. Meta Ads creates demand (interrupts those who weren't searching) → lower tickets, better for visual products and discovery. For B2B and professional services: Google first. For retail, fashion, food: Meta first. Best path: combine."
+      },
+      "q9": {
+        "question": "What tools do you use to manage Google Ads?",
+        "answer": "Google Ads Editor for bulk changes, Google Ads Scripts for automation, Looker Studio for live reports, Google Tag Manager for tracking, GA4 for conversions, and SEMrush + SimilarWeb for competitor research. Every managed account has a real-time Looker dashboard with your metrics, not a monthly Excel."
+      },
+      "q10": {
+        "question": "When does an agency make sense vs managing Google Ads in-house?",
+        "answer": "Agency: when you spend less than $4,500/month, when you don't have a certified specialist in-house, or when you run multiple campaigns (Search + Performance Max + Shopping + YouTube). In-house: when you spend more than $9,000/month and operations justify a dedicated full-time Performance Manager. Most SMBs in Peru fall in the first case."
       }
     }
   }
@@ -839,6 +887,22 @@
       "q6": {
         "question": "Do you run social media ads (Meta Ads, TikTok Ads)?",
         "answer": "Yes, we manage Meta Ads (Instagram + Facebook), TikTok Ads and LinkedIn Ads as a complement or as a standalone service. We recommend combining strong organic content with targeted ads to scale results without saturating your audience."
+      },
+      "q7": {
+        "question": "Freelance community manager or agency: which is better?",
+        "answer": "A freelancer works if you only need posting (1 platform, 8-12 pieces/month) and you already have content produced. An agency makes sense if you need strategy + design + video editing + copy + community management + reporting in a single operation. Quick math: a freelancer's real total cost is usually $360-600; an agency from $540 gives you a full team. For 2+ platforms with video, agency every time."
+      },
+      "q8": {
+        "question": "How many posts per month should I publish on each social network?",
+        "answer": "2026 reference: Instagram 12-16 pieces/month (mix of Reels, posts, carousels), Facebook 8-12, TikTok 8-15 Reels (more is better on TikTok), LinkedIn 8-12 professional B2B posts, YouTube 2-4 long videos + 8 Shorts. Frequency matters less than consistency: 8 pieces/month for 12 months beats 30/month abandoned by month four."
+      },
+      "q9": {
+        "question": "How do I choose a social media agency in Lima?",
+        "answer": "Filter by: 1) check THEIR own social accounts (if abandoned, bad sign), 2) ask to see a client's monthly editorial calendar (with confidential data redacted), 3) ask how many clients each community manager handles (more than 12 = diluted attention), and 4) confirm they deliver reports with real metrics (reach, engagement, conversions), not just screenshots."
+      },
+      "q10": {
+        "question": "How do I measure real social media success?",
+        "answer": "Four metrics that actually matter: 1) qualified follower growth (not bought), 2) engagement rate (interactions/followers: 3-5% good, 5%+ excellent for mid-size accounts), 3) qualified web traffic from social (in GA4), and 4) leads generated (qualified DMs, completed forms, initiated calls). If your agency only shows likes and views, they're measuring vanity metrics."
       }
     }
   }

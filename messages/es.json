@@ -696,6 +696,22 @@
       "q6": {
         "question": "¿Necesito tener mi marca lista o ustedes me ayudan a crearla?",
         "answer": "Las dos cosas. Si ya tienes branding, lo respetamos y construimos sobre él. Si arrancas desde cero, nuestro equipo de Branding crea tu logo, identidad visual, manual de marca y todas las piezas necesarias para que tu negocio salga a competir bien parado en digital."
+      },
+      "q7": {
+        "question": "¿Cómo elegir la mejor agencia de marketing digital en Lima?",
+        "answer": "Cinco filtros que sí importan: 1) que tengan portfolio verificable de proyectos similares al tuyo, 2) que te entreguen reportes mensuales con métricas reales (no vanity metrics), 3) que firmen acuerdo de confidencialidad y propiedad de cuentas (la cuenta de Google Ads, GA4 y redes son tuyas), 4) que pongan a un director directo en la conversación, no solo a un account junior, y 5) que tengan reseñas reales en Google y casos publicados. En 3R Core cumplimos los 5."
+      },
+      "q8": {
+        "question": "¿Conviene contratar una agencia o varios freelancers?",
+        "answer": "Para proyectos pequeños y muy específicos un freelance puede funcionar. Para una estrategia integral (marca + web + redes + ads + SEO) la agencia te da coordinación, equipo multidisciplinario, continuidad si alguien renuncia y un proceso. Calcular: contratar 4 freelance (diseñador, dev, community, especialista ads) suele costar lo mismo o más que una agencia y sin coordinación entre ellos."
+      },
+      "q9": {
+        "question": "¿Cuánto debo invertir mensualmente en marketing digital en Perú?",
+        "answer": "Como referencia para Lima en 2026: emprendimientos S/2,500–4,500 al mes (cubre redes + Ads básico), pymes S/5,000–12,000 (estrategia integral con redes, Ads, SEO y mejoras web), empresas medianas S/12,000–30,000 (marketing completo con producción de contenido y CRO). Lo importante no es el presupuesto sino que el ROI sea positivo desde el mes 3."
+      },
+      "q10": {
+        "question": "¿Qué pasa con las cuentas de Google Ads, Meta Ads y Analytics si dejo la agencia?",
+        "answer": "Son 100% tuyas, siempre. En 3R Core creamos las cuentas a tu nombre y nosotros las administramos con permisos de gestión. Si decides cambiar de agencia o llevarlo internamente, conservas todo el historial, las creatividades, las audiencias guardadas y la configuración. Cero candados."
       }
     }
   }
@@ -736,6 +752,22 @@
       "q6": {
         "question": "¿Trabajan con empresas que ya tienen marca pero quieren rediseñarla?",
         "answer": "Sí, hacemos rebranding y refresh de marca. Auditamos la identidad actual, conservamos los activos valiosos y modernizamos lo que ya no funciona. Es una intervención más cuidadosa porque hay que proteger el reconocimiento ya ganado."
+      },
+      "q7": {
+        "question": "¿Cómo elegir una agencia de branding en Lima?",
+        "answer": "Pide siempre 3 cosas antes de firmar: 1) portfolio de proyectos en industrias parecidas a la tuya, 2) detalle por escrito de los entregables (cuántos archivos, qué formatos, manual de cuántas páginas), y 3) plazos con hitos claros. Una agencia seria propone una sesión de descubrimiento ANTES de cotizar; una poco seria te tira un precio sin haberte preguntado nada del negocio."
+      },
+      "q8": {
+        "question": "¿Cuál es la diferencia entre diseño de logo, identidad visual y branding?",
+        "answer": "Logo es solo el ícono/símbolo. Identidad visual es el sistema completo (logo + colores + tipografías + iconografía). Branding es la estrategia de marca (cómo te posicionas, tu propuesta de valor, tono de voz, arquitectura) más esa identidad visual aplicada en cada punto de contacto. Pedir 'solo un logo' suele ser ahorro mal entendido: termina costando más cuando hay que rehacer todo el sistema visual."
+      },
+      "q9": {
+        "question": "¿Qué pasa si no me gusta ninguna propuesta de logo?",
+        "answer": "Trabajamos con 2 rondas de revisión incluidas: en la primera presentamos 3 conceptos distintos en blanco y negro; afinamos el seleccionado en color y aplicaciones. Si tras la primera ronda ningún concepto convence, ajustamos brief y volvemos a iteración sin costo adicional. Es muy raro: el descubrimiento previo nos da el 80% del trabajo bien orientado."
+      },
+      "q10": {
+        "question": "¿Mi marca necesita rebranding o solo un refresh?",
+        "answer": "Refresh: si tu logo se ve dated pero la marca sigue siendo reconocida (modernizar tipografía, simplificar, ajustar colores). Rebranding: si tu propuesta de valor cambió, si el público objetivo es otro, si fusionaste con otra empresa, o si la marca tiene asociaciones negativas. Hacemos auditoría inicial gratis y te decimos cuál corresponde."
       }
     }
   }
@@ -816,6 +848,22 @@
       "q6": {
         "question": "¿Combinan Google Ads con SEO o son servicios separados?",
         "answer": "Recomendamos combinarlos. Google Ads te trae clientes desde el primer día (corto plazo) y SEO construye visibilidad sostenible (largo plazo). Cuando se trabajan juntos, el costo por lead baja con el tiempo porque el SEO empieza a traer tráfico orgánico que ya no pagas."
+      },
+      "q7": {
+        "question": "¿Cómo saber si mi agencia Google Ads está haciendo buen trabajo?",
+        "answer": "Mira tres métricas que no engañan: 1) costo por conversión (debe bajar mes a mes, no subir), 2) Quality Score promedio de tus palabras clave (>=7 está bien), y 3) ROAS si vendes online (>=3x es saludable, >=5x excelente). Si tu agencia te muestra solo impresiones y clics sin hablar de costo por conversión, te están vendiendo humo."
+      },
+      "q8": {
+        "question": "¿Google Ads o Meta Ads (Facebook/Instagram): cuál da mejor ROI?",
+        "answer": "Depende del momento de compra. Google Ads captura demanda activa (alguien YA está buscando lo que vendes) → conversión rápida, ROI alto. Meta Ads genera demanda (interrumpe a quien no te buscaba) → tickets más bajos, mejor para productos visuales y discovery. Para B2B y servicios profesionales: Google primero. Para retail, moda, gastronomía: Meta primero. Lo ideal: combinar."
+      },
+      "q9": {
+        "question": "¿Qué herramientas usan para gestionar Google Ads?",
+        "answer": "Google Ads Editor para cambios masivos, Google Ads Scripts para automatización, Looker Studio para reportes en vivo, Google Tag Manager para tracking, GA4 para conversiones, y SEMrush + SimilarWeb para investigar a la competencia. Cada cuenta gestionada tiene un dashboard Looker en tiempo real con tus métricas, no un Excel mensual."
+      },
+      "q10": {
+        "question": "¿Cuándo conviene una agencia y cuándo gestionar Google Ads en interno?",
+        "answer": "Agencia: cuando inviertes <S/15,000 al mes, cuando no tienes especialista certificado in-house, o cuando manejas múltiples campañas (Search + Performance Max + Shopping + YouTube). In-house: cuando inviertes >S/30,000 al mes y la operación amerita un Performance Manager dedicado de tiempo completo. La mayoría de pymes en Perú están en el primer caso."
       }
     }
   }
@@ -856,6 +904,22 @@
       "q6": {
         "question": "¿Hacen pauta en redes sociales (Meta Ads, TikTok Ads)?",
         "answer": "Sí, manejamos Meta Ads (Instagram + Facebook), TikTok Ads y LinkedIn Ads como complemento o como servicio independiente. Recomendamos combinar contenido orgánico fuerte con pauta dirigida para escalar resultados sin saturar a tu audiencia."
+      },
+      "q7": {
+        "question": "¿Community manager freelance o agencia: qué conviene?",
+        "answer": "Freelance funciona si solo necesitas postear contenido (1 plataforma, 8-12 piezas/mes) y tienes el contenido producido. Agencia conviene si necesitas estrategia + diseño + edición de video + copy + community management + reportes en una sola operación. Calcular: el costo total real de un freelance suele estar S/1,200-2,000; la agencia desde S/1,800 te da un equipo completo. Para 2+ plataformas con video, agencia siempre."
+      },
+      "q8": {
+        "question": "¿Cuántas publicaciones al mes debo hacer en cada red social?",
+        "answer": "Como referencia 2026: Instagram 12-16 piezas/mes (mix Reels, posts, carruseles), Facebook 8-12, TikTok 8-15 Reels (más es mejor en TikTok), LinkedIn 8-12 posts profesionales B2B, YouTube 2-4 videos largos + 8 Shorts. La frecuencia importa menos que la consistencia: mejor 8 piezas al mes durante 12 meses que 30 al mes y abandonar al cuarto mes."
+      },
+      "q9": {
+        "question": "¿Cómo elegir agencia de redes sociales en Lima?",
+        "answer": "Filtra por: 1) muestrales sus PROPIAS redes (si las tienen abandonadas, mala señal), 2) pide ver el calendario editorial mensual de un cliente (con datos confidenciales tachados), 3) pregunta cuántos clientes maneja cada community manager (más de 12 = atención diluida), y 4) revisa que ofrezcan reportes con métricas reales (alcance, engagement, conversiones), no solo capturas de pantalla."
+      },
+      "q10": {
+        "question": "¿Cómo medir el éxito real de mis redes sociales?",
+        "answer": "Cuatro métricas que sí importan: 1) crecimiento de seguidores cualificados (no comprados), 2) engagement rate (interacciones/seguidores: 3-5% bueno, 5%+ excelente para cuentas medianas), 3) tráfico cualificado a tu web desde redes (en GA4), y 4) leads generados (mensajes directos calificados, formularios completados, llamadas iniciadas). Si tu agencia solo te muestra likes y vistas, está midiendo vanity metrics."
       }
     }
   }

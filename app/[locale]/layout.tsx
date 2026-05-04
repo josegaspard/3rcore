@@ -101,10 +101,11 @@ export default async function RootLayout({
 
   const organizationSchema = {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
+    "@type": ["ProfessionalService", "LocalBusiness", "MarketingAgency"],
     "@id": `${BASE_URL}/#organization`,
     "name": "3R Core - Agencia de Marketing Digital",
-    "alternateName": "3R Core Marketing Agency",
+    "alternateName": ["3R Core Marketing Agency", "3R Core Agencia de Marketing", "3RCore"],
+    "legalName": "3R Core Agencia de Marketing",
     "url": BASE_URL,
     "logo": {
       "@type": "ImageObject",
@@ -112,7 +113,15 @@ export default async function RootLayout({
       "width": 600,
       "height": 300
     },
-    "image": `${BASE_URL}/icons/LogoFull.webp`,
+    "image": [
+      `${BASE_URL}/icons/LogoFull.webp`,
+      `${BASE_URL}/og/default.jpg`,
+      `${BASE_URL}/og/branding.jpg`,
+      `${BASE_URL}/og/web-development.jpg`,
+      `${BASE_URL}/og/socialmedia.jpg`,
+      `${BASE_URL}/og/google-ads.jpg`,
+      `${BASE_URL}/og/posicionamiento-seo.jpg`
+    ],
     "description": locale === 'en'
       ? "Digital marketing agency in Lima, Peru. We combine Experience, Vision, and Technology into strategies: Branding, Social Media, SEO, Google Ads & Web Development."
       : "Agencia de marketing digital en Lima, Perú. Combinamos Experiencia, Visión y Tecnología en estrategias: Branding, Social Media, SEO, Google Ads y Desarrollo Web.",
@@ -137,45 +146,90 @@ export default async function RootLayout({
       "opens": "09:00",
       "closes": "18:00"
     },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "customer service",
-      "telephone": "+51986889147",
-      "availableLanguage": ["Spanish", "English"]
-    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+51986889147",
+        "email": "info@3rcore.com",
+        "availableLanguage": ["Spanish", "English"],
+        "areaServed": ["PE", "US"]
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "telephone": "+51986889147",
+        "email": "info@3rcore.com",
+        "availableLanguage": ["Spanish", "English"],
+        "areaServed": ["PE", "US"]
+      }
+    ],
     "sameAs": [
       "https://www.facebook.com/3Rcore/",
       "https://www.instagram.com/3rcore_/",
       "https://www.linkedin.com/company/3r-core/",
-      "https://www.tiktok.com/@3rcore"
+      "https://www.tiktok.com/@3rcore",
+      "https://pe.linkedin.com/company/3r-core"
     ],
     "areaServed": [
       { "@type": "Country", "name": "Peru" },
-      { "@type": "Country", "name": "United States" }
+      { "@type": "Country", "name": "United States" },
+      { "@type": "City", "name": "Lima" },
+      { "@type": "AdministrativeArea", "name": "Lima Metropolitana" }
     ],
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": -12.0913,
+        "longitude": -76.9494
+      },
+      "geoRadius": 50000
+    },
     "priceRange": "$$",
+    "currenciesAccepted": "PEN, USD",
+    "paymentAccepted": "Cash, Credit Card, Debit Card, Bank Transfer, Yape, Plin, BCP, Interbank, BBVA, Scotiabank",
     "slogan": locale === 'en'
       ? "Experience, Vision & Technology"
       : "Experiencia, Visión y Tecnología",
-    // TODO: confirm exact founding year and uncomment
-    // "foundingDate": "YYYY",
-    "numberOfEmployees": {
-      "@type": "QuantitativeValue",
-      "value": 21
-    },
     "knowsAbout": [
       "Branding",
+      "Corporate Branding",
+      "Brand Identity Design",
+      "Logo Design",
       "Visual Identity",
       "Social Media Marketing",
+      "Social Media Management",
+      "Community Management",
+      "Content Marketing",
+      "Content Strategy",
+      "Editorial Calendar",
       "Search Engine Optimization",
+      "Local SEO",
+      "Technical SEO",
+      "Link Building",
       "Google Ads",
       "Search Engine Marketing",
+      "Performance Marketing",
+      "Pay-per-click Advertising",
+      "Meta Ads",
+      "TikTok Ads",
       "Web Development",
+      "Web Design",
+      "UX/UI Design",
       "E-commerce",
       "Shopify",
       "WooCommerce",
-      "Content Strategy",
-      "Digital Marketing"
+      "Next.js Development",
+      "WordPress Development",
+      "Landing Page Design",
+      "Conversion Rate Optimization",
+      "Marketing Automation",
+      "Digital Marketing",
+      "Inbound Marketing",
+      "Brand Strategy",
+      "Startup Marketing",
+      "Tech Innovation"
     ],
     "founder": [
       {

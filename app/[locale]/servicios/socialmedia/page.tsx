@@ -47,7 +47,7 @@ export default function socialmedia(){
 
         <ClientSection />
         <ReviewsSection/>
-        <ServiceFAQ namespace="SocialMediaFAQ" count={6} />
+        <ServiceFAQ namespace="SocialMediaFAQ" count={10} />
         <SEOContentBlock
           namespace="SocialMediaSEO"
           paragraphs={4}

@@ -10,7 +10,7 @@ export default async function HomePage({ params }: { params: any }) {
   const tH1 = await getTranslations({ locale, namespace: "HiddenH1" })
   const tFaq = await getTranslations({ locale, namespace: "HomeFAQ" })
 
-  const faqItems = Array.from({ length: 6 }, (_, i) => ({
+  const faqItems = Array.from({ length: 10 }, (_, i) => ({
     question: tFaq(`faqs.q${i + 1}.question`),
     answer: tFaq(`faqs.q${i + 1}.answer`),
   }))
@@ -55,7 +55,7 @@ export default async function HomePage({ params }: { params: any }) {
       />
       <h1 className="sr-only">{tH1("home")}</h1>
       <HomeClient />
-      <ServiceFAQ namespace="HomeFAQ" count={6} />
+      <ServiceFAQ namespace="HomeFAQ" count={10} />
       <SEOContentBlock
         namespace="HomeSEO"
         paragraphs={4}
