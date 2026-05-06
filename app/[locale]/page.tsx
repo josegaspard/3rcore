@@ -1,20 +1,11 @@
 import { getTranslations } from "next-intl/server"
 import HomeClient from "./HomeClient"
-import ServiceFAQ from "@/components/seo/ServiceFAQ"
-import SEOContentBlock from "@/components/seo/SEOContentBlock"
-import { buildFAQPageSchema, buildServiceItemList } from "@/lib/seoSchemas"
+import { buildServiceItemList } from "@/lib/seoSchemas"
 
 export default async function HomePage({ params }: { params: any }) {
   const { locale } = await params
   const isEn = locale === 'en'
   const tH1 = await getTranslations({ locale, namespace: "HiddenH1" })
-  const tFaq = await getTranslations({ locale, namespace: "HomeFAQ" })
-
-  const faqItems = Array.from({ length: 10 }, (_, i) => ({
-    question: tFaq(`faqs.q${i + 1}.question`),
-    answer: tFaq(`faqs.q${i + 1}.answer`),
-  }))
-  const faqSchema = buildFAQPageSchema(faqItems)
 
   const itemListSchema = buildServiceItemList({
     locale,
@@ -51,24 +42,10 @@ export default async function HomePage({ params }: { params: any }) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([faqSchema, itemListSchema]) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
       <h1 className="sr-only">{tH1("home")}</h1>
       <HomeClient />
-      <ServiceFAQ namespace="HomeFAQ" count={10} />
-      <SEOContentBlock
-        namespace="HomeSEO"
-        paragraphs={4}
-        relatedLinks={[
-          { href: "/servicios/web-development", label: isEn ? "Web Design" : "Diseño Web" },
-          { href: "/servicios/socialmedia", label: isEn ? "Social Media" : "Redes Sociales" },
-          { href: "/servicios/branding", label: isEn ? "Branding" : "Branding" },
-          { href: "/servicios/google-ads", label: "Google Ads" },
-          { href: "/posicionamiento-seo", label: "SEO" },
-          { href: "/nosotros", label: isEn ? "About Us" : "Nosotros" },
-          { href: "/blogs", label: "Blog" },
-        ]}
-      />
     </>
   )
 }
