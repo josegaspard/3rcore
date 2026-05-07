@@ -9,6 +9,7 @@ import WebTypesSection from "@/components/sections/servicios/web-development/web
 import WebApplications from "@/components/sections/servicios/web-development/aplicationWebSection";
 import WebFaq from "@/components/sections/servicios/web-development/webFaq";
 import WebImgSection from "@/components/sections/servicios/web-development/webimgSection";
+import TikTokVideoSection from "@/components/sections/servicios/web-development/tiktokVideoSection";
 import { useScrollToSection } from '@/components/ui/useScrollToSection';
 import { useTranslations } from 'next-intl';
 
@@ -47,6 +48,7 @@ export default function WebDeveploment(){
         <ImgWebSection/>
         <WebTypesSection/>
         <WebApplications/>
+        <TikTokVideoSection/>
         <WebFaq/>
         <WebImgSection/>
 

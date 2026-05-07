@@ -72,7 +72,7 @@ interface WPPost {
 
   return (
     <section
-      className={`${montserrat.className} md:py-24 bg-transparent text-white px-10 2xl:px-6 overflow-hidden`}
+      className={`${montserrat.className} py-10 md:py-14 lg:py-16 bg-transparent text-white px-10 2xl:px-6 overflow-hidden`}
     >
       <div className="flex flex-col items-center justify-center mb-10 2xl:mb-20 w-full group">
         <div className="flex flex-col items-center gap-6 w-full max-w-4xl">

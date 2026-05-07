@@ -10,8 +10,8 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
     path: '/servicios/branding',
     titleEs: 'Agencia de Branding en Lima — Diseño de Identidad de Marca | 3R Core',
     titleEn: 'Branding Agency in Lima — Brand Identity Design | 3R Core',
-    descriptionEs: 'Diseño de identidad visual, logotipo, manual de marca y aplicaciones corporativas. Agencia de branding en Lima, Perú con proyectos integrales desde S/3,500.',
-    descriptionEn: 'Visual identity design, logo, brand manual and corporate applications. Branding agency in Lima, Peru with full projects starting at $1,000 USD.',
+    descriptionEs: 'Diseño de identidad visual, logotipo, manual de marca y aplicaciones corporativas. Agencia de branding en Lima, Perú con proyectos integrales desde S/500 y entrega en 7 días.',
+    descriptionEn: 'Visual identity design, logo, brand manual and corporate applications. Branding agency in Lima, Peru with full projects starting at S/500 (~$135 USD), 7-day delivery.',
     ogImage: {
       url: 'https://3rcore.com/og/branding.jpg',
       width: 1200,
@@ -34,9 +34,9 @@ export default async function BrandingLayout({ children, params }: { children: R
     descriptionEs: 'Diseño de identidad visual, logotipo, manual de marca, paleta cromática, tipografía corporativa, papelería y aplicaciones de marca para empresas en Lima, Perú.',
     descriptionEn: 'Visual identity design, logo, brand manual, color palette, corporate typography, stationery and brand applications for companies in Lima, Peru.',
     serviceType: 'Branding / Visual Identity',
-    priceRange: 'S/3,500 - S/15,000',
-    offerPriceEs: 3500,
-    offerPriceEn: 1000,
+    priceRange: 'S/500 - S/15,000',
+    offerPriceEs: 500,
+    offerPriceEn: 135,
     audienceTypes: ['Startups', 'Small business', 'Medium business', 'Enterprise'],
   })
 

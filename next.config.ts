@@ -22,6 +22,16 @@ const nextConfig: NextConfig = {
         hostname: '3rcore-server.com.pe',
         port: '',
         pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'plus.unsplash.com',
+        pathname: '**',
       }
     ],
   },

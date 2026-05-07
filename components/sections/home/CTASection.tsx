@@ -115,7 +115,7 @@ const StatsAndCTA = () => {
   return (
     <section
       ref={containerRef}
-      className="w-full py-10 lg:py-15 2xl:py-24 px-10 lg:px-4 flex flex-col items-center lg:gap-10  xl:gap-20 2xl:gap-40  overflow-hidden"
+      className="w-full py-8 lg:py-12 2xl:py-16 px-10 lg:px-4 flex flex-col items-center lg:gap-10  xl:gap-20 2xl:gap-40  overflow-hidden"
     >
       <div className="stats-container flex flex-col md:flex-row justify-center items-center gap-10 lg:gap-30 md:gap-15 xl:gap-40 w-full max-w-5xl">
         {stats.map((stat, index) => (

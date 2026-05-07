@@ -43,7 +43,7 @@ export default function ClientsSection() {
 
   const t = useTranslations('ClientsSection');  
   return (
-    <section className="py-10 lg:min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="py-10 lg:py-20 flex items-center justify-center overflow-hidden">
       <div className="max-w-7xl mx-auto w-full px-5 md:px-10 lg:px-6">
         
         <div className="grid grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4 items-center">

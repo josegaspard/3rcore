@@ -456,7 +456,11 @@
     "griPost": "Ready to transform your online brand?",
     "griParraf": "Book your free 30-minute strategy session. We’ll audit your brand, find growth opportunities, and build a roadmap for you.",
 
-    "titPost": "Some of our projects"
+    "titPost": "Some of our projects",
+
+    "videoBadge": "Behind the scenes",
+    "videoTitle": "This is how we design your next website",
+    "videoSubtitle": "A quick look at the creative and technical process behind every web project we deliver at 3R Core."
   }
   ,
   "WebSection": {
@@ -718,11 +722,11 @@
       },
       "q2": {
         "question": "How long does a complete branding project take?",
-        "answer": "A full branding project takes 4 to 8 weeks, depending on detail and revisions. We send you a clear timeline with milestones: discovery, proposals, refinement and final delivery with all editable files."
+        "answer": "We deliver a full branding project in 7 business days, with a clear milestone timeline: discovery, proposals, refinement and final delivery with all editable files. If the scope grows (corporate rebranding, extensive manuals, special applications) we agree on a longer timeline before kickoff."
       },
       "q3": {
         "question": "How much does designing my brand identity in Lima cost?",
-        "answer": "Branding projects at 3R Core start at $1,000 USD for startups and scale according to corporate scope. We deliver a formal quote with detailed deliverables after an initial discovery session."
+        "answer": "Branding projects at 3R Core start at S/500 (around $135 USD) for startups and scale according to corporate scope. We deliver a formal quote with detailed deliverables after an initial discovery session."
       },
       "q4": {
         "question": "If I only want a logo, can you do that?",
@@ -866,7 +870,7 @@
     "faqs": {
       "q1": {
         "question": "How much does an agency charge for social media management in Lima?",
-        "answer": "Social media management plans at 3R Core start at $540/month for startups (Instagram + Facebook with 8–12 pieces) and scale according to frequency, platforms and audiovisual production. We deliver a detailed proposal in our first meeting."
+        "answer": "Social media management plans at 3R Core start at S/1,500/month (around $400 USD) for startups (TikTok + Instagram + Facebook + LinkedIn with 8–12 pieces) and scale according to frequency, platforms and audiovisual production. We deliver a detailed proposal in our first meeting."
       },
       "q2": {
         "question": "Which social media platforms do you manage?",
@@ -894,7 +898,7 @@
       },
       "q8": {
         "question": "How many posts per month should I publish on each social network?",
-        "answer": "2026 reference: Instagram 12-16 pieces/month (mix of Reels, posts, carousels), Facebook 8-12, TikTok 8-15 Reels (more is better on TikTok), LinkedIn 8-12 professional B2B posts, YouTube 2-4 long videos + 8 Shorts. Frequency matters less than consistency: 8 pieces/month for 12 months beats 30/month abandoned by month four."
+        "answer": "At 3R Core we work 8–12 pieces per month on each network we manage: TikTok, LinkedIn, Instagram and Facebook. It's the cadence that combines consistency, quality and results without saturating your audience. Frequency matters less than consistency: 8–12 pieces/month for 12 months beats 30/month abandoned by month four."
       },
       "q9": {
         "question": "How do I choose a social media agency in Lima?",

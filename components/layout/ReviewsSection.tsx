@@ -60,7 +60,7 @@ export default function ReviewsSection() {
   if (!data || goodReviews.length === 0) return null
 
   return (
-    <section className="relative w-full py-24 px-6 md:px-12 lg:px-24 overflow-hidden">
+    <section className="relative w-full py-12 md:py-16 px-6 md:px-12 lg:px-24 overflow-hidden">
 
       {/* Fondo decorativo */}
       <div

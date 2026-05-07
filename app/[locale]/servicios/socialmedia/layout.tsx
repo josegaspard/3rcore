@@ -10,8 +10,8 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
     path: '/servicios/socialmedia',
     titleEs: 'Manejo de Redes Sociales en Lima — Community Manager Profesional | 3R Core',
     titleEn: 'Social Media Management in Lima — Professional Community Manager | 3R Core',
-    descriptionEs: 'Manejo profesional de redes sociales en Lima, Perú: Instagram, Facebook, TikTok, LinkedIn. Estrategia, diseño, copy y reportes mensuales desde S/1,800.',
-    descriptionEn: 'Professional social media management in Lima, Peru: Instagram, Facebook, TikTok, LinkedIn. Strategy, design, copy and monthly reports starting at $540 USD.',
+    descriptionEs: 'Manejo profesional de redes sociales en Lima, Perú: TikTok, LinkedIn, Instagram y Facebook. Estrategia, diseño, copy y reportes mensuales desde S/1,500 con 8–12 piezas por red.',
+    descriptionEn: 'Professional social media management in Lima, Peru: TikTok, LinkedIn, Instagram and Facebook. Strategy, design, copy and monthly reports starting at S/1,500 (~$400 USD) with 8–12 pieces per network.',
     ogImage: {
       url: 'https://3rcore.com/og/socialmedia.jpg',
       width: 1200,
@@ -34,9 +34,9 @@ export default async function SocialMediaLayout({ children, params }: { children
     descriptionEs: 'Gestión integral de redes sociales: estrategia de contenido, diseño de posts, edición de Reels y TikToks, copywriting, programación, community management y reportes mensuales para Instagram, Facebook, TikTok, LinkedIn, YouTube y X.',
     descriptionEn: 'Comprehensive social media management: content strategy, post design, Reels and TikTok editing, copywriting, scheduling, community management and monthly reports for Instagram, Facebook, TikTok, LinkedIn, YouTube and X.',
     serviceType: 'Social Media Management / Community Manager',
-    priceRange: 'S/1,800 - S/8,000',
-    offerPriceEs: 1800,
-    offerPriceEn: 540,
+    priceRange: 'S/1,500 - S/8,000',
+    offerPriceEs: 1500,
+    offerPriceEn: 400,
     audienceTypes: ['Startups', 'Small business', 'Medium business', 'Restaurants', 'Retail', 'B2B', 'Healthcare'],
   })
 

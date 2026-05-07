@@ -54,7 +54,7 @@ const TeamSection = () => {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} className="relative w-full pt-20 px-5 flex justify-center items-center overflow-hidden">
+    <section ref={containerRef} className="relative w-full pt-12 md:pt-14 px-5 flex justify-center items-center overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-18 bg-gradient-to-t from-[#16021B] via-[#16021B]/10 to-black/90 z-0 pointer-events-none" />
       <div className="max-w-3xl 2xl:max-w-7xl mx-auto text-center">
         
