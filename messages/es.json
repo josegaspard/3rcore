@@ -177,7 +177,7 @@
     "poTitle":"Diseño de posts",
     "poParraf":" Con ingenio y dedicación desarrollamos contenido que no solo sea atractivo, sino que proyecte una marca sólida desde el primer día. Para nosotros, la clave está en cómo contamos tu historia a través del diseño.",
     "poPreg":"¿Hablamos de tu próximo gran paso en redes?",
-    "pobot":"Contáctanos",
+    "pobot":"Solicita tu auditoría gratis de redes sociales",
 
     "griPost":"Grilla de Contenidos",
     "griParraf":"Estrategias personalizadas que reflejan los valores únicos de la marca. Desarrollamos el copy para cada post, cubriendo diversos formatos de contenido.",
@@ -533,6 +533,22 @@
       "q6": {
         "question": "¿Y si necesito funcionalidades específicas?",
         "answer": "Podemos diseñar e integrar casi cualquier cosa: pasarelas de pago, sistemas de reservas, integraciones con CRM, automatizaciones, etc."
+      },
+      "q7": {
+        "question": "¿Cuánto cuesta hacer una página web en Lima, Perú?",
+        "answer": "En 3R Core el diseño y desarrollo web arranca en S/2,500 para landing pages y sitios corporativos de hasta 6 secciones, incluyendo diseño en Figma, desarrollo responsive, SEO técnico básico, formulario de contacto y conexión a Google Analytics. Sitios corporativos completos van de S/4,500 a S/9,000 y los e-commerce desde S/7,500. En la primera reunión te damos una propuesta económica precisa según tu alcance."
+      },
+      "q8": {
+        "question": "¿Cuánto cuesta una tienda online (e-commerce) en Perú?",
+        "answer": "Una tienda online profesional con catálogo hasta 100 productos, pasarela de pago integrada (Culqi, Niubiz, Izipay o Mercado Pago), gestión de inventario y panel de administración arranca desde S/7,500 en Shopify o WooCommerce. Si necesitas integraciones con SUNAT (facturación electrónica), ERP o múltiples métodos de envío, el rango sube según la complejidad. Incluye capacitación para que vos administres la tienda."
+      },
+      "q9": {
+        "question": "¿Qué es mejor para mi negocio: Shopify o WooCommerce?",
+        "answer": "Shopify conviene si quieres lanzar rápido, sin preocuparte por hosting ni mantenimiento técnico, y vas a vender entre 50 y 5,000 productos. WooCommerce (sobre WordPress) conviene si necesitas máxima personalización, control total del código, integraciones específicas con tu ERP o si ya tienes contenido en WordPress. Trabajamos ambas plataformas: en la primera reunión te recomendamos cuál se adapta mejor a tu modelo de negocio peruano."
+      },
+      "q10": {
+        "question": "¿Incluye hosting, dominio y certificado SSL?",
+        "answer": "El primer año incluimos dominio .com o .pe, certificado SSL (Let's Encrypt o equivalente) y hosting profesional sin costo adicional dentro del paquete. A partir del año 2 el hosting se cobra aparte (entre S/30 y S/120 al mes según tráfico y plataforma) o puedes migrarlo a tu propio proveedor sin penalización. Todo queda a tu nombre desde el día uno."
       }
     }
   }
@@ -687,7 +703,7 @@
       },
       "q3": {
         "question": "¿Cuánto cuesta contratar una agencia de marketing digital en Lima?",
-        "answer": "Depende del servicio y del alcance. Como referencia: nuestro plan SEO arranca en S/1,500 al mes; las campañas de Google Ads desde S/1,200 + presupuesto de pauta; el manejo de redes sociales según frecuencia y plataformas. En la primera reunión te damos una propuesta económica a la medida de tu negocio."
+        "answer": "Depende del servicio y del alcance. Como referencia: nuestro plan SEO arranca en S/1,500 al mes; las campañas de Google Ads desde S/1,800 + presupuesto de pauta; el manejo de redes sociales según frecuencia y plataformas. En la primera reunión te damos una propuesta económica a la medida de tu negocio."
       },
       "q4": {
         "question": "¿En cuánto tiempo se ven resultados reales?",
@@ -831,7 +847,7 @@
     "faqs": {
       "q1": {
         "question": "¿Cuánto debo invertir en Google Ads para empezar?",
-        "answer": "Recomendamos un presupuesto mínimo de pauta de S/1,500 al mes para tener data accionable, sumado al fee de gestión que arranca en S/1,200 mensuales. En sectores muy competidos (legal, inmobiliario, salud) sugerimos arrancar con S/3,000+ de pauta para no quedarte fuera de las subastas."
+        "answer": "Recomendamos un presupuesto mínimo de pauta de S/1,500 al mes para tener data accionable, sumado al fee de gestión que arranca en S/1,800 mensuales. En sectores muy competidos (legal, inmobiliario, salud) sugerimos arrancar con S/3,000+ de pauta para no quedarte fuera de las subastas."
       },
       "q2": {
         "question": "¿Qué tipo de campañas Google Ads manejan?",

@@ -125,11 +125,11 @@ const ProcessSMSection = () => {
       </div>
 
       <div ref={imageContainerRef} className="w-full md:h-[25vh] lg:h-[60vh] mt-12 xl:mt-24 overflow-hidden ">
-        <img 
+        <img
           ref={imageRef}
-          src="/images/branding/frandoVideo.webp" 
-          alt="Proceso creativo"
-          className="w-full h-full object-cover" 
+          src="/images/branding/frandoVideo.webp"
+          alt="Proceso de manejo de redes sociales y community management - 3R Core Lima"
+          className="w-full h-full object-cover"
         />
       </div>
     </section>

@@ -179,7 +179,7 @@
     "poTitle": "Post Design",
     "poParraf": "We put all our ingenuity and dedication into developing content that is not only eye-catching but also projects a solid brand from day one. For us, the key lies in how we tell your story through design.",
     "poPreg": "Shall we discuss your next big step on social media?",
-    "pobot": "Contact us",
+    "pobot": "Request your free social media audit",
 
     "griPost": "Content Grid",
     "griParraf": "Customized strategies that reflect your brand's unique values. We develop the copy for every post, covering a wide range of content formats.",
@@ -523,6 +523,22 @@
       "q6": {
         "question": "What if I need specific functionalities?",
         "answer": "We can design and integrate almost anything: payment gateways, booking systems, CRM integrations, automations, and more."
+      },
+      "q7": {
+        "question": "How much does it cost to build a website in Lima, Peru?",
+        "answer": "At 3R Core, web design and development starts at $750 for landing pages and corporate sites up to 6 sections, including Figma design, responsive development, basic technical SEO, contact form and Google Analytics integration. Full corporate sites range from $1,200 to $2,500 and e-commerce from $2,000. In the first meeting we deliver an accurate quote based on your scope."
+      },
+      "q8": {
+        "question": "How much does an online store (e-commerce) cost in Peru?",
+        "answer": "A professional online store with a catalog of up to 100 products, integrated payment gateway (Culqi, Niubiz, Izipay or Mercado Pago), inventory management and admin panel starts at $2,000 on Shopify or WooCommerce. SUNAT electronic invoicing, ERP integrations or multiple shipping methods raise the price according to complexity. Training is included so you can manage the store yourself."
+      },
+      "q9": {
+        "question": "Which is better for my business: Shopify or WooCommerce?",
+        "answer": "Shopify works best if you want to launch fast, without worrying about hosting or technical maintenance, and you plan to sell between 50 and 5,000 products. WooCommerce (on WordPress) is better if you need maximum customization, full code control, specific ERP integrations or you already have content on WordPress. We work with both platforms: in the first meeting we recommend which one fits your Peruvian business model better."
+      },
+      "q10": {
+        "question": "Does it include hosting, domain and SSL certificate?",
+        "answer": "The first year we include a .com or .pe domain, SSL certificate (Let's Encrypt or equivalent) and professional hosting at no additional cost as part of the package. From year 2 onwards hosting is billed separately ($8 to $35 per month depending on traffic and platform) or you can migrate it to your own provider with no penalty. Everything is registered under your name from day one."
       }
     }
   }
@@ -670,7 +686,7 @@
       },
       "q3": {
         "question": "How much does it cost to hire a digital marketing agency in Lima?",
-        "answer": "It depends on the service and scope. As reference: our SEO plan starts at $450/month; Google Ads campaigns from $360 + ad spend; social media management depending on frequency and platforms. In our first meeting we deliver a tailored quote."
+        "answer": "It depends on the service and scope. As reference: our SEO plan starts at $450/month; Google Ads campaigns from $480 + ad spend; social media management depending on frequency and platforms. In our first meeting we deliver a tailored quote."
       },
       "q4": {
         "question": "How long does it take to see real results?",
@@ -814,7 +830,7 @@
     "faqs": {
       "q1": {
         "question": "How much should I invest in Google Ads to start?",
-        "answer": "We recommend a minimum ad spend of $450/month for actionable data, plus the management fee starting at $360/month. In highly competitive sectors (legal, real estate, healthcare) we suggest starting with $900+ in ad spend to stay in the auctions."
+        "answer": "We recommend a minimum ad spend of $450/month for actionable data, plus the management fee starting at $480/month. In highly competitive sectors (legal, real estate, healthcare) we suggest starting with $900+ in ad spend to stay in the auctions."
       },
       "q2": {
         "question": "What types of Google Ads campaigns do you manage?",

@@ -10,8 +10,8 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
     path: '/servicios/google-ads',
     titleEs: 'Agencia Google Ads en Lima — Campañas SEM con ROI Medible | 3R Core',
     titleEn: 'Google Ads Agency in Lima — SEM Campaigns with Measurable ROI | 3R Core',
-    descriptionEs: 'Agencia Google Ads en Lima, Perú. Campañas Search, Performance Max, YouTube, Display y Shopping. Gestión profesional desde S/1,200/mes con reportes mensuales transparentes.',
-    descriptionEn: 'Google Ads agency in Lima, Peru. Search, Performance Max, YouTube, Display and Shopping campaigns. Professional management starting at $360/month with transparent monthly reports.',
+    descriptionEs: 'Agencia Google Ads en Lima, Perú. Campañas Search, Performance Max, YouTube, Display y Shopping. Gestión profesional desde S/1,800/mes con reportes mensuales transparentes.',
+    descriptionEn: 'Google Ads agency in Lima, Peru. Search, Performance Max, YouTube, Display and Shopping campaigns. Professional management starting at $480/month with transparent monthly reports.',
     ogImage: {
       url: 'https://3rcore.com/og/google-ads.jpg',
       width: 1200,
@@ -34,9 +34,9 @@ export default async function GoogleAdsLayout({ children, params }: { children: 
     descriptionEs: 'Diseño, lanzamiento y optimización de campañas Google Ads (Search, Performance Max, YouTube, Display, Shopping y Remarketing) para empresas en Lima, Perú con ROI medible y reportes mensuales.',
     descriptionEn: 'Design, launch and optimization of Google Ads campaigns (Search, Performance Max, YouTube, Display, Shopping and Remarketing) for companies in Lima, Peru with measurable ROI and monthly reports.',
     serviceType: 'Google Ads / SEM / PPC',
-    priceRange: 'S/1,200 - S/8,000',
-    offerPriceEs: 1200,
-    offerPriceEn: 360,
+    priceRange: 'S/1,800 - S/8,000',
+    offerPriceEs: 1800,
+    offerPriceEn: 480,
     audienceTypes: ['E-commerce', 'B2B', 'Local business', 'Lead generation'],
   })
 

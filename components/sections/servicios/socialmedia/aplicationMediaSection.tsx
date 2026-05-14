@@ -20,9 +20,9 @@ export default function MediaApplications() {
         </div>
 
         <div className="relative w-full h-auto mt-4 md:mt-0">
-          <img 
-            src="/images/social/AplicPost3.webp" 
-            alt="Brand Applications Mockup"
+          <img
+            src="/images/social/AplicPost3.webp"
+            alt="Grilla de contenidos y aplicaciones de marca en redes sociales - agencia 3R Core Lima"
             className="w-full h-auto object-contain max-h-[300px] md:max-h-none"
           />
         </div>

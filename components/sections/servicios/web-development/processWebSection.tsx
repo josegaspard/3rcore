@@ -125,11 +125,11 @@ const ProcessWebSection = () => {
       </div>
 
       <div ref={imageContainerRef} className="w-full md:h-[25vh] lg:h-[60vh]  mt-12 xl:mt-24 overflow-hidden">
-        <img 
+        <img
           ref={imageRef}
-          src="/images/web/fondoWeb.webp" 
-          alt="Proceso creativo"
-          className="w-full h-full object-cover" 
+          src="/images/web/fondoWeb.webp"
+          alt="Proceso de diseño y desarrollo web profesional paso a paso - 3R Core Lima"
+          className="w-full h-full object-cover"
         />
       </div>
     </section>

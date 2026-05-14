@@ -110,9 +110,9 @@ export default function WebApplications() {
           ref={imageRef}
           className="relative w-full h-auto mt-4 md:mt-0"
         >
-          <img 
-            src="/images/web/mono.webp" 
-            alt="Brand Applications Mockup"
+          <img
+            src="/images/web/mono.webp"
+            alt="Mockup de aplicaciones de marca para diseño y desarrollo web - 3R Core Lima"
             className="w-full h-auto object-contain max-h-[300px] md:max-h-none"
           />
         </div>

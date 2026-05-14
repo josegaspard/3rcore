@@ -27,6 +27,10 @@ export default function WebFaq() {
     { id: 4, question: t('faqs.q4.question'), answer: t('faqs.q4.answer') },
     { id: 5, question: t('faqs.q5.question'), answer: t('faqs.q5.answer') },
     { id: 6, question: t('faqs.q6.question'), answer: t('faqs.q6.answer') },
+    { id: 7, question: t('faqs.q7.question'), answer: t('faqs.q7.answer') },
+    { id: 8, question: t('faqs.q8.question'), answer: t('faqs.q8.answer') },
+    { id: 9, question: t('faqs.q9.question'), answer: t('faqs.q9.answer') },
+    { id: 10, question: t('faqs.q10.question'), answer: t('faqs.q10.answer') },
   ];
 
   useEffect(() => {

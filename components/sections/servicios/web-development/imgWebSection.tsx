@@ -54,11 +54,11 @@ const ImgWebSection = () => {
   return (
     <section ref={sectionRef} className="w-full text-white py-0 font-sans flex flex-col items-center overflow-hidden">
       <div ref={imageContainerRef} className="w-full md:h-[40vh] lg:h-[70vh] xl:h-[90vh] overflow-hidden">
-        <img 
+        <img
           ref={imageRef}
-          src="/images/web/fondoWeb2.webp" 
-          alt="Proceso creativo"
-          className="w-full h-full " 
+          src="/images/web/fondoWeb2.webp"
+          alt="Diseño web profesional para empresas en Lima, Perú - agencia 3R Core"
+          className="w-full h-full "
         />
       </div>
     </section>

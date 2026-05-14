@@ -54,11 +54,11 @@ const WebImgSection = () => {
   return (
     <section ref={sectionRef} className="w-full text-white py-0 font-sans flex flex-col items-center overflow-hidden">
       <div ref={imageContainerRef} className="w-full h-[25vh] xl:h-[80vh] 2xl:h-[90vh] overflow-hidden">
-        <img 
+        <img
           ref={imageRef}
-          src="/images/web/fondowoooo.png" 
-          alt="Proceso creativo"
-          className="w-full h-full " 
+          src="/images/web/fondowoooo.png"
+          alt="Proceso creativo de diseño y desarrollo web profesional - agencia 3R Core Lima"
+          className="w-full h-full "
         />
       </div>
     </section>

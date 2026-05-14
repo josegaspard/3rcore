@@ -10,6 +10,7 @@ if (typeof window !== "undefined") {
 interface MediaItem {
   type: "image" | "video";
   src: string;
+  alt?: string;
 }
 
 interface PizzaCardProps {
@@ -136,10 +137,10 @@ const PizzaCard: React.FC<PizzaCardProps> = ({
         {media.map((item, i) => (
           <div key={i} className="min-w-full h-full relative">
             {item.type === "image" ? (
-              <img 
-                src={item.src} 
-                alt="" 
-                className="w-full h-full  select-none pointer-events-none" 
+              <img
+                src={item.src}
+                alt={item.alt ?? ""}
+                className="w-full h-full  select-none pointer-events-none"
               />
             ) : (
               <video

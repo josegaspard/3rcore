@@ -84,7 +84,7 @@ export default function PostMedia() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/social/fondoas.webp"
-          alt="Fondo"
+          alt="Fondo decorativo de portafolio de redes sociales - 3R Core Lima"
           fill
           priority
           className="object-cover"
@@ -106,7 +106,7 @@ export default function PostMedia() {
                 <div className="relative w-8 h-8 rounded-full overflow-hidden">
                   <Image
                     src="/images/social/postIg/log.jpg"
-                    alt="Logo"
+                    alt="Logo de marca cliente en publicación de Instagram - portafolio 3R Core"
                     fill
                     className="object-cover"
                   />
@@ -117,7 +117,7 @@ export default function PostMedia() {
               <div className="post-image-container relative aspect-square w-full bg-gray-100 overflow-hidden">
                 <Image
                   src={post.image}
-                  alt={`Post ${post.id}`}
+                  alt={`Post de Instagram diseñado para ${post.username} por 3R Core - manejo de redes sociales Lima`}
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"

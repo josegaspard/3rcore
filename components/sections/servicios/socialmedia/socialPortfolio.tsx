@@ -23,58 +23,58 @@ export default function SocialPortfolio() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
           
           <div className="grid gap-6">
-            <PizzaCard 
+            <PizzaCard
               media={[
-                { type: "image", src: "/images/social/portafolioProye/img1.webp" }
-              ]} 
-              showDots={true} 
+                { type: "image", src: "/images/social/portafolioProye/img1.webp", alt: "Diseño de post para redes sociales - portafolio agencia 3R Core Lima" }
+              ]}
+              showDots={true}
               autoOnHover={false}
               className="aspect-[3/4] transition-all duration-500 ease-in-out"
             />
-            
-            <PizzaCard 
+
+            <PizzaCard
               media={[
                 { type: "video", src: "/videos/AguJuego.webm" },
                 { type: "video", src: "/videos/As11.webm" },
-              ]} 
+              ]}
               autoOnHover={false}
-              className="aspect-[3/5]  transition-all duration-500 ease-in-out" 
+              className="aspect-[3/5]  transition-all duration-500 ease-in-out"
             />
           </div>
 
           <div className="grid gap-6">
-            <PizzaCard 
+            <PizzaCard
               media={[
                 { type: "video", src: "/videos/AsDeOros102.webm" },
                 { type: "video", src: "/videos/Galletas.webm" },
-              ]} 
+              ]}
               autoOnHover={true}
-              className="aspect-[3/5]  transition-all duration-500 ease-in-out" 
+              className="aspect-[3/5]  transition-all duration-500 ease-in-out"
             />
-            <PizzaCard 
+            <PizzaCard
               media={[
-                { type: "image", src: "/images/social/portafolioProye/img5.webp" }
-              ]} 
+                { type: "image", src: "/images/social/portafolioProye/img5.webp", alt: "Contenido Instagram diseñado por agencia de social media en Lima - 3R Core" }
+              ]}
               autoOnHover={true}
-              className="aspect-[3/4] transition-all duration-500 ease-in-out" 
+              className="aspect-[3/4] transition-all duration-500 ease-in-out"
             />
           </div>
 
           <div className="grid gap-6">
-            <PizzaCard 
+            <PizzaCard
               media={[
-                { type: "image", src: "/images/social/portafolioProye/img3.webp" }
-              ]}  
+                { type: "image", src: "/images/social/portafolioProye/img3.webp", alt: "Grilla editorial de contenidos para redes sociales - agencia 3R Core Lima" }
+              ]}
               autoOnHover={true}
-              className="aspect-[3/4] transition-all duration-500 ease-in-out" 
+              className="aspect-[3/4] transition-all duration-500 ease-in-out"
             />
-            <PizzaCard 
+            <PizzaCard
               media={[
                 { type: "video", src: "/videos/Img3849.webm" },
                 { type: "video", src: "/videos/Vide5.webm" }
-              ]} 
+              ]}
               autoOnHover={true}
-              className="aspect-[3/5]  transition-all duration-500 ease-in-out" 
+              className="aspect-[3/5]  transition-all duration-500 ease-in-out"
             />
           </div>
 
