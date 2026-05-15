@@ -1,101 +1,79 @@
-// app/[locale]/landing/page.tsx
+// app/[locale]/posicionamiento-seo/page.tsx
 import { getMessages } from "next-intl/server"
 import type { Metadata } from "next"
+import { generatePageMetadata, generateBreadcrumbSchema } from "@/lib/metadata"
+import { buildFAQPageSchema, buildServiceSchema } from "@/lib/seoSchemas"
 import LandingClient from "./LandingClient"
 
 export async function generateMetadata({ params }: { params: any }): Promise<Metadata> {
   const { locale } = await params
-  
-  const title = locale === 'en'
-    ? "SEO Positioning on Google | 3R Core"
-    : "Posicionamiento SEO en Google | 3R Core"
-  const description = locale === 'en'
-    ? "Boost your business on Google and attract customers who are actively looking for what you offer."
-    : "Impulsa tu negocio en Google y atrae clientes que sí buscan lo que ofreces."
-  const ogImageUrl = "https://3rcore.com/og/posicionamiento-seo.jpg"
-
-  return {
-    title,
-    description,
-    alternates: {
-      canonical: `https://3rcore.com/${locale}/posicionamiento-seo`,
-      languages: {
-        'es': 'https://3rcore.com/es/posicionamiento-seo',
-        'en': 'https://3rcore.com/en/posicionamiento-seo',
-        'x-default': 'https://3rcore.com/es/posicionamiento-seo',
-      },
+  return generatePageMetadata({
+    locale,
+    path: '/posicionamiento-seo',
+    titleEs: 'Agencia SEO en Lima — Posicionamiento Web Orgánico en Google | 3R Core',
+    titleEn: 'SEO Agency in Lima — Organic Web Positioning on Google | 3R Core',
+    descriptionEs: 'Agencia de posicionamiento SEO en Lima, Perú. Auditoría, optimización, interlinks, contenido y escalamiento mensual. Inversión desde S/1,500/mes sin contratos forzosos.',
+    descriptionEn: 'SEO positioning agency in Lima, Peru. Audit, optimization, interlinks, content and monthly scaling. Investment from $450/month with no forced contracts.',
+    ogImage: {
+      url: 'https://3rcore.com/og/posicionamiento-seo.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Agencia SEO en Lima - 3R Core',
     },
-    openGraph: {
-      title,
-      description,
-      url: `https://3rcore.com/${locale}/posicionamiento-seo`,
-      siteName: '3R Core',
-      locale: locale === 'en' ? 'en_US' : 'es_PE',
-      type: 'website',
-      images: [{
-        url: ogImageUrl,
-        width: 1200,
-        height: 630,
-        alt: locale === 'en' ? 'SEO Positioning Service - 3R Core' : 'Servicio de Posicionamiento SEO - 3R Core',
-      }],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [ogImageUrl],
-    },
-  }
+  })
 }
 
 export default async function Posicionamientoseo({ params }: { params: any }) {
   const { locale } = await params
-  const messages = await getMessages()
-  const m = messages as any
+  const messages = (await getMessages()) as any
+  const isEn = locale === "en"
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": locale === 'en' ? "SEO Positioning Service" : "Servicio de Posicionamiento SEO",
-    "provider": {
-      "@type": "Organization",
-      "name": "3R Core Marketing Agency",
-      "url": "https://3rcore.com"
-    },
-    "description": m.SEOSEM.description.paragraph1,
-    "offers": {
-      "@type": "Offer",
-      "price": locale === 'en' ? "450" : "1500",
-      "priceCurrency": locale === 'en' ? "USD" : "PEN",
-      "description": m.FiveLandingSection.description
-    },
-    "areaServed": ["PE", "US"],
-    "serviceType": "SEO / Search Engine Optimization",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": locale === 'en' ? "SEO Services" : "Servicios SEO",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": m.SecondLandingSection.cards.audit.title,
-        },
-        {
-          "@type": "Offer", 
-          "name": m.SecondLandingSection.cards.interlinks.title,
-        },
-        {
-          "@type": "Offer",
-          "name": m.SecondLandingSection.cards.scaling.title,
-        }
-      ]
-    }
+  const serviceSchema = buildServiceSchema({
+    locale,
+    path: '/posicionamiento-seo',
+    nameEs: 'Agencia de Posicionamiento SEO en Lima',
+    nameEn: 'SEO Positioning Agency in Lima',
+    descriptionEs: 'Servicio mensual de posicionamiento SEO orgánico en Google para empresas en Lima, Perú: auditoría, palabras clave, optimización on-page, interlinks, contenido y escalamiento con reporte mensual.',
+    descriptionEn: 'Monthly organic SEO positioning service on Google for companies in Lima, Peru: audit, keyword research, on-page optimization, interlinks, content and scaling with monthly reporting.',
+    serviceType: 'SEO / Search Engine Optimization',
+    priceRange: 'S/1,500+',
+    offerPriceEs: 1500,
+    offerPriceEn: 450,
+    audienceTypes: ['Small business', 'Medium business', 'Enterprise', 'E-commerce', 'B2B', 'Local business'],
+  })
+
+  // hasOfferCatalog with the three SEO service blocks from SecondLandingSection (existing copy)
+  const cards = messages?.SecondLandingSection?.cards ?? {}
+  ;(serviceSchema as any).hasOfferCatalog = {
+    "@type": "OfferCatalog",
+    "name": isEn ? "SEO Services" : "Servicios SEO",
+    "itemListElement": [
+      { "@type": "Offer", "name": cards?.audit?.title, "description": (cards?.audit?.items ?? []).join(". ") },
+      { "@type": "Offer", "name": cards?.interlinks?.title, "description": (cards?.interlinks?.items ?? []).join(". ") },
+      { "@type": "Offer", "name": cards?.scaling?.title, "description": (cards?.scaling?.items ?? []).join(". ") },
+    ],
   }
+
+  const faqMessages = messages?.SEOFAQ?.faqs ?? {}
+  const faqItems = Object.values(faqMessages).map((q: any) => ({
+    question: q.question,
+    answer: q.answer,
+  }))
+  const faqSchema = buildFAQPageSchema(faqItems)
+
+  const breadcrumbSchema = generateBreadcrumbSchema(
+    [
+      { name: isEn ? 'Home' : 'Inicio', path: '' },
+      { name: isEn ? 'SEO Positioning' : 'Posicionamiento SEO', path: '/posicionamiento-seo' },
+    ],
+    locale
+  )
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceSchema, faqSchema, breadcrumbSchema]) }}
       />
       <LandingClient />
     </>

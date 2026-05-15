@@ -1,33 +1,29 @@
 {
-  "HeroHome": 
-  {
-    "agency":"La Agencia",
-    "s":"es",
+  "HeroHome": {
+    "agency": "La Agencia",
+    "s": "es",
     "impact": "Impacto",
     "values": "Valores",
     "experience": "Experiencia",
     "identity": "Identidad",
     "professionalism": "Profesionalismo",
     "connection": "Conexión",
-    "agency2":"Agencia",
-    "d":"de",
-    "marketing":"Marketing Digital"
-  }
-  ,
+    "agency2": "Agencia",
+    "d": "de",
+    "marketing": "Marketing Digital"
+  },
   "TeamSection": {
     "title": "Somos un equipo",
     "subtitle": "Profesional y Nativo Digital",
-    "subray1":"En 3R CORE AGENCIA DE MARKETING",
+    "subray1": "En 3R CORE AGENCIA DE MARKETING",
     "description": "Somos un equipo de profesionales y nativos digitales con una visión de 3 generaciones enfocados en un mismo objetivo, altamente capacitados que conjugan",
-    "description2":"la Experiencia, la Visión y la Tecnología",
-    "description3":"en estrategias de marketing Digital, personalizadas de acuerdo a tu empresa"
-  }
-  ,
+    "description2": "la Experiencia, la Visión y la Tecnología",
+    "description3": "en estrategias de marketing Digital, personalizadas de acuerdo a tu empresa"
+  },
   "Hovers": {
     "ver": "/images/tituloCarru/Servicios.svg",
     "hor": "/images/tituloCarru/serviciosHorizontal.svg"
-  }
-  ,
+  },
   "CTA": {
     "titleLine1": "Posiciona tu marca",
     "titleLine2": "tu marca en el mercado",
@@ -35,18 +31,16 @@
     "labelClients": "MARCAS TRABAJADAS",
     "labelExperience": "AÑOS DE EXPERIENCIA",
     "labelCountries": "PAISES ALCANZADOS"
-  }
-  ,
+  },
   "ClientsSection": {
     "title": "Nuestros Clientes",
     "description": "Empresas que confían en nuestra visión y resultados."
-  }
-  ,
+  },
   "NewsSection": {
     "title": "Entérate de nuestras noticias",
     "readMore": "Leer más",
     "viewAllBlogs": "Leer más blogs",
-    "t":""
+    "t": ""
   },
   "BlogsPage": {
     "subtitle": "3RCore Server",
@@ -61,8 +55,7 @@
     "title": "¡Gracias por contactarnos!",
     "description": "Un asesor se comunicará contigo en breve.",
     "backHome": "Volver al inicio"
-  }
-  ,
+  },
   "ContactSection": {
     "title": "Contáctanos",
     "fieldName": "Nombre y Apellido",
@@ -72,8 +65,7 @@
     "fieldMessage": "Mensaje",
     "buttonSend": "Enviar",
     "buttonSending": "Enviando..."
-  }
-  ,
+  },
   "LandingContactSection": {
     "title": "Contáctanos",
     "fieldName": "Nombre y Apellido",
@@ -81,25 +73,23 @@
     "fieldPhone": "Teléfono",
     "fieldEmail": "Email",
     "fieldMessage": "Cuentanos acerca de tu proyecto",
-    "web":"Link de tu página web",
+    "web": "Link de tu página web",
     "buttonSend": "Enviar",
     "buttonSending": "Enviando..."
-  }
-  ,
+  },
   "Navbar": {
-    "title":"Navegador",
+    "title": "Navegador",
     "regular": "Tu Éxito",
     "bold": "NUESTRO ÉXITO",
     "nav": {
-      "home":"INICIO",
-      "about us":"NOSOTROS",
-      "services":"SERVICIOS",
-      "blogs":"BLOGS",
-      "contact":"CONTACTO"
+      "home": "INICIO",
+      "about us": "NOSOTROS",
+      "services": "SERVICIOS",
+      "blogs": "BLOGS",
+      "contact": "CONTACTO"
     },
-    "clo":"CERRAR"
-  }
-  ,
+    "clo": "CERRAR"
+  },
   "FoundersSection": {
     "badge": "Fundadores",
     "description": "Pasa el cursor sobre cada fundador para conectar con su visión.",
@@ -108,116 +98,95 @@
       "marketingDirector": "Director de Marketing",
       "seoDirector": "Analista de SEO y Google ADS"
     }
-  }
-  ,
+  },
   "AboutSection": {
     "title": "Nosotros",
     "subtitle": "Potenciamos tus resultados",
     "description": "Somos equipo de profesionales y nativos digitales que conjugamos",
     "description1": "la Experiencia, la Visión y la Tecnología",
     "description2": "enfocados en brindar estrategias en marketing Digital, orientados en optimizar el retorno de su inversión, potenciando el posicionamiento y las ventajas competitivas de nuestros clientes"
-  }
-  ,
+  },
   "OurTeamSection": {
     "title": "Nuestro Equipo",
     "description": "Conoce a las personas que hacen posible nuestro éxito."
-  }
-  ,
+  },
   "MomentsSection": {
     "highlightText": "MOMENTOS QUE FORTALECEN NUESTRO VÍNCULO"
-  }
-  ,
+  },
   "ScheduleSection": {
     "title": "Horario de Atención",
     "hours": "Lunes a Viernes de 9am a 18 pm (PET)"
-  }
-  ,
+  },
   "ExpansionSection": {
     "title": "Expandimos",
     "subtitle": "tu alcance al mundo"
-  }
-  ,
+  },
   "BrandingHero": {
     "slogan": "Tu imagen dice mucho sobre ti, asegúrate de que sea la correcta.",
-
-    "protitle":"Nuestro proceso nos diferencia",
+    "protitle": "Nuestro proceso nos diferencia",
     "prosubtitle1": "Devoción y rigor artístico",
     "prosubtitle2": "Somos el equipo que desarrollamos la esencia de tu marca",
-    "proIn":"Investigación",
-    "proEs":"Estrategia",
-    "proPla":"Planificación",
-    "proDi":"Diseño",
-    "proIm":"Implementación",
-    "proGes":"Gestión y resultado",
-
-    "maTitle":"Manual de Marca",
-    "maParraf":"El brading es la parte fundamental de cualquier identidad de marca que se va a lanzar y posicionar en el mercado. Su objetivo es que la identidad visual sea consistente a través del tiempo y así crear una marca sólida.",
-    "maPreg":"¿Necesitas ayuda con el tuyo?",
-    "mabot":"Contáctanos",
-
-    "apMarca":"Aplicaciones de marca",
-    "apParraf":"Una vez concebida la marca, se genera el branding para productos y merch, obteniendo una imagen más profesional.",
-
-    "titPro":"Algunos de nuestros proyectos"
-
-  }
-  ,
+    "proIn": "Investigación",
+    "proEs": "Estrategia",
+    "proPla": "Planificación",
+    "proDi": "Diseño",
+    "proIm": "Implementación",
+    "proGes": "Gestión y resultado",
+    "maTitle": "Manual de Marca",
+    "maParraf": "El brading es la parte fundamental de cualquier identidad de marca que se va a lanzar y posicionar en el mercado. Su objetivo es que la identidad visual sea consistente a través del tiempo y así crear una marca sólida.",
+    "maPreg": "¿Necesitas ayuda con el tuyo?",
+    "mabot": "Contáctanos",
+    "apMarca": "Aplicaciones de marca",
+    "apParraf": "Una vez concebida la marca, se genera el branding para productos y merch, obteniendo una imagen más profesional.",
+    "titPro": "Algunos de nuestros proyectos"
+  },
   "SocialMediaHero": {
     "slogan": "Ofrecemos un estrategia digitales integradas a los objetivos de cada empresa. Diseñamos y creamos contenido relevante que permite el desarrollo de un vínculo con tu público objetivo. Nosotros como agencia de marketing digital, nuestro compromiso consiste en aprovechar las ventajas de las redes sociales para potenciar el valor que ofrece tu marca.",
-
-    "protitle":"Nosotros te mantenemos actualizados",
-    "prosubtitle":"Con tendencias actuales  y audiencia que tu marca necesita",
-    "proIn":"Investigación",
-    "proEs":"Estrategia",
-    "proAr":"Armado de grilla",
-    "proDi":"Diseño contenido",
-    "proPu":"Publicación",
-    "proGes":"Gestión y análisis",
-
-    "poTitle":"Diseño de posts",
-    "poParraf":" Con ingenio y dedicación desarrollamos contenido que no solo sea atractivo, sino que proyecte una marca sólida desde el primer día. Para nosotros, la clave está en cómo contamos tu historia a través del diseño.",
-    "poPreg":"¿Hablamos de tu próximo gran paso en redes?",
-    "pobot":"Solicita tu auditoría gratis de redes sociales",
-
-    "griPost":"Grilla de Contenidos",
-    "griParraf":"Estrategias personalizadas que reflejan los valores únicos de la marca. Desarrollamos el copy para cada post, cubriendo diversos formatos de contenido.",
-
-    "titPost":"Algunos de nuestros proyectos"
-
-
-  }
-  ,
+    "protitle": "Nosotros te mantenemos actualizados",
+    "prosubtitle": "Con tendencias actuales  y audiencia que tu marca necesita",
+    "proIn": "Investigación",
+    "proEs": "Estrategia",
+    "proAr": "Armado de grilla",
+    "proDi": "Diseño contenido",
+    "proPu": "Publicación",
+    "proGes": "Gestión y análisis",
+    "poTitle": "Diseño de posts",
+    "poParraf": " Con ingenio y dedicación desarrollamos contenido que no solo sea atractivo, sino que proyecte una marca sólida desde el primer día. Para nosotros, la clave está en cómo contamos tu historia a través del diseño.",
+    "poPreg": "¿Hablamos de tu próximo gran paso en redes?",
+    "pobot": "Solicita tu auditoría gratis de redes sociales",
+    "griPost": "Grilla de Contenidos",
+    "griParraf": "Estrategias personalizadas que reflejan los valores únicos de la marca. Desarrollamos el copy para cada post, cubriendo diversos formatos de contenido.",
+    "titPost": "Algunos de nuestros proyectos"
+  },
   "SeoSemHero": {
     "slogan": "Impulsa tu negocio en <google>Google</google> y atrae clientes que sí buscan lo que ofreces",
-    "protitle":"Nuestro mantenemos actualizados",
-    "prosubtitle":"vamos con las tendencias actuales y audiencia que tu marca necesita",
-    "proIn":"Investigación",
-    "proEs":"Estrategia",
-    "proAr":"Armado de grilla",
-    "proDi":"Diseño contenido",
-    "proPu":"Publicación",
-    "proGes":"Gestión y análisis",
-    "poTitle":"Diseño de posts",
-    "poParraf":" Ponemos todo nuestro ingenio y dedicación en desarrollar contenido que no solo sea atractivo, sino que proyecte una marca sólida desde el primer día. Paranosotros, la clave está en cómo contamos tu historia a través del diseño.",
-    "poPreg":"¿Hablamos de tu próximo gran paso en redes?",
-    "pobot":"Contáctanos",
-    "griPost":"Grilla de Contenidos",
-    "griParraf":"Estrategias personalizadas que reflejan los valores únicos de la marca. Desarrollamos el copy para cada post, cubriendo diversos formatos de contenido.",
-    "titPost":"Algunos de nuestros proyectos"
-  }
-  ,
+    "protitle": "Nuestro mantenemos actualizados",
+    "prosubtitle": "vamos con las tendencias actuales y audiencia que tu marca necesita",
+    "proIn": "Investigación",
+    "proEs": "Estrategia",
+    "proAr": "Armado de grilla",
+    "proDi": "Diseño contenido",
+    "proPu": "Publicación",
+    "proGes": "Gestión y análisis",
+    "poTitle": "Diseño de posts",
+    "poParraf": " Ponemos todo nuestro ingenio y dedicación en desarrollar contenido que no solo sea atractivo, sino que proyecte una marca sólida desde el primer día. Paranosotros, la clave está en cómo contamos tu historia a través del diseño.",
+    "poPreg": "¿Hablamos de tu próximo gran paso en redes?",
+    "pobot": "Contáctanos",
+    "griPost": "Grilla de Contenidos",
+    "griParraf": "Estrategias personalizadas que reflejan los valores únicos de la marca. Desarrollamos el copy para cada post, cubriendo diversos formatos de contenido.",
+    "titPost": "Algunos de nuestros proyectos"
+  },
   "Footer": {
     "services": "Servicios",
     "agency": "Nuestra Agencia",
     "socialMedia": "Redes Sociales",
     "privacyPolicy": "Política de Privacidad",
     "pregunta": "FAQ",
-    "Recla":"Reclamaciones",
+    "Recla": "Reclamaciones",
     "termsConditions": "Términos y condiciones",
     "copyright": "© 2026 3R CORE. Todos los derechos reservados",
-    "A":"Lunes a Viernes"
-  }
-  ,
+    "A": "Lunes a Viernes"
+  },
   "cooke": {
     "services": "Servicios",
     "agency": "Nuestra Agencia",
@@ -225,92 +194,88 @@
     "privacyPolicy": "Política de Privacidad",
     "termsConditions": "Términos y condiciones",
     "copyright": "© 2026 3R CORE. Todos los derechos reservados",
-    "A":" Atención: Lunes a Viernes"
-  }
-  ,
+    "A": " Atención: Lunes a Viernes"
+  },
   "CookieBanner": {
     "message": "Utilizamos cookies para mejorar tu experiencia. Al aceptar, consientes el uso de tecnologías de seguimiento según nuestra",
     "privacyLink": "Política de Privacidad",
     "decline": "Rechazar",
     "acceptAll": "Aceptar todas"
-  }
-  ,
+  },
   "PrivacyPolicy": {
-      "title": "Políticas de privacidad",
-      "topBadge": "POLÍTICA DE PRIVACIDAD GENERAL",
-      "sections": {
-        "s1": {
-          "title": "Introducción",
-          "text": "La Agencia de Marketing 3R Core, con número de RUC 2060900821 y ubicada en la Av. Las Caobas 170, La Molina, Lima, presenta su Política de Privacidad para informar sobre las condiciones generales de tratamiento de datos personales de sus clientes y usuarios que ingresen a su sitio web: https://www.3rcore.com."
-        },
-        "s2": {
-          "title": "Objetivo y finalidad",
-          "text": "En 3R Core Agencia de Marketing nos preocupa brindar a los titulares de datos personales el más alto nivel de seguridad y proteger la confidencialidad de su información.",
-          "quote": "Las relaciones comerciales se llevan a cabo en un entorno de servidor seguro bajo protocolo SSL (Secure Socket Layer), que mantiene la información encriptada y segura."
-        },
-        "s3": {
-          "title": "Legislación",
-          "intro": "Esta política está regulada por la legislación peruana y en particular por:",
-          "law1": "Ley N° 29733 – Ley de Protección de Datos Personales.",
-          "law2": "Decreto Supremo N° 003-2013-JUS, Reglamento de la Ley N° 29733.",
-          "footer": "De acuerdo con la Ley N° 29733, los datos personales son cualquier información que identifica o hace identificable a una persona natural. El tratamiento de estos datos incluye la recopilación, registro, almacenamiento y cualquier procedimiento técnico que facilite el acceso o interconexión de los mismos."
-        },
-        "s4": {
-          "title": "Almacenamiento de información",
-          "text": "Los datos proporcionados serán almacenados en los bancos de datos llamados «Clientes» y «Prospectos», debidamente registrados ante la Dirección General de Protección de Datos Personales. Únicamente el personal autorizado de 3R Core podrá gestionar dicha información para responder a las solicitudes de los titulares."
-        },
-        "s5": {
-          "title": "Ejercicio de Derechos",
-          "text": "Puedes ejercer tus derechos de información, acceso, actualización, inclusión, rectificación y supresión de tus datos personales mediante:",
-          "physical": "Vía Presencial",
-          "digital": "Vía Digital",
-          "subject": "Asunto: Protección de Datos Personales"
-        },
-        "s6": {
-          "title": "Calidad de los Datos Personales",
-          "text": "Los datos recopilados son pertinentes, adecuados y proporcionados para su finalidad. Es importante que la información sea veraz y esté actualizada. Los datos serán eliminados cuando ya no sean necesarios para su fin, aunque podrán mantenerse por un período indefinido según lo permita la ley."
-        }
+    "title": "Políticas de privacidad",
+    "topBadge": "POLÍTICA DE PRIVACIDAD GENERAL",
+    "sections": {
+      "s1": {
+        "title": "Introducción",
+        "text": "La Agencia de Marketing 3R Core, con número de RUC 2060900821 y ubicada en la Av. Las Caobas 170, La Molina, Lima, presenta su Política de Privacidad para informar sobre las condiciones generales de tratamiento de datos personales de sus clientes y usuarios que ingresen a su sitio web: https://www.3rcore.com."
+      },
+      "s2": {
+        "title": "Objetivo y finalidad",
+        "text": "En 3R Core Agencia de Marketing nos preocupa brindar a los titulares de datos personales el más alto nivel de seguridad y proteger la confidencialidad de su información.",
+        "quote": "Las relaciones comerciales se llevan a cabo en un entorno de servidor seguro bajo protocolo SSL (Secure Socket Layer), que mantiene la información encriptada y segura."
+      },
+      "s3": {
+        "title": "Legislación",
+        "intro": "Esta política está regulada por la legislación peruana y en particular por:",
+        "law1": "Ley N° 29733 – Ley de Protección de Datos Personales.",
+        "law2": "Decreto Supremo N° 003-2013-JUS, Reglamento de la Ley N° 29733.",
+        "footer": "De acuerdo con la Ley N° 29733, los datos personales son cualquier información que identifica o hace identificable a una persona natural. El tratamiento de estos datos incluye la recopilación, registro, almacenamiento y cualquier procedimiento técnico que facilite el acceso o interconexión de los mismos."
+      },
+      "s4": {
+        "title": "Almacenamiento de información",
+        "text": "Los datos proporcionados serán almacenados en los bancos de datos llamados «Clientes» y «Prospectos», debidamente registrados ante la Dirección General de Protección de Datos Personales. Únicamente el personal autorizado de 3R Core podrá gestionar dicha información para responder a las solicitudes de los titulares."
+      },
+      "s5": {
+        "title": "Ejercicio de Derechos",
+        "text": "Puedes ejercer tus derechos de información, acceso, actualización, inclusión, rectificación y supresión de tus datos personales mediante:",
+        "physical": "Vía Presencial",
+        "digital": "Vía Digital",
+        "subject": "Asunto: Protección de Datos Personales"
+      },
+      "s6": {
+        "title": "Calidad de los Datos Personales",
+        "text": "Los datos recopilados son pertinentes, adecuados y proporcionados para su finalidad. Es importante que la información sea veraz y esté actualizada. Los datos serán eliminados cuando ya no sean necesarios para su fin, aunque podrán mantenerse por un período indefinido según lo permita la ley."
       }
-  }
-  ,
-    "Terms": {
-      "title": "Términos y condiciones",
-      "topBadge": "CONDICIONES DE USO",
-      "sections": {
-        "s1": {
-          "title": "Información General",
-          "text": "El presente documento regula el acceso y uso del sitio web https://www.3rcore.com, titularidad de la Agencia de Marketing 3R Core, con RUC 2060900821 y domicilio en Av. Las Caobas 170, La Molina, Lima. Al navegar por este sitio, el usuario acepta de forma íntegra estas condiciones."
-        },
-        "s2": {
-          "title": "Propiedad Intelectual",
-          "text": "Todo el contenido de este sitio (textos, logotipos, diseños y código fuente) es propiedad de 3R Core o cuenta con las licencias correspondientes.",
-          "quote": "Queda estrictamente prohibida la reproducción, distribución o modificación de cualquier elemento de esta web sin la autorización expresa y por escrito de la agencia."
-        },
-        "s3": {
-          "title": "Marco Legal",
-          "intro": "Estos términos se rigen por la legislación peruana vigente, incluyendo:",
-          "law1": "Ley N° 29571 - Código de Protección y Defensa del Consumidor.",
-          "law2": "Decreto Legislativo N° 822 - Ley sobre el Derecho de Autor.",
-          "footer": "Cualquier controversia derivada del uso del sitio será resuelta ante los tribunales de Lima, Perú. 3R Core se reserva el derecho de modificar estos términos en cualquier momento para adaptarlos a cambios legislativos o tecnológicos."
-        },
-        "s4": {
-          "title": "Responsabilidad del Usuario",
-          "text": "El usuario se compromete a hacer un uso lícito del sitio web. No se permite el uso de software automatizado para extraer datos (scraping) ni acciones que comprometan la seguridad del servidor SSL de 3R Core. La empresa no se hace responsable de daños derivados de interferencias externas, virus informáticos o desconexiones del servicio ajenas a nuestra gestión."
-        },
-        "s5": {
-          "title": "Contacto y Reclamaciones",
-          "text": "Para dudas sobre nuestros servicios o solicitudes formales, el usuario puede comunicarse a través de nuestros canales oficiales:",
-          "physical": "Atención Física",
-          "digital": "Atención Digital",
-          "subject": "Asunto: Consulta Términos y Condiciones"
-        },
-        "s6": {
-          "title": "Servicios y Presupuestos",
-          "text": "La información sobre servicios mostrada en la web es referencial. La prestación de servicios de marketing final se formalizará mediante un contrato específico o propuesta comercial aceptada, donde se detallarán los términos de pago, plazos de entrega y obligaciones mutuas."
-        }
+    }
+  },
+  "Terms": {
+    "title": "Términos y condiciones",
+    "topBadge": "CONDICIONES DE USO",
+    "sections": {
+      "s1": {
+        "title": "Información General",
+        "text": "El presente documento regula el acceso y uso del sitio web https://www.3rcore.com, titularidad de la Agencia de Marketing 3R Core, con RUC 2060900821 y domicilio en Av. Las Caobas 170, La Molina, Lima. Al navegar por este sitio, el usuario acepta de forma íntegra estas condiciones."
+      },
+      "s2": {
+        "title": "Propiedad Intelectual",
+        "text": "Todo el contenido de este sitio (textos, logotipos, diseños y código fuente) es propiedad de 3R Core o cuenta con las licencias correspondientes.",
+        "quote": "Queda estrictamente prohibida la reproducción, distribución o modificación de cualquier elemento de esta web sin la autorización expresa y por escrito de la agencia."
+      },
+      "s3": {
+        "title": "Marco Legal",
+        "intro": "Estos términos se rigen por la legislación peruana vigente, incluyendo:",
+        "law1": "Ley N° 29571 - Código de Protección y Defensa del Consumidor.",
+        "law2": "Decreto Legislativo N° 822 - Ley sobre el Derecho de Autor.",
+        "footer": "Cualquier controversia derivada del uso del sitio será resuelta ante los tribunales de Lima, Perú. 3R Core se reserva el derecho de modificar estos términos en cualquier momento para adaptarlos a cambios legislativos o tecnológicos."
+      },
+      "s4": {
+        "title": "Responsabilidad del Usuario",
+        "text": "El usuario se compromete a hacer un uso lícito del sitio web. No se permite el uso de software automatizado para extraer datos (scraping) ni acciones que comprometan la seguridad del servidor SSL de 3R Core. La empresa no se hace responsable de daños derivados de interferencias externas, virus informáticos o desconexiones del servicio ajenas a nuestra gestión."
+      },
+      "s5": {
+        "title": "Contacto y Reclamaciones",
+        "text": "Para dudas sobre nuestros servicios o solicitudes formales, el usuario puede comunicarse a través de nuestros canales oficiales:",
+        "physical": "Atención Física",
+        "digital": "Atención Digital",
+        "subject": "Asunto: Consulta Términos y Condiciones"
+      },
+      "s6": {
+        "title": "Servicios y Presupuestos",
+        "text": "La información sobre servicios mostrada en la web es referencial. La prestación de servicios de marketing final se formalizará mediante un contrato específico o propuesta comercial aceptada, donde se detallarán los términos de pago, plazos de entrega y obligaciones mutuas."
       }
-  }
-  ,
+    }
+  },
   "FeaturesSection": {
     "mainTitle": "Trabajemos juntos para lograr tus objetivos",
     "committed": {
@@ -325,22 +290,18 @@
       "title": "PROFESIONALES",
       "description": "Nos involucramos de principio a fin, brindando una pre-producción meticulosa, asistencia técnica permanente y un análisis profundo de métricas al concluir para asegurar que los objetivos se cumplan."
     }
-  }
-  ,
+  },
   "ServiceAbout": {
     "title": "Te brindamos ideas creativas",
     "subtitle1": "que aseguran resultados exitosos",
     "subtitle2": "para tus proyectos"
-  }
-  ,
-  "preload":{
-    "text":"Cargando Experiencia..."
-  }
-  ,
+  },
+  "preload": {
+    "text": "Cargando Experiencia..."
+  },
   "FAQ": {
     "title": "Preguntas Frecuentes",
     "topBadge": "FAQ - Resolvemos tus dudas",
-    
     "faqs": {
       "q1": {
         "question": "¿Qué servicios ofrece 3R CORE?",
@@ -367,13 +328,11 @@
         "answer": "Nuestra oficina principal está en Calle las Caobas 170, La Molina, Lima. Atendemos de lunes a viernes de 9 a.m. a 6 p.m. Contamos con presencia y atención tanto en Perú como en EE.UU."
       }
     },
-
     "contact": {
       "title": "¿Aún tienes preguntas?",
       "description": "Nuestro equipo está listo para ayudarte. Contáctanos y te responderemos a la brevedad."
     }
-  }
-  ,
+  },
   "SEOSEM": {
     "title": {
       "part1": "Te posicionamos en GOOGLE",
@@ -384,8 +343,7 @@
       "paragraph2": "Trabajamos el posicionamiento desde una estrategia integral, combinando análisis, contenido, pauta y optimización constante, para que tu inversión genere resultados reales y medibles"
     },
     "cta": "Solicitar consultoría SEO"
-  }
-  ,
+  },
   "SeoSemSection": {
     "header": {
       "subtitle": "¿QUÉ HACEMOS Y EN QUÉ CONSISTE EL SERVICIO?",
@@ -417,8 +375,7 @@
       ],
       "footer": "El <strong>SEM</strong> es ideal si buscas ventas rápidas, generación de leads o tráfico inmediato."
     }
-  }
-  ,
+  },
   "SEOMETO": {
     "title": "Nuestra metodología de trabajo",
     "subtitle1": "En",
@@ -434,41 +391,33 @@
     "step4_desc": "Medimos resultados, analizamos datos y ajustamos para mejorar el rendimiento.",
     "step5_title": "REPORTES CLAROS",
     "step5_desc": "Te mostramos qué está funcionando y cómo evoluciona tu inversión."
-  }
-  ,
+  },
   "TOOLS": {
-      "title": "HERRAMIENTAS QUE UTILIZAMOS"
-  }
-  ,
+    "title": "HERRAMIENTAS QUE UTILIZAMOS"
+  },
   "WebHero": {
     "slogan": "Nos asociamos con las mejores plataformas de comercio electrónico del mercado, como <shopify>Shopify</shopify> y <woo></woo>, que ofrecen la <bold>escalabilidad</bold>, <bold>robustez</bold> y <bold>flexibilidad</bold> para adaptarse a cualquier negocio en tiempo récord, acelerar los mercados digitales y evitar implementaciones prolongadas.",
-
     "protitle": "La mejor tecnologia para cada proyecto",
     "prosubtitle": "tu sitio funcionará a velocidad, será seguro, fácil de mantener y preparado para crecer",
-    "proIn": "Estrategia",  
+    "proIn": "Estrategia",
     "proEs": "Arquitectura",
     "proAr": "Diseño en figma",
     "proDi": "Programación",
     "proPu": "Optimización",
     "proGes": "Lanzamiento",
-
     "poTitle": "Proceso de Trabajo Completo",
     "poParraf1": "Iniciamos con una consulta donde entendemos profundamente tu negocio, tus objetivos, tu competencia y tu presupuesto. Luego diseñamos una estrategia clara de cómo será el sitio y qué funcionalidades tendrá.",
     "poParraf2": "Creamos diseños visuales completos en Figma que apruebas antes de que escribamos una sola línea de código. Una vez aprobado el diseño, desarrollamos el sitio con estándares profesionales de calidad. Realizamos pruebas exhaustivas en todos los navegadores y dispositivos móviles y desktop.",
     "poParraf3": "Finalmente, lanzamos tu sitio",
     "poPreg": "¿Conversamos sobre tu próximo gran paso en desarrollo web?",
     "pobot": "Contáctanos",
-
     "griPost": "¿Listo para transformar tu presencia digital?",
     "griParraf": "Agenda una consulta gratuita de 30 minutos. Analizamos tu situación actual, identificamos oportunidades y te proponemos un plan claro. Muchos de nuestros clientes comenzaron con esta simple conversación.",
-
     "titPost": "Algunos de nuestros proyectos",
-
     "videoBadge": "Detrás de cámaras",
     "videoTitle": "Así diseñamos tu próxima página web",
     "videoSubtitle": "Un vistazo rápido al proceso creativo y técnico detrás de cada proyecto web que entregamos en 3R Core."
-  }
-  ,
+  },
   "WebSection": {
     "header": {
       "subtitle": "TIPOS DE SITIOS",
@@ -481,34 +430,29 @@
     "info": {
       "title": "Sitios Informativos y Corporativos",
       "description": "Portales profesionales que proyectan la imagen de tu empresa y comunican efectivamente tus servicios."
-    }
-    ,
+    },
     "Ecomm": {
       "title": "E-commerce",
       "description": "Tiendas online completas con carrito de compras, pasarelas de pago integradas y gestión de inventario."
-    }
-    ,
+    },
     "Elearn": {
       "title": "Plataformas E-Learning",
       "description": "Sistemas de aprendizaje en línea con gestión de cursos, estudiantes y contenido educativo."
-    }
-    ,
+    },
     "Servic": {
       "title": "Sitios de Servicios",
       "description": "Páginas con formularios inteligentes, sistemas de citas y agendamiento automatizado."
-    }
-    ,
+    },
     "Blogs": {
       "title": "Blogs y Portales de Contenido",
       "description": "Plataformas optimizadas para publicación y distribución de contenido."
     }
-  }
-  ,
+  },
   "webFAQ": {
     "title": "Preguntas Frecuentes",
     "topBadge": "FAQ - Resolvemos tus dudas",
-    "par":"Llevamos 8 años creando sitios web. Hemos completado más de 150 proyectos exitosos de diseño y desarrollo. Nuestro equipo está certificado en diseño UX/UI y desarrollo web moderno. Garantizamos satisfacción.",
-    "tipar":"CASOS DE ÉXITO",
+    "par": "Llevamos 8 años creando sitios web. Hemos completado más de 150 proyectos exitosos de diseño y desarrollo. Nuestro equipo está certificado en diseño UX/UI y desarrollo web moderno. Garantizamos satisfacción.",
+    "tipar": "CASOS DE ÉXITO",
     "faqs": {
       "q1": {
         "question": "¿Cuánto tiempo tarda?",
@@ -551,8 +495,7 @@
         "answer": "El primer año incluimos dominio .com o .pe, certificado SSL (Let's Encrypt o equivalente) y hosting profesional sin costo adicional dentro del paquete. A partir del año 2 el hosting se cobra aparte (entre S/30 y S/120 al mes según tráfico y plataforma) o puedes migrarlo a tu propio proveedor sin penalización. Todo queda a tu nombre desde el día uno."
       }
     }
-  }
-  ,
+  },
   "ComplaintsSection": {
     "title": "Libro de Reclamaciones",
     "fieldName": "Nombres",
@@ -573,16 +516,14 @@
       "claim": "Claim",
       "complaint": "Complaint"
     }
-  }
-  ,
+  },
   "LandingHero": {
     "titleLine1": "POSICIONAMIENTO",
     "titleLine2": "SEO",
     "slogan": "Impulsa tu negocio en Google y atrae clientes que sí buscan lo que ofreces",
     "buttonText": "CONTACTAR SERVICIO",
     "whatsappMessage": "Hola vengo de la página web, quiero agendar una reunión."
-  }
-  ,
+  },
   "FirstLandingSection": {
     "number": "01.",
     "heading": "Posicionamiento SEO en Google para empresas que quieren resultados reales",
@@ -598,8 +539,7 @@
       "feature2": "Sin contratos forzosos",
       "feature3": "Resultados progresivos"
     }
-  }
-  ,
+  },
   "SecondLandingSection": {
     "number": "02.",
     "title": "¿Por qué hacer Posicionamiento SEO?",
@@ -634,8 +574,7 @@
         ]
       }
     }
-  }
-  ,
+  },
   "ThirdLandingSection": {
     "number": "03.",
     "heading": "¿Cuándo se empiezan a ver resultados?",
@@ -644,8 +583,7 @@
       "line1": "Las grandes empresas lo hacen",
       "line2": "Prometemos resultados reales"
     }
-  }
-  ,
+  },
   "FourthLandingSection": {
     "number": "04.",
     "heading": "Casos de éxito en posicionamiento SEO",
@@ -658,8 +596,7 @@
       "line1": "Cada proyecto parte de un análisis real",
       "line2": "y una estrategia personalizada según el negocio"
     }
-  }
-  ,
+  },
   "FiveLandingSection": {
     "number": "05.",
     "heading": "Inversión del servicio SEO",
@@ -669,26 +606,23 @@
       "amount": "S/1500",
       "footer": "Es una estrategia continua enfocada en resultados sostenibles."
     }
-  }
-  ,
+  },
   "SixLandingSection": {
     "number": "06.",
     "heading": "¿Tu negocio está listo para posicionarse en Google",
     "description": "Si buscas resultados inmediatos, este servicio no es para ti.<br/>Si buscas construir presencia digital sólida y tráfico constante, podemos ayudarte."
-  }
-  ,
-  "servicesButton":{
-    "servicios":"Servicios"
-  }
-  ,
+  },
+  "servicesButton": {
+    "servicios": "Servicios"
+  },
   "HiddenH1": {
     "home": "Agencia de marketing digital, diseño web y manejo de redes sociales en Lima, Perú",
     "branding": "Agencia de branding corporativo y diseño de identidad de marca en Lima, Perú",
     "webdev": "Agencia de diseño y desarrollo web en Lima, Perú: tiendas online, landing pages y sitios corporativos",
     "googleads": "Agencia certificada en Google Ads y campañas SEM en Lima, Perú",
-    "socialmedia": "Agencia de manejo de redes sociales y community manager en Lima, Perú"
-  }
-  ,
+    "socialmedia": "Agencia de manejo de redes sociales y community manager en Lima, Perú",
+    "seo": "Agencia SEO y posicionamiento web orgánico en Google para empresas en Lima, Perú"
+  },
   "HomeFAQ": {
     "badge": "Preguntas Frecuentes",
     "title": "Lo que más nos preguntan sobre 3R Core",
@@ -734,8 +668,7 @@
         "answer": "Son 100% tuyas, siempre. En 3R Core creamos las cuentas a tu nombre y nosotros las administramos con permisos de gestión. Si decides cambiar de agencia o llevarlo internamente, conservas todo el historial, las creatividades, las audiencias guardadas y la configuración. Cero candados."
       }
     }
-  }
-  ,
+  },
   "HomeSEO": {
     "seoTitle": "Agencia de marketing digital en Lima con visión 360°",
     "p1": "3R Core es una agencia de marketing digital ubicada en Lima, Perú, especializada en darle a tu marca todo lo que necesita para crecer en internet: una página web bien diseñada, redes sociales que comuniquen, campañas de Google Ads rentables y un posicionamiento SEO que te haga aparecer cuando tus clientes buscan lo que ofreces.",
@@ -743,8 +676,7 @@
     "p3": "Nuestros servicios cubren toda la cadena de valor del marketing digital en Perú: diseño y desarrollo web profesional (sitios corporativos, landing pages, e-commerce en Shopify y WooCommerce), gestión de redes sociales con grilla editorial y diseño de posts, campañas SEM en Google Ads y posicionamiento SEO orgánico para que tu marca domine los resultados de búsqueda.",
     "p4": "Si buscas una agencia digital en Lima que entienda tanto la tradición empresarial peruana como las nuevas reglas del marketing digital, conversemos. Te invitamos a una reunión inicial gratuita donde escuchamos tu negocio, revisamos tus objetivos y armamos una propuesta a la medida.",
     "relatedTitle": "Explora nuestros servicios"
-  }
-  ,
+  },
   "BrandingFAQ": {
     "badge": "Preguntas Frecuentes",
     "title": "Todo sobre nuestro servicio de Branding",
@@ -790,8 +722,7 @@
         "answer": "Refresh: si tu logo se ve dated pero la marca sigue siendo reconocida (modernizar tipografía, simplificar, ajustar colores). Rebranding: si tu propuesta de valor cambió, si el público objetivo es otro, si fusionaste con otra empresa, o si la marca tiene asociaciones negativas. Hacemos auditoría inicial gratis y te decimos cuál corresponde."
       }
     }
-  }
-  ,
+  },
   "BrandingSEO": {
     "seoTitle": "Agencia de Branding en Lima: identidad visual con propósito",
     "p1": "El branding corporativo es mucho más que diseñar un logo bonito: es construir el sistema visual y narrativo que convierte tu marca en algo memorable, reconocible y diferente de la competencia. En 3R Core diseñamos identidades de marca completas para empresas y emprendimientos en Lima, Perú y EE.UU.",
@@ -799,8 +730,7 @@
     "p3": "Un branding bien hecho impacta directamente en tu marketing digital: facilita la creación de contenido para redes sociales, mejora la coherencia visual de tu página web, hace más efectivas tus campañas de Google Ads y proyecta profesionalismo en cada punto de contacto con el cliente.",
     "p4": "Si tu marca ya está en el mercado y necesita un refresh, también hacemos rebranding cuidando la equidad de marca acumulada. Conversemos: la primera reunión es gratuita y de ahí sale el brief con el que cotizamos tu proyecto.",
     "relatedTitle": "Servicios complementarios al branding"
-  }
-  ,
+  },
   "WebDevFAQ": {
     "badge": "Preguntas Frecuentes",
     "title": "Diseño y desarrollo web en Lima — Lo que debes saber",
@@ -830,8 +760,7 @@
         "answer": "Sí. Entregamos una capacitación grabada y documentación clara para que puedas actualizar textos, imágenes, productos o publicar en el blog sin depender de nosotros. Si prefieres delegarlo, también ofrecemos planes de mantenimiento."
       }
     }
-  }
-  ,
+  },
   "WebDevSEO": {
     "seoTitle": "Diseño Web en Lima: páginas que venden, no solo se ven bien",
     "p1": "Una página web profesional es la herramienta más rentable de tu marketing digital: trabaja 24/7, no toma vacaciones y convierte visitas en clientes mientras duermes. En 3R Core diseñamos sitios web a medida en Lima, Perú, enfocados en conversión, velocidad y SEO desde el primer día.",
@@ -839,8 +768,7 @@
     "p3": "Cada proyecto de desarrollo web incluye diseño UX/UI personalizado, optimización para móviles (Google rankea primero la versión móvil), SEO técnico, integración con Google Analytics y Google Tag Manager, y formularios conectados a tu correo o WhatsApp para que los leads lleguen instantáneamente.",
     "p4": "Si ya tienes una web pero está lenta, sin SEO o no convierte, hacemos auditorías y rediseños. La primera consultoría es gratuita: revisamos tu sitio actual, te decimos qué arreglar y armamos una propuesta concreta para que tu inversión digital empiece a rendir.",
     "relatedTitle": "Combina tu web con nuestros otros servicios"
-  }
-  ,
+  },
   "GoogleAdsFAQ": {
     "badge": "Preguntas Frecuentes",
     "title": "Campañas Google Ads que sí venden",
@@ -886,8 +814,7 @@
         "answer": "Agencia: cuando inviertes <S/15,000 al mes, cuando no tienes especialista certificado in-house, o cuando manejas múltiples campañas (Search + Performance Max + Shopping + YouTube). In-house: cuando inviertes >S/30,000 al mes y la operación amerita un Performance Manager dedicado de tiempo completo. La mayoría de pymes en Perú están en el primer caso."
       }
     }
-  }
-  ,
+  },
   "GoogleAdsSEO": {
     "seoTitle": "Agencia Google Ads en Lima: campañas SEM con ROI medible",
     "p1": "Google Ads (antes Google AdWords) es la forma más rápida de aparecer en Google cuando un cliente busca exactamente lo que vendes. En 3R Core diseñamos, lanzamos y optimizamos campañas SEM en Lima, Perú para empresas que necesitan generar leads o ventas de manera predecible y medible.",
@@ -895,8 +822,7 @@
     "p3": "Manejamos el ecosistema completo de Google Ads: Search Ads (la mejor para captar demanda activa), Performance Max (la apuesta de Google con IA), YouTube Video Ads, Display, Shopping para e-commerce y Remarketing para recuperar a quienes visitaron tu web sin comprar.",
     "p4": "Cada cliente recibe un dashboard mensual con clics, costo por lead, conversiones y ROAS. Si tu campaña actual gasta y no convierte, hacemos auditoría gratuita: te decimos exactamente dónde se está fugando tu inversión y armamos la propuesta para tomar el control.",
     "relatedTitle": "Servicios que potencian tus campañas Google Ads"
-  }
-  ,
+  },
   "SocialMediaFAQ": {
     "badge": "Preguntas Frecuentes",
     "title": "Manejo de redes sociales que sí mueve la aguja",
@@ -942,8 +868,7 @@
         "answer": "Cuatro métricas que sí importan: 1) crecimiento de seguidores cualificados (no comprados), 2) engagement rate (interacciones/seguidores: 3-5% bueno, 5%+ excelente para cuentas medianas), 3) tráfico cualificado a tu web desde redes (en GA4), y 4) leads generados (mensajes directos calificados, formularios completados, llamadas iniciadas). Si tu agencia solo te muestra likes y vistas, está midiendo vanity metrics."
       }
     }
-  }
-  ,
+  },
   "SocialMediaSEO": {
     "seoTitle": "Manejo de Redes Sociales en Lima: comunidad, contenido y conversión",
     "p1": "Las redes sociales no son un canal opcional: son el primer lugar donde tu cliente potencial te investiga antes de contactarte. En 3R Core hacemos manejo profesional de redes sociales en Lima, Perú, con estrategia, diseño, copy y reportes mensuales para que tu marca no solo publique, sino que crezca.",
@@ -951,6 +876,51 @@
     "p3": "A diferencia de un freelance, trabajamos con un equipo: estratega, diseñador gráfico, editor de video, copywriter y community manager. Cada cliente tiene un plan de contenidos adaptado a su industria: una marca de gastronomía no se comunica igual que una clínica dental o que una constructora.",
     "p4": "Si tu marca ya tiene redes pero el crecimiento se estancó, hacemos auditoría gratuita: revisamos tus métricas, identificamos qué tipo de contenido funciona, qué falta y armamos un plan claro para subir interacción, alcance y conversiones. Pídela conversando con nosotros.",
     "relatedTitle": "Servicios que potencian tus redes sociales"
+  },
+  "SEOFAQ": {
+    "badge": "Preguntas Frecuentes",
+    "title": "Todo sobre nuestro servicio de Posicionamiento SEO",
+    "faqs": {
+      "q1": {
+        "question": "¿Cuál es la inversión mensual del servicio SEO en 3R Core?",
+        "answer": "La inversión mensual del servicio de Posicionamiento SEO en 3R Core es de S/1,500. Este monto incluye auditoría, planificación, optimización, escalamiento y reportes mensuales. Es una estrategia continua enfocada en resultados sostenibles, sin contratos forzosos y con resultados progresivos."
+      },
+      "q2": {
+        "question": "¿Qué incluye exactamente el servicio de Posicionamiento SEO?",
+        "answer": "Auditoría y Planificación SEO (análisis de palabras clave principales de tu negocio, estudio de competidores directos en Google, revisión básica de la estructura de tu sitio web, propuesta de calendario editorial mensual con 8 a 15 títulos optimizados y reporte mensual de rendimiento), Optimización de Interlinks (análisis de la estructura interna del sitio, estrategia de enlaces internos entre contenidos, optimización del recorrido del usuario y mejora de la autoridad interna de las páginas principales) y Escalamiento SEO (identificación de nuevas oportunidades de posicionamiento, optimización continua de contenidos existentes, refuerzo de páginas con mejor desempeño y reporte de crecimiento con plan de acciones futuras)."
+      },
+      "q3": {
+        "question": "¿Cuándo se empiezan a ver resultados con el SEO?",
+        "answer": "El SEO es una estrategia constante muy efectiva. Los primeros avances suelen observarse dependiendo del rubro, competencia y estado inicial del sitio web. SEO y branding se consolidan entre 3 y 6 meses, mientras que las campañas pagadas dan resultados desde el primer mes."
+      },
+      "q4": {
+        "question": "¿Cuál es la diferencia entre SEO y Google Ads?",
+        "answer": "El SEO permite que tu página web aparezca de forma natural en Google cuando alguien busca tus servicios o productos. Con Google Ads logramos resultados inmediatos a través de anuncios estratégicamente segmentados. El SEO es ideal para construir autoridad, confianza y resultados sostenibles en el tiempo; Google Ads te trae clientes desde el primer día (corto plazo). Recomendamos combinarlos para que el costo por lead baje con el tiempo."
+      },
+      "q5": {
+        "question": "¿Tienen casos de éxito en posicionamiento SEO?",
+        "answer": "Sí. Hemos trabajado estrategias SEO para diferentes rubros, logrando posicionamiento en búsquedas clave como Argentaria (joyería y platería) y As de Oros (casino y entretenimiento). Cada proyecto parte de un análisis real y una estrategia personalizada según el negocio."
+      },
+      "q6": {
+        "question": "¿Atienden empresas fuera de Lima o solo en Perú?",
+        "answer": "Atendemos clientes en todo Perú y en Estados Unidos. Trabajamos de forma remota con reuniones por videollamada y reportes online. Si tu marca está fuera de Lima, no es problema: el 60% de nuestros proyectos son 100% remotos."
+      },
+      "q7": {
+        "question": "¿El SEO requiere contratos forzosos a largo plazo?",
+        "answer": "No. Trabajamos sin contratos forzosos. El SEO es una estrategia de mediano plazo que construye autoridad, posicionamiento y resultados progresivos en Google, pero la continuidad del servicio depende de la satisfacción con los resultados, mes a mes."
+      },
+      "q8": {
+        "question": "¿Para qué tipo de negocios funciona mejor el SEO?",
+        "answer": "Si buscas resultados inmediatos, este servicio no es para ti. Si buscas construir presencia digital sólida y tráfico constante, podemos ayudarte. El SEO no es publicidad ni redes sociales: es una estrategia de mediano plazo que construye autoridad, posicionamiento y resultados progresivos en Google."
+      }
+    }
+  },
+  "SEOSEOBlock": {
+    "seoTitle": "Agencia SEO en Lima: posicionamiento web orgánico que sí construye tráfico",
+    "p1": "En 3R Core ayudamos a que tu marca aparezca en los primeros resultados de Google de forma orgánica (SEO) y a través de anuncios pagados (Google Ads). Nuestro objetivo es simple: que más personas encuentren tu negocio, confíen en tu marca y te contacten. Mejoramos la visibilidad de tu página web en Google con una estrategia SEO profesional, alineada a tu rubro y oportunidades de venta de forma sostenida.",
+    "p2": "Trabajamos el posicionamiento desde una estrategia integral, combinando análisis, contenido, pauta y optimización constante, para que tu inversión genere resultados reales y medibles. El SEO no es publicidad ni redes sociales: es una estrategia de mediano plazo que construye autoridad, posicionamiento y resultados progresivos en Google.",
+    "p3": "Nuestro servicio se estructura en tres bloques: Auditoría y Planificación SEO (palabras clave, competidores, estructura del sitio, calendario editorial mensual de 8 a 15 títulos optimizados y reporte mensual), Optimización de Interlinks (estructura interna, enlaces internos entre contenidos y autoridad interna de páginas principales) y Escalamiento SEO (nuevas oportunidades de posicionamiento, optimización continua de contenidos existentes y refuerzo de páginas con mejor desempeño).",
+    "p4": "Hemos trabajado estrategias SEO para diferentes rubros, logrando posicionamiento en búsquedas clave como Argentaria (joyería y platería) y As de Oros (casino y entretenimiento). La inversión mensual es de S/1,500, incluye auditoría, planificación, optimización, escalamiento y reportes mensuales, sin contratos forzosos. Si buscas construir presencia digital sólida y tráfico constante en Google, conversemos.",
+    "relatedTitle": "Servicios que complementan tu estrategia SEO"
   }
-
-} 
+}

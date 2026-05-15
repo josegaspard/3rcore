@@ -8,10 +8,10 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
   return generatePageMetadata({
     locale,
     path: '/servicios/google-ads',
-    titleEs: 'Agencia Google Ads en Lima — Campañas SEM con ROI Medible | 3R Core',
-    titleEn: 'Google Ads Agency in Lima — SEM Campaigns with Measurable ROI | 3R Core',
-    descriptionEs: 'Agencia Google Ads en Lima, Perú. Campañas Search, Performance Max, YouTube, Display y Shopping. Gestión profesional desde S/1,800/mes con reportes mensuales transparentes.',
-    descriptionEn: 'Google Ads agency in Lima, Peru. Search, Performance Max, YouTube, Display and Shopping campaigns. Professional management starting at $480/month with transparent monthly reports.',
+    titleEs: 'Agencia Google Ads en Lima, Perú — Campañas SEM con ROI | 3R Core',
+    titleEn: 'Google Ads Agency in Lima, Peru — SEM Campaigns with ROI | 3R Core',
+    descriptionEs: 'Agencia Google Ads en Lima, Perú: campañas Search, Performance Max, YouTube, Display, Shopping y Remarketing. Gestión profesional desde S/1,800/mes con reportes mensuales.',
+    descriptionEn: 'Google Ads agency in Lima, Peru: Search, Performance Max, YouTube, Display, Shopping and Remarketing campaigns. Professional management from $480/month with monthly reports.',
     ogImage: {
       url: 'https://3rcore.com/og/google-ads.jpg',
       width: 1200,
@@ -24,9 +24,10 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
 export default async function GoogleAdsLayout({ children, params }: { children: React.ReactNode; params: any }) {
   const { locale } = await params
   const messages = (await getMessages()) as any
+  const isEn = locale === 'en'
   const faqMessages = messages?.GoogleAdsFAQ?.faqs ?? {}
 
-  const serviceSchema = buildServiceSchema({
+  const serviceSchema: any = buildServiceSchema({
     locale,
     path: '/servicios/google-ads',
     nameEs: 'Agencia Google Ads y Campañas SEM en Lima',
@@ -40,6 +41,30 @@ export default async function GoogleAdsLayout({ children, params }: { children: 
     audienceTypes: ['E-commerce', 'B2B', 'Local business', 'Lead generation'],
   })
 
+  // OfferCatalog with campaign types — all already mentioned in description (existing facts)
+  const campaignTypes = isEn
+    ? [
+        { name: 'Search Ads', description: 'High-intent keyword campaigns on Google search results.' },
+        { name: 'Performance Max', description: 'Cross-channel campaigns powered by Google AI.' },
+        { name: 'YouTube Video Ads', description: 'Video advertising on YouTube and partner network.' },
+        { name: 'Display Ads', description: 'Banner advertising across the Google Display Network.' },
+        { name: 'Shopping Ads', description: 'Product listing ads for e-commerce catalogs.' },
+        { name: 'Remarketing', description: 'Re-engagement of previous website visitors.' },
+      ]
+    : [
+        { name: 'Search Ads', description: 'Campañas en resultados de búsqueda de Google por palabras clave de alta intención.' },
+        { name: 'Performance Max', description: 'Campañas cross-canal automatizadas con IA de Google.' },
+        { name: 'YouTube Video Ads', description: 'Publicidad en video en YouTube y red de partners.' },
+        { name: 'Display Ads', description: 'Anuncios gráficos en la Red de Display de Google.' },
+        { name: 'Shopping Ads', description: 'Anuncios de catálogo de productos para e-commerce.' },
+        { name: 'Remarketing', description: 'Reimpacto a quienes ya visitaron tu sitio web.' },
+      ]
+  serviceSchema.hasOfferCatalog = {
+    "@type": "OfferCatalog",
+    "name": isEn ? "Google Ads Campaign Types" : "Tipos de Campañas Google Ads",
+    "itemListElement": campaignTypes.map((c) => ({ "@type": "Offer", "name": c.name, "description": c.description })),
+  }
+
   const faqItems = Object.values(faqMessages).map((q: any) => ({
     question: q.question,
     answer: q.answer,
@@ -47,7 +72,7 @@ export default async function GoogleAdsLayout({ children, params }: { children: 
   const faqSchema = buildFAQPageSchema(faqItems)
 
   const breadcrumbSchema = generateBreadcrumbSchema(
-    [{ name: 'Inicio', path: '' }, { name: 'Servicios', path: '/servicios' }, { name: 'Google Ads', path: '/servicios/google-ads' }],
+    [{ name: isEn ? 'Home' : 'Inicio', path: '' }, { name: isEn ? 'Services' : 'Servicios', path: '/servicios' }, { name: 'Google Ads', path: '/servicios/google-ads' }],
     locale
   )
 

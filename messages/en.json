@@ -1,32 +1,29 @@
 {
   "HeroHome": {
-    "agency":"The Agency",
-    "s":"is",
+    "agency": "The Agency",
+    "s": "is",
     "impact": "Impact",
     "values": "Values",
     "experience": "Experience",
     "identity": "Identity",
     "professionalism": "Professionalism",
     "connection": "Connection",
-    "agency2":"Digital",
-    "d":" ",
-    "marketing":"Marketing Agency"
-  }
-  ,
+    "agency2": "Digital",
+    "d": " ",
+    "marketing": "Marketing Agency"
+  },
   "TeamSection": {
     "title": "We are a team",
     "subtitle": "Professional and Digital Native",
-    "subray1":"At 3R CORE MARKETING AGENCY",
+    "subray1": "At 3R CORE MARKETING AGENCY",
     "description": "we are a team of professionals with a 3-generation vision focused on the same goal, highly trained to combine",
-    "description2":"Experience, Vision, and Technology",
-    "description3":"into digital marketing strategies, customized to fit your company's needs."
-  }
-  ,
+    "description2": "Experience, Vision, and Technology",
+    "description3": "into digital marketing strategies, customized to fit your company's needs."
+  },
   "Hovers": {
     "ver": "/images/tituloCarru/ServiciosEn.svg",
     "hor": "/images/tituloCarru/ServiciosEnHorizontal.svg"
-  }
-  ,
+  },
   "CTA": {
     "titleLine1": "Position your brand",
     "titleLine2": "your brand in the market",
@@ -34,18 +31,16 @@
     "labelClients": "BRANDS WE'VE WORKED WITH",
     "labelExperience": "YEARS OF EXPERIENCE",
     "labelCountries": "COUNTRIES REACHED"
-  }
-  ,
+  },
   "ClientsSection": {
     "title": "Our Clients",
     "description": "Companies that trust our vision and results."
-  }
-  ,
+  },
   "NewsSection": {
     "title": "Check out our news",
     "readMore": "Read more",
     "viewAllBlogs": "Read more blogs",
-    "t":"en"
+    "t": "en"
   },
   "BlogsPage": {
     "subtitle": "3RCore Server",
@@ -60,8 +55,7 @@
     "title": "Thank you for contacting us!",
     "description": "An advisor will contact you shortly.",
     "backHome": "Back to Home"
-  }
-  ,
+  },
   "ContactSection": {
     "title": "Contact Us",
     "fieldName": "Full Name",
@@ -71,8 +65,7 @@
     "fieldMessage": "Message",
     "buttonSend": "Send",
     "buttonSending": "Sending..."
-  }
-  ,
+  },
   "LandingContactSection": {
     "title": "Contact Us",
     "fieldName": "Full Name",
@@ -80,26 +73,23 @@
     "fieldPhone": "Phone Number",
     "fieldEmail": "Email",
     "fieldMessage": "Message",
-    "web":"Link website",
+    "web": "Link website",
     "buttonSend": "Send",
     "buttonSending": "Sending..."
-  }
-  ,
+  },
   "Navbar": {
-    "title":"Navegador",
+    "title": "Navegador",
     "regular": "Your Success",
     "bold": "OUR SUCCESS",
     "nav": {
-      "home":"HOME",
-      "about us":"ABOUT US",
-      "services":"SERVICES",
-      "blogs":"BLOGS",
-      "contact":"CONTACT US"
+      "home": "HOME",
+      "about us": "ABOUT US",
+      "services": "SERVICES",
+      "blogs": "BLOGS",
+      "contact": "CONTACT US"
     },
-    "clo":"CLOSE"
-    
-  }
-  ,
+    "clo": "CLOSE"
+  },
   "FoundersSection": {
     "badge": "Founders",
     "description": "Hover over each founder to connect with their vision.",
@@ -108,39 +98,31 @@
       "marketingDirector": "Marketing Director",
       "seoDirector": "SEO and Google Ads Analyst"
     }
-  }
-  ,
+  },
   "AboutSection": {
     "title": "About Us",
     "subtitle": "We boost your results",
     "description": "We are a team of professionals and digital natives who combine",
-    "descripttion1":"Experience, Vision, and Technology",
-    "descripttion2":"focused on providing digital marketing strategies, oriented towards optimizing your return on investment, enhancing the positioning and competitive advantages of our clients."
-  }
-  ,
+    "descripttion1": "Experience, Vision, and Technology",
+    "descripttion2": "focused on providing digital marketing strategies, oriented towards optimizing your return on investment, enhancing the positioning and competitive advantages of our clients."
+  },
   "OurTeamSection": {
     "title": "Our Team",
     "description": "Meet the people who make our success possible."
-  }
-  ,
+  },
   "MomentsSection": {
     "highlightText": "MOMENTS THAT STRENGTHEN OUR BOND"
-  }
-  ,
+  },
   "ScheduleSection": {
     "title": "Business Hours",
     "hours": "Monday to Friday from 9am to 6pm (PET)"
-  }
-  ,
+  },
   "ExpansionSection": {
     "title": "We expand",
     "subtitle": "your reach to the world"
-  }
-  ,
+  },
   "BrandingHero": {
     "slogan": "Your image says a lot about you; make sure it's the right one.",
-
-
     "protitle": "Our process sets us apart",
     "prosubtitle1": "Devotion and artistic rigor",
     "prosubtitle2": "We are the team that develops the essence of your brand",
@@ -150,23 +132,16 @@
     "proDi": "Design",
     "proIm": "Implementation",
     "proGes": "Management & Results",
-
-
     "maTitle": "Brand Guidelines",
     "maParraf": "This is a fundamental part of branding for any entity launching and positioning itself in the market. Its goal is to ensure visual identity remains consistent over time, building a solid and cohesive brand.",
     "maPreg": "Need help with yours?",
     "mabot": "Contact us",
-
-
     "apMarca": "Brand Applications",
     "apParraf": "Once the brand is conceived, we develop branding for products and merchandise, achieving a more professional image.",
-
     "titPro": "Some of our projects"
-  }
-  ,
+  },
   "SocialMediaHero": {
     "slogan": "We offer an integrated Content Marketing strategy. We design and create relevant, creative content that builds a meaningful connection with your target audience. As a digital marketing agency, our commitment is to leverage the advantages of social media to amplify the value your brand offers.",
-
     "protitle": "We stay up to date",
     "prosubtitle": "With current trends and the audience your brand needs",
     "proIn": "Research",
@@ -175,21 +150,16 @@
     "proDi": "Content Design",
     "proPu": "Publishing",
     "proGes": "Management & Analytics",
-
     "poTitle": "Post Design",
     "poParraf": "We put all our ingenuity and dedication into developing content that is not only eye-catching but also projects a solid brand from day one. For us, the key lies in how we tell your story through design.",
     "poPreg": "Shall we discuss your next big step on social media?",
     "pobot": "Request your free social media audit",
-
     "griPost": "Content Grid",
     "griParraf": "Customized strategies that reflect your brand's unique values. We develop the copy for every post, covering a wide range of content formats.",
-
     "titPost": "Some of our projects"
-  }
-  ,
+  },
   "SeoSemHero": {
     "slogan": "Boost your business on <google>Google</google> and attract customers who are actively looking for what you offer.",
-
     "protitle": "We stay up to date",
     "prosubtitle": "We align with current trends and the audience your brand needs",
     "proIn": "Research",
@@ -198,37 +168,31 @@
     "proDi": "Content Design",
     "proPu": "Publishing",
     "proGes": "Management & Analytics",
-
     "poTitle": "Post Design",
     "poParraf": "We put all our ingenuity and dedication into developing content that is not only eye-catching but also projects a solid brand from day one. For us, the key lies in how we tell your story through design.",
     "poPreg": "Shall we discuss your next big step on social media?",
     "pobot": "Contact us",
-
     "griPost": "Content Grid",
     "griParraf": "Customized strategies that reflect your brand's unique values. We develop the copy for every post, covering a wide range of content formats.",
-
     "titPost": "Some of our projects"
-  }
-  ,
+  },
   "Footer": {
     "services": "Services",
     "agency": "Our Agency",
     "socialMedia": "Social Media",
     "privacyPolicy": "Privacy Policy",
     "pregunta": "FAQ",
-    "Recla":"Complaints",
+    "Recla": "Complaints",
     "termsConditions": "Terms and Conditions",
     "copyright": "© 2026 3R CORE. All rights reserved",
-    "A":"Monday to Friday"
-  }
-  ,
+    "A": "Monday to Friday"
+  },
   "CookieBanner": {
     "message": "We use cookies to improve your experience. By accepting, you consent to the use of tracking technologies according to our",
     "privacyLink": "Privacy Policy",
     "decline": "Decline",
     "acceptAll": "Accept All"
-  }
-  ,
+  },
   "PrivacyPolicy": {
     "title": "Privacy Policies",
     "topBadge": "GENERAL PRIVACY POLICY",
@@ -265,8 +229,7 @@
         "text": "The data collected is relevant, adequate, and proportionate to its purpose. It is important that the information provided is truthful and up to date. Data will be deleted when no longer necessary for its purpose, although it may be kept for an indefinite period as permitted by law."
       }
     }
-}
-  ,
+  },
   "Terms": {
     "title": "Terms and Conditions",
     "topBadge": "TERMS OF USE",
@@ -303,8 +266,7 @@
         "text": "The information about services shown on the website is for reference purposes. The final provision of marketing services will be formalized through a specific contract or accepted business proposal, detailing payment terms, delivery deadlines, and mutual obligations."
       }
     }
-}
-  ,
+  },
   "FeaturesSection": {
     "mainTitle": "Let's work together to achieve your goals",
     "committed": {
@@ -319,22 +281,18 @@
       "title": "PROFESSIONAL",
       "description": "We are involved from start to finish, providing meticulous pre-production, permanent technical assistance, and deep metrics analysis upon completion to ensure objectives are met."
     }
-  }
-  ,
+  },
   "ServiceAbout": {
     "title": "We provide you with creative ideas",
     "subtitle1": "that ensure successful results",
     "subtitle2": "for your projects"
-  }
-  ,
-  "preload":{
-    "text":"Loading Experience..."
-  }
-  ,
+  },
+  "preload": {
+    "text": "Loading Experience..."
+  },
   "FAQ": {
     "title": "Frequently Asked Questions",
     "topBadge": "FAQ - We answer your questions",
-    
     "faqs": {
       "q1": {
         "question": "What services does 3R CORE offer?",
@@ -361,13 +319,11 @@
         "answer": "Our main office is located at Calle las Caobas 170, La Molina, Lima. We are open Monday to Friday from 9 a.m. to 6 p.m., serving clients in both Peru and the USA."
       }
     },
-
     "contact": {
       "title": "Still have questions?",
       "description": "Our team is ready to help you. Contact us and we will respond shortly."
     }
-  }
-  ,
+  },
   "SEOSEM": {
     "title": {
       "part1": "We position you on GOOGLE",
@@ -378,8 +334,7 @@
       "paragraph2": "We work on positioning from an integral strategy, combining analysis, content, advertising and constant optimization, so that your investment generates real and measurable results"
     },
     "cta": "Request SEO consulting"
-  }
-  ,
+  },
   "SeoSemSection": {
     "header": {
       "subtitle": "WHAT WE DO AND WHAT THE SERVICE CONSISTS OF",
@@ -411,8 +366,7 @@
       ],
       "footer": "<strong>SEM</strong> is ideal if you are looking for fast sales, lead generation, or immediate traffic."
     }
-  }
-  ,
+  },
   "SEOMETO": {
     "title": "Our working methodology",
     "subtitle1": "At",
@@ -428,15 +382,12 @@
     "step4_desc": "We measure results, analyze data, and adjust to improve performance.",
     "step5_title": "CLEAR REPORTING",
     "step5_desc": "We show you what is working and how your investment is evolving."
-  }
-  ,
+  },
   "TOOLS": {
     "title": "TOOLS WE USE"
-  }
-  ,
+  },
   "WebHero": {
     "slogan": "We partner with market-leading e-commerce platforms like <shopify>Shopify</shopify> and <woo></woo>. These solutions provide the <bold>scalability</bold>, <bold>robustness</bold>, and <bold>flexibility</bold> to adapt to any business in record time, accelerating digital market entry and eliminating lengthy implementation cycles.",
-
     "protitle": "The best technology for every project",
     "prosubtitle": "Your site will run at high speed, be secure, easy to maintain, and ready to scale",
     "proIn": "Strategy",
@@ -445,24 +396,19 @@
     "proDi": "Programming",
     "proPu": "Optimization",
     "proGes": "Launch",
-
     "poTitle": "Full Workflow Process",
     "poParraf1": "We start with a consultation to deeply understand your business, goals, competition, and budget. Then, we design a clear strategy outlining the site’s structure and functionalities.",
     "poParraf2": "We create complete visual designs in Figma for your approval before writing a single line of code. Once the design is approved, we develop the site using professional quality standards. We perform exhaustive testing across all browsers and both mobile and desktop devices.",
     "poParraf3": "Finally, we launch your site.",
     "poPreg": "Shall we discuss your next big step on social media?",
     "pobot": "Contact us",
-
     "griPost": "Ready to transform your online brand?",
     "griParraf": "Book your free 30-minute strategy session. We’ll audit your brand, find growth opportunities, and build a roadmap for you.",
-
     "titPost": "Some of our projects",
-
     "videoBadge": "Behind the scenes",
     "videoTitle": "This is how we design your next website",
     "videoSubtitle": "A quick look at the creative and technical process behind every web project we deliver at 3R Core."
-  }
-  ,
+  },
   "WebSection": {
     "header": {
       "subtitle": "TYPES OF WEBSITES",
@@ -492,8 +438,7 @@
       "title": "Blogs & Content Portals",
       "description": "Platforms optimized for content publishing and distribution."
     }
-  }
-  ,
+  },
   "webFAQ": {
     "title": "Frequently Asked Questions",
     "topBadge": "FAQ - Answering your questions",
@@ -541,48 +486,44 @@
         "answer": "The first year we include a .com or .pe domain, SSL certificate (Let's Encrypt or equivalent) and professional hosting at no additional cost as part of the package. From year 2 onwards hosting is billed separately ($8 to $35 per month depending on traffic and platform) or you can migrate it to your own provider with no penalty. Everything is registered under your name from day one."
       }
     }
-  }
-  ,
+  },
   "ComplaintsSection": {
-      "title": "Complaints Book",
-      "fieldName": "First Name",
-      "fieldLastName": "Last Name",
-      "fieldPhone": "Phone Number",
-      "fieldEmail": "Email Address",
-      "fieldDocumentType": "Document Type",
-      "fieldDocumentNumber": "Document Number",
-      "fieldComplaintType": "Complaint Type",
-      "fieldDetail": "Complaint Details",
-      "fieldRequest": "Request",
-      "buttonSend": "Submit Complaint",
-      "buttonSending": "Sending..."
-  }
-  ,
+    "title": "Complaints Book",
+    "fieldName": "First Name",
+    "fieldLastName": "Last Name",
+    "fieldPhone": "Phone Number",
+    "fieldEmail": "Email Address",
+    "fieldDocumentType": "Document Type",
+    "fieldDocumentNumber": "Document Number",
+    "fieldComplaintType": "Complaint Type",
+    "fieldDetail": "Complaint Details",
+    "fieldRequest": "Request",
+    "buttonSend": "Submit Complaint",
+    "buttonSending": "Sending..."
+  },
   "LandingHero": {
     "titleLine1": "SEARCH ENGINE",
     "titleLine2": "POSITIONING",
     "slogan": "Boost your business on Google and attract customers who are actually looking for what you offer",
     "buttonText": "CONTACT SERVICE",
     "whatsappMessage": "Hi, I'm coming from the website, I'd like to schedule a meeting."
-  }
-  ,
+  },
   "FirstLandingSection": {
     "number": "01.",
     "heading": "Google SEO Positioning for companies seeking real results",
-    "description":  "We improve your website's visibility on Google with a professional SEO strategy,tailored to your industry and sales opportunities for sustainable growth",
+    "description": "We improve your website's visibility on Google with a professional SEO strategy,tailored to your industry and sales opportunities for sustainable growth",
     "quote": {
       "line1": "SEO is not advertising or social media",
       "line2": "it is a medium-term strategy that builds authority, ranking, and progressive results on Google"
     },
     "pricing": {
       "label": "Monthly Investment",
-      "amount": "$450", 
+      "amount": "$450",
       "feature1": "Professional SEO strategy",
       "feature2": "No forced contracts",
       "feature3": "Progressive results"
     }
-  }
-  ,
+  },
   "SecondLandingSection": {
     "number": "02.",
     "title": "Why invest in SEO Positioning?",
@@ -617,8 +558,7 @@
         ]
       }
     }
-  }
-  ,
+  },
   "ThirdLandingSection": {
     "number": "03.",
     "heading": "When do you start seeing results?",
@@ -627,8 +567,7 @@
       "line1": "Big companies do it",
       "line2": "We promise real results"
     }
-  }
-  ,
+  },
   "FourthLandingSection": {
     "number": "04.",
     "heading": "SEO success stories",
@@ -641,8 +580,7 @@
       "line1": "Every project begins with a real analysis",
       "line2": "and a personalized strategy tailored to the business"
     }
-  }
-  ,
+  },
   "FiveLandingSection": {
     "number": "05.",
     "heading": "SEO Service Investment",
@@ -652,26 +590,23 @@
       "amount": "$450",
       "footer": "It is a continuous strategy focused on sustainable results."
     }
-  }
-  ,
+  },
   "SixLandingSection": {
     "number": "06.",
     "heading": "Is your business ready to rank on Google",
     "description": "If you are looking for immediate results, this service is not for you.<br/>If you are looking to build a solid digital presence and consistent traffic, we can help."
   },
-
-  "servicesButton":{
-    "servicios":"Services"
-  }
-  ,
+  "servicesButton": {
+    "servicios": "Services"
+  },
   "HiddenH1": {
     "home": "Digital marketing agency, web design and social media management in Lima, Peru",
     "branding": "Corporate branding agency and brand identity design in Lima, Peru",
     "webdev": "Web design and development agency in Lima, Peru: online stores, landing pages and corporate websites",
     "googleads": "Certified Google Ads agency and SEM campaign management in Lima, Peru",
-    "socialmedia": "Social media management and community manager agency in Lima, Peru"
-  }
-  ,
+    "socialmedia": "Social media management and community manager agency in Lima, Peru",
+    "seo": "Organic SEO agency and Google search positioning for companies in Lima, Peru"
+  },
   "HomeFAQ": {
     "badge": "Frequently Asked Questions",
     "title": "Most asked questions about 3R Core",
@@ -717,8 +652,7 @@
         "answer": "They are 100% yours, always. At 3R Core we create accounts under your name and we manage them with management permissions. If you decide to switch agencies or move in-house, you keep the entire history, creatives, saved audiences and full configuration. Zero locks."
       }
     }
-  }
-  ,
+  },
   "HomeSEO": {
     "seoTitle": "Digital marketing agency in Lima with 360° vision",
     "p1": "3R Core is a digital marketing agency based in Lima, Peru, specialized in giving your brand everything it needs to grow online: a well-designed website, social media that communicates, profitable Google Ads campaigns and SEO positioning that makes you appear when your customers search for what you offer.",
@@ -726,8 +660,7 @@
     "p3": "Our services cover the full digital marketing value chain in Peru: professional web design and development (corporate sites, landing pages, e-commerce on Shopify and WooCommerce), social media management with editorial grid and post design, Google Ads SEM campaigns and organic SEO positioning so your brand dominates search results.",
     "p4": "If you are looking for a digital agency in Lima that understands both Peruvian business tradition and the new rules of digital marketing, let's talk. We invite you to a free initial meeting where we listen to your business, review your goals and craft a tailored proposal.",
     "relatedTitle": "Explore our services"
-  }
-  ,
+  },
   "BrandingFAQ": {
     "badge": "Frequently Asked Questions",
     "title": "Everything about our Branding service",
@@ -773,8 +706,7 @@
         "answer": "Refresh: if your logo looks dated but the brand is still recognized (modernize typography, simplify, adjust colors). Rebranding: if your value proposition changed, if the target audience is different, if you merged with another company, or if the brand has negative associations. We do a free initial audit and tell you which one applies."
       }
     }
-  }
-  ,
+  },
   "BrandingSEO": {
     "seoTitle": "Branding Agency in Lima: visual identity with purpose",
     "p1": "Corporate branding is much more than designing a beautiful logo: it is building the visual and narrative system that turns your brand into something memorable, recognizable and different from the competition. At 3R Core we design complete brand identities for companies and startups in Lima, Peru and the United States.",
@@ -782,8 +714,7 @@
     "p3": "Well-executed branding directly impacts your digital marketing: it makes social media content creation easier, improves your website's visual coherence, makes your Google Ads campaigns more effective and projects professionalism at every customer touchpoint.",
     "p4": "If your brand is already in market and needs a refresh, we also do rebranding while preserving accumulated brand equity. Let's talk: the first meeting is free and from it we build the brief to quote your project.",
     "relatedTitle": "Services that complement branding"
-  }
-  ,
+  },
   "WebDevFAQ": {
     "badge": "Frequently Asked Questions",
     "title": "Web design & development in Lima — What you should know",
@@ -813,8 +744,7 @@
         "answer": "Yes. We deliver a recorded training and clear documentation so you can update texts, images, products or publish blog content without depending on us. If you prefer to delegate, we also offer maintenance plans."
       }
     }
-  }
-  ,
+  },
   "WebDevSEO": {
     "seoTitle": "Web Design in Lima: pages that sell, not just look good",
     "p1": "A professional website is the most profitable tool of your digital marketing: it works 24/7, doesn't take vacations and converts visits into customers while you sleep. At 3R Core we design tailor-made websites in Lima, Peru, focused on conversion, speed and SEO from day one.",
@@ -822,8 +752,7 @@
     "p3": "Every web development project includes custom UX/UI design, mobile optimization (Google ranks mobile version first), technical SEO, integration with Google Analytics and Google Tag Manager, and forms connected to your email or WhatsApp so leads arrive instantly.",
     "p4": "If you already have a site but it's slow, has no SEO or doesn't convert, we run audits and redesigns. The first consultation is free: we review your current site, tell you what to fix and build a concrete proposal for your digital investment to start paying off.",
     "relatedTitle": "Combine your website with our other services"
-  }
-  ,
+  },
   "GoogleAdsFAQ": {
     "badge": "Frequently Asked Questions",
     "title": "Google Ads campaigns that actually sell",
@@ -869,8 +798,7 @@
         "answer": "Agency: when you spend less than $4,500/month, when you don't have a certified specialist in-house, or when you run multiple campaigns (Search + Performance Max + Shopping + YouTube). In-house: when you spend more than $9,000/month and operations justify a dedicated full-time Performance Manager. Most SMBs in Peru fall in the first case."
       }
     }
-  }
-  ,
+  },
   "GoogleAdsSEO": {
     "seoTitle": "Google Ads Agency in Lima: SEM campaigns with measurable ROI",
     "p1": "Google Ads (formerly Google AdWords) is the fastest way to appear on Google when a customer searches for exactly what you sell. At 3R Core we design, launch and optimize SEM campaigns in Lima, Peru for companies that need to generate leads or sales in a predictable, measurable way.",
@@ -878,8 +806,7 @@
     "p3": "We manage the full Google Ads ecosystem: Search Ads (best for capturing active demand), Performance Max (Google's AI-powered bet), YouTube Video Ads, Display, Shopping for e-commerce and Remarketing to recover visitors who left without buying.",
     "p4": "Each client receives a monthly dashboard with clicks, cost per lead, conversions and ROAS. If your current campaign spends without converting, we run a free audit: we tell you exactly where your investment is leaking and prepare the proposal to take control.",
     "relatedTitle": "Services that boost your Google Ads campaigns"
-  }
-  ,
+  },
   "SocialMediaFAQ": {
     "badge": "Frequently Asked Questions",
     "title": "Social media management that moves the needle",
@@ -925,8 +852,7 @@
         "answer": "Four metrics that actually matter: 1) qualified follower growth (not bought), 2) engagement rate (interactions/followers: 3-5% good, 5%+ excellent for mid-size accounts), 3) qualified web traffic from social (in GA4), and 4) leads generated (qualified DMs, completed forms, initiated calls). If your agency only shows likes and views, they're measuring vanity metrics."
       }
     }
-  }
-  ,
+  },
   "SocialMediaSEO": {
     "seoTitle": "Social Media Management in Lima: community, content and conversion",
     "p1": "Social media is not optional: it's the first place where your potential customer researches you before contacting you. At 3R Core we provide professional social media management in Lima, Peru, with strategy, design, copy and monthly reports so your brand doesn't just post, but grows.",
@@ -934,5 +860,51 @@
     "p3": "Unlike a freelancer, we work with a team: strategist, graphic designer, video editor, copywriter and community manager. Each client has a content plan adapted to their industry: a gastronomy brand doesn't communicate the same way as a dental clinic or a construction company.",
     "p4": "If your brand already has social media but growth has stagnated, we run a free audit: we review your metrics, identify what kind of content works, what's missing and build a clear plan to grow engagement, reach and conversions. Request it by reaching out.",
     "relatedTitle": "Services that boost your social media"
+  },
+  "SEOFAQ": {
+    "badge": "Frequently Asked Questions",
+    "title": "Everything about our SEO Positioning service",
+    "faqs": {
+      "q1": {
+        "question": "What is the monthly investment for the SEO service at 3R Core?",
+        "answer": "The monthly investment for the SEO Positioning service at 3R Core is $450. This includes audit, planning, optimization, scaling and monthly reporting. It is a continuous strategy focused on sustainable results, with no forced contracts and progressive outcomes."
+      },
+      "q2": {
+        "question": "What does the SEO Positioning service include?",
+        "answer": "SEO Audit & Planning (core keyword analysis, direct competitor research on Google, basic website structure review, monthly editorial calendar of 8 to 15 optimized titles and monthly performance report), Interlinking Optimization (internal site structure analysis, internal linking strategy between content, user journey optimization and authority improvement for key landing pages) and SEO Scaling (identification of new ranking opportunities, continuous optimization of existing content, reinforcement of high-performing pages and growth reporting with future action planning)."
+      },
+      "q3": {
+        "question": "When do you start seeing SEO results?",
+        "answer": "SEO is a medium-term strategy. Initial progress is typically observed depending on the industry, competition, and the initial state of the website. SEO and branding consolidate within 3 to 6 months, while paid campaigns deliver results from month one."
+      },
+      "q4": {
+        "question": "What is the difference between SEO and Google Ads?",
+        "answer": "SEO makes your website appear organically in Google when someone searches for your services or products. With Google Ads we achieve immediate results through strategically segmented ads. SEO is ideal to build authority, trust and sustainable results over time; Google Ads brings clients from day one. We recommend combining both so cost per lead decreases over time."
+      },
+      "q5": {
+        "question": "Do you have SEO success stories?",
+        "answer": "Yes. We have implemented SEO strategies for various industries, achieving top rankings for key searches such as Argentaria (jewelry and silversmithing) and As de Oros (casino and entertainment). Every project begins with a real analysis and a personalized strategy tailored to the business."
+      },
+      "q6": {
+        "question": "Do you serve clients outside Lima or only in Peru?",
+        "answer": "We serve clients across Peru and the United States. We work remotely with video meetings and online reports. If your brand is outside Lima, no problem: 60% of our projects run 100% remotely."
+      },
+      "q7": {
+        "question": "Does SEO require long-term forced contracts?",
+        "answer": "No. We work without forced contracts. SEO is a medium-term strategy that builds authority, ranking, and progressive results on Google, but service continuity depends on satisfaction with the results, month after month."
+      },
+      "q8": {
+        "question": "What type of businesses benefit most from SEO?",
+        "answer": "If you are looking for immediate results, this service is not for you. If you are looking to build a solid digital presence and consistent traffic, we can help. SEO is not advertising or social media: it is a medium-term strategy that builds authority, ranking and progressive results on Google."
+      }
+    }
+  },
+  "SEOSEOBlock": {
+    "seoTitle": "SEO Agency in Lima: organic positioning that actually builds traffic",
+    "p1": "At 3R Core we help your brand appear in the first Google results, both organically (SEO) and through paid ads (Google Ads). Our goal is simple: for more people to find your business, trust your brand and contact you. We improve your website's visibility on Google with a professional SEO strategy, tailored to your industry and sales opportunities for sustainable growth.",
+    "p2": "We work on positioning from an integral strategy, combining analysis, content, advertising and constant optimization, so that your investment generates real and measurable results. SEO is not advertising or social media: it is a medium-term strategy that builds authority, ranking and progressive results on Google.",
+    "p3": "Our service is structured in three blocks: SEO Audit & Planning (core keywords, competitor research, site structure, monthly editorial calendar of 8 to 15 optimized titles and monthly report), Interlinking Optimization (internal structure, internal linking between content and authority of key landing pages) and SEO Scaling (new ranking opportunities, continuous optimization of existing content and reinforcement of high-performing pages).",
+    "p4": "We have implemented SEO strategies for various industries, achieving top rankings for key searches such as Argentaria (jewelry and silversmithing) and As de Oros (casino and entertainment). The monthly investment is $450, includes audit, planning, optimization, scaling and monthly reports, with no forced contracts. If you are looking to build a solid digital presence and consistent traffic on Google, let's talk.",
+    "relatedTitle": "Services that complement your SEO strategy"
   }
 }
